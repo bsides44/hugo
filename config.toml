@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
     subtitle = 'Success Strategy for Solopreneurs'
  
   # Intro section
-  # Available icons: http://simplelineicons.com/
+  # Available icons: https://simplelineicons.github.io/
   [params.intro]
 
   [[params.intro.item]]
@@ -274,12 +274,12 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = false
+    map = true
     form = true
     title = "Get in touch"
     description = "Let's get a coffee (or an online cup of tea), talk about your vision and see if I can help."
     
-    # Available icons: http://simplelineicons.com/
+    # Available icons: https://simplelineicons.github.io/
     details = [
         ["icon-home", "Level 2, 40 Taranaki Street, Wellington"],
         ["icon-globe", "Success working with clients remotely"],
