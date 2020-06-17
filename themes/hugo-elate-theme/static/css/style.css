@@ -413,6 +413,11 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 } */
+
+.mobile-hero-img img, .mobile-casestudy-img img{
+  display: none;
+}
+
 #fh5co-home, #fh5co-home .text-wrap {
   /* height: 900px; */
   height: 98vh
@@ -1497,7 +1502,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* all mobile and tablet devices */
 @media (hover: none) {
-  #fh5co-home .gradient {
+  /* #fh5co-home .gradient {
     position: fixed;
     background-attachment: unset;
     z-index: 1;
@@ -1513,17 +1518,30 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 10;
   }
 
-  /* white */
-  #fh5co-intro, #fh5co-testimonials, #fh5co-about, #fh5co-contact {
+
+  #fh5co-intro, #fh5co-testimonials, #fh5co-about, #fh5co-contact, #footer {
     background-color: #fff;
     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #fff), color-stop(1, #fff));
-    /* Android 2.3 */
+    Android 2.3
     background-image: -webkit-repeating-linear-gradient(top left, #fff 0%, #fff 100%);
-    /* IE10+ */
+    IE10+
     background-image: repeating-linear-gradient(to bottom right, #fff 0%, #fff 100%);
     background-image: -ms-repeating-linear-gradient(top left, #fff 0%, #fff 100%);
     position: relative;
+  } */
+
+  .mobile-hero-img img{
+    display: absolute;
+    top: 0;
+    position: fixed
   }
+
+  .mobile-casestudy-img img{
+    display: relative;
+    top: 0;
+    position: fixed
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */
