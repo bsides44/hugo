@@ -189,6 +189,7 @@ theme = "hugo-elate-theme"
       alt = "Image4"
       title = "LALATAT"
       subtitle = "Marketing and Launch consulatancy"
+      style = "object-fit: cover"
 
     [[params.work.row]]
       img = "realness.png"
@@ -201,7 +202,6 @@ theme = "hugo-elate-theme"
       alt = "Image2"
       title = "Swayable"
       subtitle = "Web Development"
-      style = "object-fit: cover"
 
     [[params.work.row]]
       img = "clicksuite.jpg"
