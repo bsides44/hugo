@@ -870,6 +870,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials .box-testimony {
   margin-bottom: 2em;
   float: left;
+  padding: 5px;
 }
 #fh5co-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
