@@ -89,20 +89,20 @@ theme = "hugo-elate-theme"
     description = "It's fun when we work together."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
       person = 'Josh Gunn, Senior Developer - <a href="http://swayable.com" target="_blank">Swayable</a>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
       person = 'Damaris Coulter, CEO - <a href="http://therealness.world/" target="_blank">The Realness</a>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Rohan, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
+      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Rohan Jarvis, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
       img = "person3.jpg"
       alt = "Person3"
     
