@@ -283,7 +283,6 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", "Level 2, 40 Taranaki Street, Wellington"],
         ["icon-globe", "Success working with clients remotely"],
-        ["icon-phone", "027 529 1736"],
         ["icon-envelope", "me@maddyking44.com"],
       ]
 
