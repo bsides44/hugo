@@ -1525,6 +1525,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #fh5co-casestudy {
     background-attachment: unset;
+    z-index: 20;
     /* background-color: unset;
     background-image: unset;    
     z-index: 1; */
