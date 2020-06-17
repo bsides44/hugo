@@ -14,7 +14,7 @@ theme = "hugo-elate-theme"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = ""
+  googleMapsApiKey = "AIzaSyD8LUGgQL_3fELUvXyeZPK90xO9hY6ppLs"
 
   # Navigation
   [params.navigation]
@@ -89,19 +89,19 @@ theme = "hugo-elate-theme"
     description = "It's fun when we work together."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      quote = "&ldquo;Testimony pending. &rdquo;"
       person = 'Josh Gunn, Tech Lead - <a href="http://swayable.com" target="_blank">Swayable</a>'
       img = "S.png"
       alt = "Digital marketing coach"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Testimony pending. &rdquo;"
       person = 'Damaris Coulter, CEO - <a href="http://therealness.world/" target="_blank">The Realness</a>'
       img = "R.png"
       alt = "Launch strategy"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Testimony pending. &rdquo;"
       person = 'Rohan Jarvis, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
       img = "L.png"
       alt = "Business advice"
@@ -274,7 +274,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "Let's get a coffee (or an online cup of tea), talk about your vision and see if I can help."
@@ -292,6 +292,8 @@ theme = "hugo-elate-theme"
     phone = "Phone"
     message = "Message"
     button = "Send message"
+
+  # Configure map address in hugo-elate-theme/ static/ js/ leaflet-map.js var latLong
 
   # Footer section
   [params.footer]
