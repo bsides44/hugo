@@ -1,7 +1,7 @@
 function initMap() {
   var latLong = [-41.292028, 174.778962]; // Put your address here
 
-  var map = L.map("map").setView(latLong, 5);
+  var map = L.map("map").setView(latLong, 8);
 
   L.tileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
