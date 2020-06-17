@@ -1508,7 +1508,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
   }
 
-  #fh5co-intro, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact {
+  #fh5co-intro, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact, #footer {
     z-index: 10;
   }
 
@@ -1525,18 +1525,20 @@ h1, h2, h3, h4, h5, h6 {
 
   #fh5co-casestudy {
     background-attachment: unset;
-    z-index: 1;
+    /* background-color: unset;
+    background-image: unset;    
+    z-index: 1; */
   }
 
-  .mobile-casestudy-img {
+  /* .mobile-casestudy-img {
     visibility: visible;
-    height: 150px;
+    height: 50px;
     z-index: 20;
   }
   
   .mobile-casestudy-img img{
     object-fit: cover;
-  }
+  } */
 
 }
 
