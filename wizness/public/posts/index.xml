@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on This is the Wizzness</title>
+    <link>http://maddyking44.com/posts/</link>
+    <description>Recent content in Posts on This is the Wizzness</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 10:40:12 +1200</lastBuildDate>
+    
+	<atom:link href="http://maddyking44.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PageOne</title>
+      <link>http://maddyking44.com/posts/pageone/</link>
+      <pubDate>Tue, 16 Jun 2020 10:40:12 +1200</pubDate>
+      
+      <guid>http://maddyking44.com/posts/pageone/</guid>
+      <description>Hello</description>
+    </item>
+    
+  </channel>
+</rss>
