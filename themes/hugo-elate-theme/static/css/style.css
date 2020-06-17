@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .9;
   -webkit-backface-visibility: hidden;
   background-color: #3f95ea;
-  background-image: url("../images/success-strategy.jpg");
+  background-image: url("../images/launch-large.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1493,6 +1493,30 @@ h1, h2, h3, h4, h5, h6 {
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+/* all mobile and tablet devices */
+@media (hover: none) {
+  #fh5co-home .gradient,  #fh5co-casestudy {
+    position: fixed;
+    background-attachment: unset;
+    z-index: -1;
+  }
+
+  #fh5co-intro, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-casestudy, #fh5co-counters, #fh5co-contact {
+    z-index: 10;
+  }
+
+  /* white */
+  #fh5co-intro, #fh5co-testimonials, #fh5co-services, #fh5co-contact {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #fff), color-stop(1, #fff));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left, #fff 0%, #fff 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right, #fff 0%, #fff 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #fff 0%, #fff 100%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
