@@ -245,7 +245,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 20
       interval = 50
-      speed = 3000
+      speed = 4000
 
     [[params.counters.item]]
       description = "Lines of code"
@@ -253,7 +253,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 2343409
       interval = 50
-      speed = 3000
+      speed = 4000
 
     [[params.counters.item]]
       description = "Cups of tea"
@@ -261,7 +261,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 1302
       interval = 50
-      speed = 3000
+      speed = 4000
 
     [[params.counters.item]]
       description = "Happy clients"
@@ -269,7 +269,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 9
       interval = 50
-      speed = 3000
+      speed = 4000
 
   # Contact section
   [params.contact]
