@@ -556,6 +556,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   display: block;
 }
+#fh5co-intro .intro-box-description {
+  height: 48px;
+}
+@media screen and (max-width: 991px) {
+  #fh5co-intro .intro-box-description {
+    min-height: 72px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-intro .intro-box-description {
+    min-height: unset;
+  }
+}
+
 #fh5co-intro .fh5co-block h2 {
   font-size: 24px;
   font-weight: 400;
@@ -1000,7 +1014,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-work .fh5co-project-item {
   display: block;
-  width: 100%;
+  max-width: 350px;
   position: relative;
   top: 0;
   background: #fff;
@@ -1526,21 +1540,15 @@ h1, h2, h3, h4, h5, h6 {
 
   #fh5co-casestudy {
     background-attachment: unset;
-    z-index: 20;
-    /* background-color: unset;
+    background-color: unset;
     background-image: unset;    
-    z-index: 1; */
+    z-index: 1;
+    color: black;
   }
 
-  /* .mobile-casestudy-img {
-    visibility: visible;
-    height: 50px;
-    z-index: 20;
+  #fh5co-casestudy .text-center p { 
+    text-align: left;
   }
-  
-  .mobile-casestudy-img img{
-    object-fit: cover;
-  } */
 
 }
 
