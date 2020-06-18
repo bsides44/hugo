@@ -1523,11 +1523,11 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
   }
 
-  #fh5co-intro, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact, #footer {
+  .slant, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact, #footer {
     z-index: 10;
   }
 
-  #fh5co-intro, #fh5co-testimonials, #fh5co-about, #fh5co-contact, #footer {
+  .slant, #fh5co-testimonials, #fh5co-about, #fh5co-contact, #footer {
     background-color: #fff;
     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #fff), color-stop(1, #fff));
     /* Android 2.3 */
