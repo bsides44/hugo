@@ -1540,10 +1540,8 @@ h1, h2, h3, h4, h5, h6 {
 
   #fh5co-casestudy {
     background-attachment: unset;
-    background-color: unset;
-    background-image: unset;    
-    z-index: 1;
-    color: black;
+    background-image: url("../images/IMG_4397.png");    
+    z-index: 2;
   }
 
   #fh5co-casestudy .text-center p { 
