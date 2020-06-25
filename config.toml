@@ -139,6 +139,8 @@ theme = "hugo-elate-theme"
     enable = true
     title = "About"
     description = "Maddy King has been working with startups across the spectrum of business activities."
+    url = "#fh5co-contact"
+    button = "Sign up now"
 
     [[params.about.item]]
       name = "Communication"
@@ -183,6 +185,8 @@ theme = "hugo-elate-theme"
     title = "Work"
     description = "These projects are now singing"
     footertext = ''
+    url = "#fh5co-contact"
+    button = "Sign up now"
 
     [[params.work.row]]
       img = "lalatat.svg"

@@ -30,5 +30,12 @@
 				<p>{{ .Site.Params.work.footertext | markdownify }}</p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12 text-center to-animate">
+				{{ if .Site.Params.work.button}}
+				<p><a href="{{ .Site.Params.work.url }}" class="work-btn btn btn-primary">{{ .Site.Params.work.button}}</a></p>
+				{{ end }}
+			</div>
+		</div>
 	</div>
 </section>

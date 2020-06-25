@@ -726,7 +726,9 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.3);
 }
 
-
+#fh5co-about .about-btn {
+  margin-top: 40px !important;
+}
 
 #fh5co-casestudy {
   background-color: #52d3aa;
@@ -976,6 +978,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
+}
+.work-btn {
+  color: rgba(255,255,255,1) !important;
 }
 #fh5co-work a:hover {
   color: white;
