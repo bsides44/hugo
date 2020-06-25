@@ -84,7 +84,7 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "It's fun when we work together."
 
@@ -225,7 +225,7 @@ theme = "hugo-elate-theme"
 
 # Case Study section
   [params.casestudy]
-    enable = true
+    enable = false
     title = "Case Study"
     description = "Working with The Realness"
     icon= "icon-energy"
