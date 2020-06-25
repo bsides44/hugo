@@ -78,7 +78,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "How it's done"
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=mKQXLfkU3yA"
+    url = "https://www.youtube.com/watch?v=8HvPHo8Ldc0"
     subheading = "Working with The Realness" 
 
 
@@ -116,18 +116,18 @@ theme = "hugo-elate-theme"
     description = "Boosting your business from end to end."
 
     [[params.services.item]]
-      title = "Market Insights"
-      description = "Let's start by understanding your purpose, from a product perspective, and your value proposition from your customer's perspective. What brings them to your door?"
+      title = "Customer Insights"
+      description = "Let's start by understanding your product's purpose and value proposition from your customer's perspective. What brings them to your door?"
       icon = "icon-fire"
 
     [[params.services.item]]
       title = "Product Development"
-      description = "We can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money in the long run, and builds a product you're proud of."
+      description = "We can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
       icon = "icon-pencil"
     [[params.services.item]]
-      title = "Digital Consultancy"
-      description = "Your messaging to the world comes through yoru digital portals. We can identify barriers and streamline your digital presence to generate sales."
-      icon = "icon-chart"
+      title = "Digital Enablement"
+      description = "Your messaging to the world comes through your digital portals. We can identify barriers and streamline your digital presence to generate sales."
+      icon = "icon-share"
 
       [[params.services.item]]
       title = "Marketing Strategy"
