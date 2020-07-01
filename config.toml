@@ -81,102 +81,28 @@ theme = "hugo-elate-theme"
     url = "https://www.youtube.com/watch?v=8HvPHo8Ldc0"
     subheading = "Working with The Realness" 
 
-
-  # Testimonials section
-  [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = "It's fun when we work together."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. &rdquo;"
-      person = 'Josh Gunn, Tech Lead - <a href="http://swayable.com" target="_blank">Swayable</a>'
-      img = "S.png"
-      alt = "Digital marketing coach"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. &rdquo;"
-      person = 'Damaris Coulter, CEO - <a href="http://therealness.world/" target="_blank">The Realness</a>'
-      img = "R.png"
-      alt = "Launch strategy"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. &rdquo;"
-      person = 'Rohan Jarvis, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
-      img = "L.png"
-      alt = "Business advice"
-    
-
-
-
-  # Services section
-  [params.services]
+# Products section
+  [params.products]
     enable = true
-    title = "Services"
-    description = "Boosting your business from end to end."
-
-    [[params.services.item]]
-      title = "Customer Insights"
-      description = "Let's start by understanding your product's purpose and value proposition from your customer's perspective. What brings them to your door?"
-      icon = "icon-fire"
-
-    [[params.services.item]]
-      title = "Product Development"
-      description = "We can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
-      icon = "icon-pencil"
-    [[params.services.item]]
-      title = "Digital Enablement"
-      description = "Your messaging to the world comes through your digital portals. We can identify barriers and streamline your digital presence to generate sales."
-      icon = "icon-share"
-
-      [[params.services.item]]
-      title = "Marketing Strategy"
-      description = "A deep understanding of the product and market means we can put your business in front of the people that matter, efficiently and effectively reaching your customers."      
-      icon = "icon-bubble"
-
-  # About section
-  [params.about]
-    enable = true
-    title = "About"
-    description = "Maddy King has been working with startups across the spectrum of business activities."
+    title = "Products"
+    description = ""
+    footertext = ''
     url = "#fh5co-contact"
-    button = "Sign up now"
+    button = "Book now"
 
-    [[params.about.item]]
-      name = "Communication"
-      position = "The secret sauce of empathy"
-      description = "Marketing experience lets me put myself in the shoes of your customer, and understand their needs."
-      img = "maddyKing_3.png"
-      alt = "Maddy King communications expert"
-      social = [
-        ["icon-cup"],
-        ["icon-bubbles"],
-        ["icon-share"]
-      ]
+    [[params.products.row]]
+      img = "lalatat.svg"
+      alt = "Image4"
+      title = "Become your own Marketing Manager workshops"
+      subtitle = "A 5 week series of one-on-one digital marketing strategy workshops that cover customer discovery, social media channel selection and best practice, customer engagement strategy and data analytics to spend the least amount for the greatest results."
+      cost = "$750"
 
-    [[params.about.item]]
-      name = "Business Insights"
-      position = "How do we make this sustainable?"
-      description = "My passion for data-driven decisionmaking means we can save money while generating better results."
-      img = "maddyKing_1.jpg"
-      alt = "Maddy King business insights for entrepreneurs"
-      social = [
-        ["icon-pin"],
-        ["icon-graph"],
-        ["icon-puzzle"]
-      ]
-
-    [[params.about.item]]
-      name = "Technical skills"
-      position = "Speaks tech"
-      description = "Sometimes you need an experienced coder to help make technical decisions and get the most out of your developers."
-      img = "maddyKing_2.png"
-      alt = "Digital project manager"
-      social = [
-        ["icon-link"],
-        ["icon-speedometer"],
-        ["icon-mouse"]
-      ]      
+    [[params.products.row]]
+      img = "realness.png"
+      alt = "Image2"
+      title = "One day Webpage"
+      subtitle = "A basic marketing website (like this one), built from a template and put online in one day."
+      cost = "$800"
 
 
 # Work section
@@ -186,7 +112,7 @@ theme = "hugo-elate-theme"
     description = "These projects are now singing"
     footertext = ''
     url = "#fh5co-contact"
-    button = "Sign up now"
+    button = "Book now"
 
     [[params.work.row]]
       img = "lalatat.svg"
@@ -226,10 +152,106 @@ theme = "hugo-elate-theme"
       subtitle = "Campaign Management"
       style = "object-fit: contain"
 
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "It's fun when we work together."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features. &rdquo;"
+      person = 'Josh Gunn, Tech Lead - <a href="http://swayable.com" target="_blank">Swayable</a>'
+      img = "S.png"
+      alt = "Digital marketing coach"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Testimony pending. &rdquo;"
+      person = 'Damaris Coulter, CEO - <a href="http://therealness.world/" target="_blank">The Realness</a>'
+      img = "R.png"
+      alt = "Launch strategy"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees. &rdquo;"
+      person = 'Rohan Jarvis, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
+      img = "L.png"
+      alt = "Business advice"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Boosting your business from end to end."
+
+    [[params.services.item]]
+      title = "Customer Insights"
+      description = "Let's start by understanding your product's purpose and value proposition from your customer's perspective. What brings them to your door?"
+      icon = "icon-fire"
+
+    [[params.services.item]]
+      title = "Product Development"
+      description = "We can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
+      icon = "icon-pencil"
+    [[params.services.item]]
+      title = "Digital Enablement"
+      description = "Your messaging to the world comes through your digital portals. We can identify barriers and streamline your digital presence to generate sales."
+      icon = "icon-share"
+
+      [[params.services.item]]
+      title = "Marketing Strategy"
+      description = "A deep understanding of the product and market means we can put your business in front of the people that matter, efficiently and effectively reaching your customers."      
+      icon = "icon-bubble"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Maddy King has been working with startups across the spectrum of business activities."
+    url = "#fh5co-contact"
+    button = "Book now"
+
+    [[params.about.item]]
+      name = "Communication"
+      position = "The secret sauce of empathy"
+      description = "Marketing experience lets me put myself in the shoes of your customer, and understand their needs."
+      img = "maddyKing_3.png"
+      alt = "Maddy King communications expert"
+      social = [
+        ["icon-cup"],
+        ["icon-bubbles"],
+        ["icon-share"]
+      ]
+
+    [[params.about.item]]
+      name = "Business Insights"
+      position = "How do we make this sustainable?"
+      description = "My passion for data-driven decisionmaking means we can save money while generating better results."
+      img = "maddyKing_1.jpg"
+      alt = "Maddy King business insights for entrepreneurs"
+      social = [
+        ["icon-pin"],
+        ["icon-graph"],
+        ["icon-puzzle"]
+      ]
+
+    [[params.about.item]]
+      name = "Technical skills"
+      position = "Speaks tech"
+      description = "Sometimes you need an experienced coder to help make technical decisions and get the most out of your developers."
+      img = "maddyKing_2.png"
+      alt = "Digital project manager"
+      social = [
+        ["icon-link"],
+        ["icon-speedometer"],
+        ["icon-mouse"]
+      ]      
+
 
 # Case Study section
   [params.casestudy]
-    enable = false
+    enable = true
     title = "Case Study"
     description = "Working with The Realness"
     icon= "icon-energy"
