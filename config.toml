@@ -80,8 +80,8 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Hi! I'm Maddy. Nice to meet you."
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=8HvPHo8Ldc0"
-    subheading = "Working with The Realness" 
+    url = "https://www.youtube.com/watch?v=VmuUbXOsbAM"
+    subheading = "" 
 
 # Products section
   [params.products]
