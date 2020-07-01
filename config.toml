@@ -96,7 +96,7 @@ theme = "hugo-elate-theme"
       img = "analyticstool.jpg"
       alt = "Analytics insights free tool"
       icon="icon-magnifier"
-      title = "Analytics Analyzer"
+      title = "Analytics Analyser"
       subtitle = "A neat little tool I built to help you gain useful insights from your Google Analytics data."
       cost = "Free"
 
@@ -124,7 +124,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features. &rdquo;"
-      person = 'Josh Gunn, Lead Sorftware Engineer - <a href="https://swayable.com" target="_blank" rel="noopener noreferrer">Swayable</a>'
+      person = 'Josh Gunn, Tech Lead - <a href="https://swayable.com" target="_blank" rel="noopener noreferrer">Swayable</a>'
       img = "josh.jpg"
       alt = "Digital marketing coach"
 
@@ -223,7 +223,7 @@ theme = "hugo-elate-theme"
       alt = "digital strategy"
       url= "https://lalatat.com"
       title = "LALATAT"
-      subtitle = "Marketing and Launch consulatancy"
+      subtitle = "Marketing and Launch consultancy"
       style = "object-fit: fill"
 
     [[params.work.row]]
