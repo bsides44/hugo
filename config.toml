@@ -84,12 +84,12 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = false
+    enable = true
     title = "Testimonials"
     description = "It's fun when we work together."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. &rdquo;"
+      quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features. &rdquo;"
       person = 'Josh Gunn, Tech Lead - <a href="http://swayable.com" target="_blank">Swayable</a>'
       img = "S.png"
       alt = "Digital marketing coach"
@@ -101,7 +101,7 @@ theme = "hugo-elate-theme"
       alt = "Launch strategy"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Testimony pending. &rdquo;"
+      quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees.&rdquo;"
       person = 'Rohan Jarvis, Director - <a href="http://freehtml5.co/" target="_blank">LALATAT</a> <span class="subtext"></span>'
       img = "L.png"
       alt = "Business advice"
@@ -140,7 +140,7 @@ theme = "hugo-elate-theme"
     title = "About"
     description = "Maddy King has been working with startups across the spectrum of business activities."
     url = "#fh5co-contact"
-    button = "Sign up now"
+    button = "Book now"
 
     [[params.about.item]]
       name = "Communication"
@@ -186,7 +186,7 @@ theme = "hugo-elate-theme"
     description = "These projects are now singing"
     footertext = ''
     url = "#fh5co-contact"
-    button = "Sign up now"
+    button = "Get in touch now"
 
     [[params.work.row]]
       img = "lalatat.svg"
@@ -233,9 +233,6 @@ theme = "hugo-elate-theme"
     title = "Case Study"
     description = "Working with The Realness"
     icon= "icon-energy"
-
-
-
 
   # Counters section
   [params.counters]
