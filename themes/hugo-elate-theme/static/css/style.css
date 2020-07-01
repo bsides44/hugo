@@ -789,6 +789,17 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.3);
 }
 
+#fh5co-casestudy .watch-video .btn-video {
+  right: unset !important;
+  border: 2px solid white !important;
+}
+#fh5co-casestudy .btn-video:hover {
+  background-color: #52d3aa;
+}
+#fh5co-casestudy .watch-video .btn-video i {
+  color: white !important;
+  right: unset !important;
+}
 
 #fh5co-counters {
   background: #52d3aa;
@@ -980,13 +991,21 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
-
+#fh5co-products a:hover {
+  color: white;
+}
 .products-btn {
   color: rgba(255,255,255,1) !important;
 }
-
-#fh5co-products a:hover {
+#fh5co-products .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 70px;
+  padding: 30px 0;
+  zoom: 1;
   color: white;
+  background-color: #e6e5e5;
 }
 #fh5co-products:before, #fh5co-products:after {
   position: absolute;
@@ -1057,7 +1076,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-products .fh5co-project-item .fh5co-text h2 {
   font-size: 18px;
   font-weight: bold;
-  margin: 0;
+  margin: 10px 0;
 }
 #fh5co-products .fh5co-project-item .fh5co-text span {
   color: #b3b3b3;

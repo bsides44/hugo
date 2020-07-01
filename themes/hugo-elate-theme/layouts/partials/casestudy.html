@@ -1,14 +1,23 @@
-<section id="fh5co-casestudy" data-section="case-study">
+<section id="fh5co-casestudy" data-section="casestudy">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
 				<h2 class="to-animate fadeInUp animated">{{ with .Site.Params.casestudy.title }}{{ . | markdownify }}{{ end }}</h2>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 subtext to-animate  fadeInUp animated">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate fadeInUp animated">
 						<h3>{{ with .Site.Params.casestudy.description }}{{ . | markdownify }}{{ end }}</h3>
 						<i class="icon {{ .Site.Params.casestudy.icon | markdownify }}"></i>
 					</div>
 				</div>
+				{{ if .Site.Params.casestudy.video.enable }}
+				<div class="row watch-video text-center to-animate fadeInUp animated">
+					<!-- <span>{{ with .Site.Params.casestudy.video }}{{ . }}{{ end }}</span> -->
+					<div class="watch-video-title">{{.Site.Params.casestudy.video.title | markdownify }}</div>
+
+					<a href="{{ .Site.Params.casestudy.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.casestudy.video.icon | markdownify }}"></i></a>
+
+				</div>
+				{{ end }}
 			</div>
 		</div>
 		<div class="row">

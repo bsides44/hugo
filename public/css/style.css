@@ -941,13 +941,11 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
-
-.products-btn {
-  color: rgba(255,255,255,1) !important;
-}
-
 #fh5co-products a:hover {
   color: white;
+}
+.products-btn {
+  color: rgba(255,255,255,1) !important;
 }
 #fh5co-products:before, #fh5co-products:after {
   position: absolute;
