@@ -1,0 +1,43 @@
+<section id="fh5co-products" data-section="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">{{ with .Site.Params.products.title }}{{ . }}{{ end }}</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>{{ with .Site.Params.products.description }}{{ . | markdownify }}{{ end }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-bottom-padded-sm">
+            {{ range .Site.Params.products.row }}
+            <div class="col-md-4 col-sm-6 col-xxs-12">
+                <a href="#fh5co-contact" class="fh5co-project-item to-animate">
+                    <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
+                    <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
+                    <div class="fh5co-text">
+                        <h2>{{ .title }}</h2>
+                        <span>{{ .subtitle }}</span><br />
+                        <span><strong>Cost: </strong>{{ .cost }}</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="clearfix visible-sm-block"></div>
+            {{ end }}
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center to-animate">
+                <p>{{ .Site.Params.products.footertext | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center to-animate">
+                {{ if .Site.Params.products.button}}
+                <p><a href="{{ .Site.Params.products.url }}" class="products-btn btn-lg btn btn-primary">{{ .Site.Params.products.button}}</a></p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
