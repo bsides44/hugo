@@ -252,7 +252,7 @@ theme = "hugo-elate-theme"
 
 # Casestudy section
   [params.casestudy]
-    enable = true
+    enable = false
     title = "Case Study"
     description = "Working with The Realness"
     icon= ""
