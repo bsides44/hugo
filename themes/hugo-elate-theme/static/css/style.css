@@ -881,7 +881,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-counters {
   background: #52d3aa;
   overflow: hidden;
-  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgb(32, 36, 42), rgb(144, 95, 35));;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
