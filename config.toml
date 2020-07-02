@@ -53,7 +53,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Understand"
+    title = "Get Customers"
     description = "Gain insights to learn what makes your customers tick."
     url = "#fh5co-contact"
     button = "Get in touch"
@@ -61,7 +61,7 @@ theme = "hugo-elate-theme"
     img = "clients/img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
+    title = "Build your Vision"
     description = "Craft your product to generate sales."
     url = "#fh5co-contact"
     button = "Book now"
@@ -69,7 +69,7 @@ theme = "hugo-elate-theme"
     img = "clients/img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
+    title = "Make Sales"
     description = "Smash goals and measure results."
     url = "#fh5co-contact"
     button = "Learn more"
@@ -96,24 +96,24 @@ theme = "hugo-elate-theme"
       img = "analyticstool.jpg"
       alt = "Analytics insights free tool"
       icon="icon-magnifier"
-      title = "Analytics Analyser"
-      subtitle = "A neat little tool I built to help you gain useful insights from your Google Analytics data."
+      title = "The Data Distillery"
+      subtitle = "A tool to help you comb through your Google Analytics data and learn more about your customers - who they are, what's driving them to your product and what's stopping them from committing."
       cost = "Free"
 
     [[params.products.row]]
       img = "marketingmanager.jpg"
       alt = "Social media marketing workshop"
       icon = "icon-speedometer"
-      title = "Attract ideal clients while you sleep"
-      subtitle = "A 5 week series of one-on-one digital marketing workshops that cover customer discovery, social media marketing strategy and best practice, customer engagement and data analytics, so you can spend the least amount for the greatest results."
+      title = "Attract Ideal Clients While You Sleep"
+      subtitle = "A 5 week series of one-on-one Digital Marketing workshops that cover customer discovery, Social Media Marketing strategy and best practice, customer engagement and data analytics, so you can spend the least amount for the greatest results."
       cost = "$500"
 
     [[params.products.row]]
       img = "webpage2.jpg"
       alt = "One day webpage"
       icon="icon-screen-desktop"
-      title = "One day Webpage"
-      subtitle = "A basic marketing website (like this one), built and put LIVE online in a day."
+      title = "One Day Webpage"
+      subtitle = "A basic marketing website (like this one), built and put live online in a day."
       cost = "$800"
 
   # Testimonials section
