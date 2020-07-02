@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Maddy King"
-  description = "Success Strategy for Solopreneurs"
+  description = "Success Strategy for Small Businesses"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "HI! I'M MADDY"
+    icon = "icon-rocket"
     home = "Home"
     products = "Products"
     testimonials = "Testimonials"
@@ -46,7 +46,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Launch Yourself"
-    subtitle = 'Success Strategy for Solopreneurs'
+    subtitle = 'Success Strategy for Small Businesses'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
@@ -77,11 +77,11 @@ theme = "hugo-elate-theme"
     img = "clients/img_10.jpg"
 
   [params.intro.video]
-    enable = true
-    title = "Hi! I'm Maddy. Nice to meet you."
+    enable = true 
+    title = "Time to level up your business?"
+    subheading = "Hi! I'm Maddy. Nice to meet you."
     icon = "icon-play2"
     url = "https://www.youtube.com/watch?v=VmuUbXOsbAM"
-    subheading = "" 
 
 # Products section
   [params.products]
@@ -105,7 +105,7 @@ theme = "hugo-elate-theme"
       alt = "Social media marketing workshop"
       icon = "icon-speedometer"
       title = "Attract Ideal Clients While You Sleep"
-      subtitle = "A 5 week series of one-on-one Digital Marketing workshops that cover customer discovery, Social Media Marketing strategy and best practice, customer engagement and data analytics, so you can spend the least amount for the greatest results."
+      subtitle = "A 5 week series of one-on-one Digital Marketing workshops that show you how to spend the least amount for the greatest results. Workshops cover customer discovery, Social Media Marketing strategy and best practice, customer engagement and data analytics."
       cost = "$500"
 
     [[params.products.row]]
@@ -113,7 +113,7 @@ theme = "hugo-elate-theme"
       alt = "One day webpage"
       icon="icon-screen-desktop"
       title = "One Day Webpage"
-      subtitle = "A basic marketing website (like this one), built and put live online in a day."
+      subtitle = "A full marketing website like this one, built and put live online in one day."
       cost = "$800"
 
   # Testimonials section
@@ -175,8 +175,8 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Communication"
-      position = "The secret sauce of empathy"
-      description = "Marketing experience lets me put myself in the shoes of your customer, and understand their needs."
+      position = "Understanding the who and why of your customer"
+      description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks to directly to their core experiences."
       img = "maddyKing_3.jpg"
       alt = "Maddy King communications expert"
       social = [
@@ -188,7 +188,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Business Insights"
       position = "How do we make this sustainable?"
-      description = "My passion for data-driven decisionmaking means we can save money while generating better results."
+      description = "Today's digital tools allow us to get under the skin of your product and see how and why people are interacting with it in the way they are. It gives us scope to improve the things that are working, and remove the barriers that aren't. I'm passionate about data-driven decisionmaking, and can use it to help you save money while generating better results."
       img = "maddyKing_1.jpg"
       alt = "Maddy King business insights for entrepreneurs"
       social = [
@@ -200,7 +200,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Technical skills"
       position = "Speaks tech"
-      description = "Sometimes you need an experienced coder to help make technical decisions and get the most out of your developers."
+      description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced coder, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your developers."
       img = "maddyKing_2.jpg"
       alt = "Digital project manager"
       social = [
