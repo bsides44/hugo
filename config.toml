@@ -102,10 +102,10 @@ theme = "hugo-elate-theme"
 
     [[params.products.row]]
       img = "marketingmanager.jpg"
-      alt = "Become your own marketing manager workshop"
+      alt = "Social media marketing workshop"
       icon = "icon-speedometer"
-      title = "Become your own Marketing Manager workshops"
-      subtitle = "A 5 week series of one-on-one digital marketing strategy workshops that cover customer discovery, social media channel selection and best practice, customer engagement strategy and data analytics to spend the least amount for the greatest results."
+      title = "Attract ideal clients while you sleep"
+      subtitle = "A 5 week series of one-on-one digital marketing workshops that cover customer discovery, social media marketing strategy and best practice, customer engagement and data analytics, so you can spend the least amount for the greatest results."
       cost = "$500"
 
     [[params.products.row]]
@@ -113,7 +113,7 @@ theme = "hugo-elate-theme"
       alt = "One day webpage"
       icon="icon-screen-desktop"
       title = "One day Webpage"
-      subtitle = "A basic marketing website (like this one), built from a template and put online in one day."
+      subtitle = "A basic marketing website (like this one), built and put LIVE online in a day."
       cost = "$800"
 
   # Testimonials section
