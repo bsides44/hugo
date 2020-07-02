@@ -9,11 +9,11 @@ function initMap() {
   }).addTo(map);
 
   var icon = L.icon({
-    iconUrl: "images/map-marker.png",
+    iconUrl: "images/clients/map-marker.png",
     iconSize: [25, 41],
-    //iconUrl: "images/map-loc.png",
+    //iconUrl: "images/clients/map-loc.png",
     //iconSize:     [57, 66],
   });
-  var marker = L.marker(latLong, { icon: icon }).addTo(map);
+  var marker = L.marker(latLong, {icon: icon}).addTo(map);
 }
 document.addEventListener("DOMContentLoaded", initMap);

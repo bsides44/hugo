@@ -58,7 +58,7 @@ theme = "hugo-elate-theme"
     url = "#fh5co-contact"
     button = "Get in touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "clients/img_7.jpg"
 
   [[params.intro.item]]
     title = "Develop"
@@ -66,7 +66,7 @@ theme = "hugo-elate-theme"
     url = "#fh5co-contact"
     button = "Book now"
     icon = "icon-energy"
-    img = "img_8.jpg"
+    img = "clients/img_8.jpg"
 
   [[params.intro.item]]
     title = "Launch"
@@ -74,7 +74,7 @@ theme = "hugo-elate-theme"
     url = "#fh5co-contact"
     button = "Learn more"
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    img = "clients/img_10.jpg"
 
   [params.intro.video]
     enable = true
@@ -125,19 +125,19 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features. &rdquo;"
       person = 'Josh Gunn, Tech Lead - <a href="https://swayable.com" target="_blank" rel="noopener noreferrer">Swayable</a>'
-      img = "josh.jpg"
+      img = "clients/josh.jpg"
       alt = "Digital marketing coach"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Maddy helped the Realness by identifying problems that we were couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems to improve the platform. She was the bridge between us and the developers. Since Maddy came on board I feel confident and proud of my platform. Working with her has been a dream. She exceeded my expectations, which was delightful, because many had underdelivered over the last few years. Her work ethic was unquestionable and I always felt like she went above and beyond for us. She is straight up, efficient and conscientious, and best of all she’s a problem solver not a problem moaner. I'd recommend Maddy to anyone who needs a project manager, an all-rounder, a brainstormer, a development advisor, a developer, an everything-er.&rdquo;"
       person = 'Damaris Coulter, CEO - <a href="https://therealness.world/" target="_blank" rel="noopener noreferrer">The Realness</a> <span class="subtext"></span>'
-      img = "damaris.jpg"
+      img = "clients/damaris.jpg"
       alt = "Small business support"
 
     [[params.testimonials.item]]
       quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees. &rdquo;"
       person = 'Rohan Jarvis, Director - <a href="https://lalatat.com/" target="_blank"  rel="noopener noreferrer">LALATAT</a> <span class="subtext"></span>'
-      img = "rohan.jpg"
+      img = "clients/rohan.jpg"
       alt = "Business advice"
 
   # Services section
@@ -177,7 +177,7 @@ theme = "hugo-elate-theme"
       name = "Communication"
       position = "The secret sauce of empathy"
       description = "Marketing experience lets me put myself in the shoes of your customer, and understand their needs."
-      img = "maddyKing_3.png"
+      img = "maddyKing_3.jpg"
       alt = "Maddy King communications expert"
       social = [
         ["icon-cup"],
@@ -201,7 +201,7 @@ theme = "hugo-elate-theme"
       name = "Technical skills"
       position = "Speaks tech"
       description = "Sometimes you need an experienced coder to help make technical decisions and get the most out of your developers."
-      img = "maddyKing_2.png"
+      img = "maddyKing_2.jpg"
       alt = "Digital project manager"
       social = [
         ["icon-link"],
@@ -219,7 +219,7 @@ theme = "hugo-elate-theme"
     button = "Book now"
 
     [[params.work.row]]
-      img = "lalatat.svg"
+      img = "clients/lalatat.svg"
       alt = "digital strategy"
       url= "https://lalatat.com"
       title = "LALATAT"
@@ -227,14 +227,14 @@ theme = "hugo-elate-theme"
       style = "object-fit: fill"
 
     [[params.work.row]]
-      img = "realness.png"
+      img = "clients/realness.png"
       alt = "small business consultant"
       url= "https://therealness.world"
       title = "The Realness"
       subtitle = "Product Management"
 
     [[params.work.row]]
-      img = "swayable.jpg"
+      img = "clients/swayable.jpg"
       alt = "marketing consultant"
       url= "https://swayable.com"
       title = "Swayable"
@@ -248,14 +248,14 @@ theme = "hugo-elate-theme"
       subtitle = "Web Development"
 
     [[params.work.row]]
-      img = "don_eda.jpg"
+      img = "clients/don_eda.jpg"
       alt = "low cost social media marketing"
       url= "https://devacademy.co.nz/"
       title = "Enspiral Dev Academy"
       subtitle = "Marketing Management"
 
     [[params.work.row]]
-      img = "beyondviolence.jpg"
+      img = "clients/beyondviolence.jpg"
       alt = "campaign manager"
       url= "https://www.youtube.com/watch?v=HIwTJVXNOH4"
       title = "Beyond Violence"
@@ -281,7 +281,7 @@ theme = "hugo-elate-theme"
   [params.counters]
     enable = true
     title = "Stats"
-    background = "full_image_1.jpg"
+    background = "clients/full_image_1.jpg"
 
     [[params.counters.item]]
       description = "Finished projects"
