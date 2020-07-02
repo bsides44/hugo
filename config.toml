@@ -71,7 +71,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Make Sales"
     description = "Smash goals and measure results."
-    url = "#fh5co-contact"
+    url = "#fh5co-products"
     button = "Learn more"
     icon = "icon-rocket"
     img = "clients/img_10.jpg"
@@ -79,15 +79,22 @@ theme = "hugo-elate-theme"
   [params.intro.video]
     enable = true 
     title = "Time to level up your business?"
-    subheading = "Hi! I'm Maddy. Nice to meet you."
+    subheading = ""
     icon = "icon-play2"
     url = "https://www.youtube.com/watch?v=VmuUbXOsbAM"
+
+# Quote section
+  [params.quote]
+    enable=true
+    text="&ldquo;Maddy helped our business by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
+    name="Damaris Coulter, CEO"
+
 
 # Products section
   [params.products]
     enable = true
     title = "Products"
-    description = "A couple of ways we can help your business"
+    description = "A couple of ways we can work together to elevate your business"
     footertext = ''
     url = "#fh5co-testimonials"
     button = "Hear from customers"
@@ -129,7 +136,7 @@ theme = "hugo-elate-theme"
       alt = "Digital marketing coach"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Maddy helped the Realness by identifying problems that we were couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems to improve the platform. She was the bridge between us and the developers. Since Maddy came on board I feel confident and proud of my platform. Working with her has been a dream. She exceeded my expectations, which was delightful, because many had underdelivered over the last few years. Her work ethic was unquestionable and I always felt like she went above and beyond for us. She is straight up, efficient and conscientious, and best of all she’s a problem solver not a problem moaner. I'd recommend Maddy to anyone who needs a project manager, an all-rounder, a brainstormer, a development advisor, a developer, an everything-er.&rdquo;"
+      quote = "&ldquo;Maddy was the bridge between us and the developers - us and a world we did not understand. Working with her has been a dream. She exceeded my expectations, which was delightful, because many had underdelivered before. Her work ethic was unquestionable and I always felt like she went above and beyond for us. She is straight up, efficient and conscientious, and best of all she’s a problem solver not a problem moaner. I'd recommend Maddy to anyone who needs a project manager, an all-rounder, a brainstormer, a development advisor, a developer, an everything-er.&rdquo;"
       person = 'Damaris Coulter, CEO - <a href="https://therealness.world/" target="_blank" rel="noopener noreferrer">The Realness</a> <span class="subtext"></span>'
       img = "clients/damaris.jpg"
       alt = "Small business support"

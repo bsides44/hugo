@@ -499,12 +499,15 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
 }
+.blocks {
+  z-index: 999
+}
 #fh5co-intro .fh5co-block {
   width: 33.33%;
   float: left;
   text-align: center;
   font-size: 16px;
-  min-height: 360px;
+  min-height: 405px;
   vertical-align: middle;
   padding: 40px;
   background: #fff;
@@ -522,6 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
     width: 100%;
+    min-height: unset;
   }
 }
 #fh5co-intro .fh5co-block > .overlay-darker {
@@ -647,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-products, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-casestudy {
+#fh5co-services, #fh5co-quote, #fh5co-testimonials, #fh5co-counters, #fh5co-products, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-casestudy {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
@@ -662,6 +666,78 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-products, #fh5co-work, #fh5co-counters, #fh5co-casestudy {
     padding: 4em 0;
+  }
+}
+
+#fh5co-quote {
+  background-color: #52d3aa;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  overflow: hidden;
+  position: relative;
+  top: -85px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#fh5co-quote:before, #fh5co-quote:after {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
+#fh5co-quote:before {
+  top: 0;
+  margin-top: -35px;
+}
+#fh5co-quote:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+#fh5co-quote .fh5co-quote {
+  padding-right: 30px;
+}
+
+.quote h3 {
+  float: left;
+  width: 90%;
+  color: white;
+  position: relative;
+  top: 60px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  font-size: 30px;
+  margin-bottom: 110px;
+}
+#fh5co-quote h4 {
+  float: left;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.quote h3, #fh5co-quote h4 {
+  padding: 0 15px;
+}
+@media screen and (max-width: 768px) {
+  .quote h3, #fh5co-quote h4  {
+    padding: 0 15px;
   }
 }
 
@@ -1362,6 +1438,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+.nav-btn {
+  text-transform: none !important;
+}
+@media screen and (max-width: 766px) {
+  .nav-btn {
+    width: 115px;
+  }
+}
+
+
 .fh5co-nav-toggle {
   width: 25px;
   height: 25px;
@@ -1453,7 +1539,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
   .fh5co-nav-toggle {
     display: block;
   }
@@ -1667,7 +1753,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
   }
 
-  #fh5co-intro, #fh5co-products, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact, #footer {
+  #fh5co-intro, #fh5co-products, #fh5co-quote, #fh5co-work, #fh5co-testimonials,#fh5co-services, #fh5co-about, #fh5co-counters, #fh5co-contact, #footer {
     z-index: 10;
   }
 

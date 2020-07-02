@@ -165,10 +165,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 
 					$(this.element).addClass('animated');
@@ -194,7 +194,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInRight animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 1000);
@@ -208,6 +208,33 @@
 		}
 	};
 
+	var quoteAnimate = function () {
+		if ($('#fh5co-quote').length > 0) {
+
+			$('#fh5co-quote').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-quote .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, {offset: '80%'});
+
+		}
+	};
 
 	var productsAnimate = function () {
 		if ($('#fh5co-products').length > 0) {
@@ -223,7 +250,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -251,10 +278,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 
 					$(this.element).addClass('animated');
@@ -275,7 +302,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = testimonial.find('.to-animate').length,
-						sec = parseInt((sec * 200) - 400);
+						sec = parseInt((sec * 100) - 200);
 
 					setTimeout(function () {
 						testimonial.find('.to-animate').each(function (k) {
@@ -283,10 +310,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 					setTimeout(function () {
 						testimonial.find('.to-animate-2').each(function (k) {
@@ -294,7 +321,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInDown animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -317,7 +344,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = services.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function () {
 						services.find('.to-animate').each(function (k) {
@@ -325,10 +352,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 					setTimeout(function () {
 						services.find('.to-animate-2').each(function (k) {
@@ -336,7 +363,7 @@
 
 							setTimeout(function () {
 								el.addClass('bounceIn animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -366,10 +393,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 
 
@@ -390,7 +417,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = counters.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function () {
 						counters.find('.to-animate').each(function (k) {
@@ -398,10 +425,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 					setTimeout(function () {
 						counters.find('.js-counter').countTo({
@@ -417,7 +444,7 @@
 
 							setTimeout(function () {
 								el.addClass('bounceIn animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -449,10 +476,10 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 200);
+					}, 100);
 
 					$(this.element).addClass('animated');
 
@@ -489,6 +516,7 @@
 		// Animations
 		homeAnimate();
 		introAnimate();
+		quoteAnimate();
 		productsAnimate();
 		workAnimate();
 		testimonialAnimate();
