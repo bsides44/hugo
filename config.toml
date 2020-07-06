@@ -121,7 +121,7 @@ theme = "hugo-elate-theme"
       icon="icon-screen-desktop"
       title = "One Day Webpage"
       subtitle = "A full marketing website like this one, built and put live online in one day."
-      cost = "$800"
+      cost = "$500"
 
   # Testimonials section
   [params.testimonials]
