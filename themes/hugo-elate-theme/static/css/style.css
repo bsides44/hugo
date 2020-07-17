@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   margin-top: -150px;
   z-index: 10;
-  padding-bottom: 7em;
+  padding-bottom: 2em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -713,26 +713,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .quote h3 {
   float: left;
-  width: 90%;
-  color: white;
+  width: 85%;
+  color: #52d3aa;
   position: relative;
-  top: 60px;
+  top: 90px;
   font-weight: 100;
   letter-spacing: 1.2px;
   font-size: 30px;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
-#fh5co-quote h4 {
+.quote h4 {
   float: left;
   width: 100%;
-  color: white;
-  font-weight: 400;
+  color: #52d3aa;
+  font-weight: 100;
   letter-spacing: 1.2px;
   font-size: 24px;
-  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
-.quote h3, #fh5co-quote h4 {
+.quote h3, .quote h4 {
   padding: 0 15px;
 }
 @media screen and (max-width: 768px) {
