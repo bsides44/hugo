@@ -20,8 +20,9 @@ theme = "hugo-elate-theme"
   [params.navigation]
     icon = "icon-rocket"
     home = "Home"
-    products = "Products"
+    products = "Social Media"
     testimonials = "Testimonials"
+    productsweb = "Web"
     services = "Services"
     about = "About"
     work = "Work"
@@ -45,7 +46,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Launch Yourself"
+    title = "Maddy King"
     subtitle = 'Success and Strategy for Small Businesses'
  
   # Intro section
@@ -63,15 +64,15 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Help me with my website"
     description = "Get your brand in front of people who want to buy it"
-    url = "#fh5co-contact"
-    button = "Rock my website"
+    url = "#fh5co-productsweb"
+    button = "Amplify my website"
     icon = "icon-energy"
     img = "clients/img_8.jpg"
 
   [[params.intro.item]]
     title = "Help me with everything"
     description = "Get support to generate more sales for your business"
-    url = "#fh5co-products"
+    url = "#fh5co-testimonials"
     button = "Learn more"
     icon = "icon-fire"
     img = "clients/img_10.jpg"
@@ -92,35 +93,59 @@ theme = "hugo-elate-theme"
 # Products section
   [params.products]
     enable = true
-    title = "Social Media"
-    description = "Using digital tools to grab your customer's attention for less."
+    title = "Social Media Support"
+    description = "Using digital tools to grab your customers' attention for less."
     footertext = ''
     url = "#fh5co-testimonials"
     button = "Hear from happy clients"
 
-    [[params.products.row]]
-      img = "analyticstool.jpg"
+    [[params.products.rowOne]]
+      img = "marketingmanager.jpg"
       alt = "Social media marketing workshop"
       icon="icon-magnifier"
       title = "Social Media Strategy workshop"
       subtitle = "Save money in the long run by working with me to build a winning social media strategy. We'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
       cost = "$250"
 
-    [[params.products.row]]
-      img = "marketingmanager.jpg"
+    [[params.products.rowOne]]
+      img = "adstraining.jpg"
       alt = "Google ads training"
       icon = "icon-speedometer"
-      title = "Digital Marketing training"
-      subtitle = "One-on-one social media marketing training, to take you from part-time poster to expert digital advertiser. We work together to understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips for Facebook ads, Instagram ads and Google Adwords, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
+      title = "Digital Marketing Training"
+      subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
       cost = "$750"
 
-    [[params.products.row]]
-      img = "analyticstool.jpg"
-      alt = "Google Analytics insights free tool"
+    [[params.products.rowOne]]
+      img = "googleadwords.jpg"
+      alt = "Digital Ads Training"
+      icon="icon-magnifier"
+      title = "Digital Ads Training"
+      subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. We'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
+      cost = "$500"
+
+    [[params.products.rowTwo]]
+      img = "webpage.jpg"
+      alt = "Google Analytics free tool"
+      icon="icon-magnifier"
+      title = "Google Analytics Tool"
+      subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
+      cost = "Free"
+
+    [[params.products.rowTwo]]
+      img = "facebookadvertising.jpg"
+      alt = "Google Analytics Insights"
       icon="icon-magnifier"
       title = "Google Analytics insights"
-      subtitle = "A tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
-      cost = "Free"
+      subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to grow your business."
+      cost = "$250"
+
+    [[params.products.rowTwo]]
+      img = "socialmediaworkshop.jpg"
+      alt = "Set up social media channels"
+      icon="icon-magnifier"
+      title = "Set up Social Channels"
+      subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
+      cost = "$250"
 
   # Testimonials section
   [params.testimonials]
@@ -129,7 +154,7 @@ theme = "hugo-elate-theme"
     description = "It's fun when we work together."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features. &rdquo;"
+      quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features.&rdquo;"
       person = 'Josh Gunn, Tech Lead - <a href="https://swayable.com" target="_blank" rel="noopener noreferrer">Swayable</a>'
       img = "clients/josh.jpg"
       alt = "Digital marketing coach"
@@ -141,14 +166,47 @@ theme = "hugo-elate-theme"
       alt = "Small business support"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees. &rdquo;"
+      quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees.&rdquo;"
       person = 'Rohan Jarvis, Director - <a href="https://lalatat.com/" target="_blank"  rel="noopener noreferrer">LALATAT</a> <span class="subtext"></span>'
       img = "clients/rohan.jpg"
       alt = "Business advice"
 
+# Web Products section
+  [params.productsweb]
+    enable = true
+    title = "Website and App Support"
+    description = "Presenting your brand proudly to the world and solving your digital challenges."
+    footertext = ''
+    url = "#fh5co-testimonials"
+    button = "Get in touch now"
+
+    [[params.productsweb.rowOne]]
+      img = "instagramads.jpg"
+      alt = "one page website"
+      icon="icon-magnifier"
+      title = "One Page Website"
+      subtitle = "A stunning website that speaks directly to your customer and drives them to buy. Built with SEO to improve your chances on Google. Comes with Google Analytics installed so you can constantly improve your results. I'll also show you a simple way to update your site yourself, so you're in charge."
+      cost = "$1000"
+
+    [[params.productsweb.rowOne]]
+      img = "analyticstool.jpg"
+      alt = "digital project manager"
+      icon = "icon-speedometer"
+      title = "Digital Project Manager"
+      subtitle = "Got a digital project that feels difficult and complicated? I can come in, help you determine a functional, cost-effective solution, and liaise with your developers to ensure you're getting value for money. I'll help set up your systems and give you clear, straightforward explanations of technical decisions, so you end up with a project you're proud of."
+      cost = "Project specific"
+
+    [[params.productsweb.rowOne]]
+      img = "website.jpg"
+      alt = "Product support"
+      icon="icon-magnifier"
+      title = "Product Direction"
+      subtitle = "Feel like your product isn't quite living up to its potential? By understanding your customers, your value proposition and your business model, I can help you make product decisions that generate revenue and grow your user base of happy, vocal clients."
+      cost = "Project specific"
+
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Boosting your business from end to end."
 
@@ -175,13 +233,13 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "About"
-    description = "I've been working with small businesses across the spectrum of business activities."
+    description = "I work fanatically to boost great business ideas using digital tools."
     url = "#fh5co-contact"
     button = "Get in touch now"
 
     [[params.about.item]]
       name = "Communication"
-      position = "Understanding the who and why of your customer"
+      position = "Understanding your customer"
       description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks to directly to their core experiences."
       img = "maddyKing_3.jpg"
       alt = "Maddy King communications expert"
@@ -205,7 +263,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Technical skills"
-      position = "Speaks tech"
+      position = "Sometimes you need someone who speaks tech"
       description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced coder, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your developers."
       img = "maddyKing_2.jpg"
       alt = "Digital project manager"
@@ -219,7 +277,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Previous Work"
-    description = "These projects are now singing"
+    description = "We supercharged these projects through a range of services"
     footertext = ''
     url = "#fh5co-contact"
     button = "Book now"
@@ -229,7 +287,7 @@ theme = "hugo-elate-theme"
       alt = "digital strategy"
       url= "https://lalatat.com"
       title = "LALATAT"
-      subtitle = "Marketing and Launch consultancy"
+      subtitle = "Marketing Training"
       style = "object-fit: fill"
 
     [[params.work.row]]
@@ -247,11 +305,12 @@ theme = "hugo-elate-theme"
       subtitle = "Web Development"
 
     [[params.work.row]]
-      img = "webpage.jpg"
+      img = "bamboocreative.svg"
       alt = "digital project manager"
-      url= "https://www.bamboocreative.nz/"
+      url= "https://bamboocreative.nz/"
       title = "Bamboo Creative"
       subtitle = "Web Development"
+      style = "object-fit: contain"
 
     [[params.work.row]]
       img = "clients/don_eda.jpg"
@@ -265,7 +324,7 @@ theme = "hugo-elate-theme"
       alt = "campaign manager"
       url= "https://www.youtube.com/watch?v=HIwTJVXNOH4"
       title = "Beyond Violence"
-      subtitle = "Campaign Management"
+      subtitle = "Project Management"
       style = "object-fit: contain"
 
 # Casestudy section
@@ -327,7 +386,7 @@ theme = "hugo-elate-theme"
     map = true
     form = true
     title = "Get in touch"
-    description = "Let's get a coffee (or an online cup of tea), talk about your vision and see if I can help."
+    description = "Let's get a coffee, discuss about your challenges and see if I can help."
     
     # Available icons: https://simplelineicons.github.io/
     details = [

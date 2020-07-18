@@ -114,7 +114,7 @@
 				navActive($(this.element).data('section'));
 			}
 		}, {
-			offset: function () {return -$(this.element).height() + 155;}
+			offset: function () { return -$(this.element).height() + 155; }
 		});
 
 	};
@@ -174,7 +174,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -203,7 +203,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -231,7 +231,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -259,7 +259,36 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
+
+		}
+	};
+
+	var productswebAnimate = function () {
+		var productsweb = $('#fh5co-productsweb');
+		if (productsweb.length > 0) {
+
+			productsweb.waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-productsweb .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 200, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
 
 		}
 	};
@@ -287,7 +316,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -330,7 +359,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -373,7 +402,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -403,7 +432,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -456,7 +485,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -479,12 +508,12 @@
 							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 100);
+					}, 50);
 
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -518,6 +547,7 @@
 		introAnimate();
 		quoteAnimate();
 		productsAnimate();
+		productswebAnimate();
 		workAnimate();
 		testimonialAnimate();
 		servicesAnimate();
