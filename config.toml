@@ -305,7 +305,7 @@ theme = "hugo-elate-theme"
       subtitle = "Web Development"
 
     [[params.work.row]]
-      img = "bamboocreative.svg"
+      img = "clients/bamboocreative.svg"
       alt = "digital project manager"
       url= "https://bamboocreative.nz/"
       title = "Bamboo Creative"
@@ -386,7 +386,7 @@ theme = "hugo-elate-theme"
     map = true
     form = true
     title = "Get in touch"
-    description = "Let's get a coffee, discuss about your challenges and see if I can help."
+    description = "Let's get a coffee, discuss your challenges and see if I can help."
     
     # Available icons: https://simplelineicons.github.io/
     details = [
