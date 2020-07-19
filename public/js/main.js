@@ -114,7 +114,7 @@
 				navActive($(this.element).data('section'));
 			}
 		}, {
-			offset: function () {return -$(this.element).height() + 155;}
+			offset: function () { return -$(this.element).height() + 155; }
 		});
 
 	};
@@ -174,7 +174,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -203,7 +203,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -231,7 +231,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -259,7 +259,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -302,7 +302,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -345,7 +345,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -375,7 +375,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -428,7 +428,7 @@
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};
@@ -448,15 +448,15 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
-					}, 100);
+					}, 50);
 
 					$(this.element).addClass('animated');
 
 				}
-			}, {offset: '80%'});
+			}, { offset: '80%' });
 
 		}
 	};

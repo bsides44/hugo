@@ -24,6 +24,11 @@
 	{{ partial "testimonials.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.productsweb.enable }}
+	{{ partial "productsweb.html" .}}
+	{{ end }}
+
+
 	{{ if .Site.Params.services.enable }}
 	{{ partial "services.html" .}}
 	{{ end }}

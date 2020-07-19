@@ -1,17 +1,17 @@
-<section id="fh5co-products" data-section="products">
+<section id="fh5co-productsweb" data-section="productsweb">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">{{ with .Site.Params.products.title }}{{ . }}{{ end }}</h2>
+                <h2 class="to-animate">{{ with .Site.Params.productsweb.title }}{{ . }}{{ end }}</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>{{ with .Site.Params.products.description }}{{ . | markdownify }}{{ end }}</h3>
+                        <h3>{{ with .Site.Params.productsweb.description }}{{ . | markdownify }}{{ end }}</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row row-bottom-padded-sm">
-            {{ range .Site.Params.products.rowOne }}
+            {{ range .Site.Params.productsweb.rowOne }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
                 <a href="#fh5co-contact" class="fh5co-project-item to-animate">
                     <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
@@ -28,7 +28,7 @@
             {{ end }}
         </div>
         <div class="row row-bottom-padded-sm">
-            {{ range .Site.Params.products.rowTwo }}
+            {{ range .Site.Params.productsweb.rowTwo }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
                 <a href="#fh5co-contact" class="fh5co-project-item to-animate">
                     <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
@@ -46,13 +46,13 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center to-animate">
-                <p>{{ .Site.Params.products.footertext | markdownify }}</p>
+                <p>{{ .Site.Params.productsweb.footertext | markdownify }}</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 text-center to-animate">
-                {{ if .Site.Params.products.button}}
-                <p><a href="{{ .Site.Params.products.url }}" class="products-btn btn-lg btn btn-primary">{{ .Site.Params.products.button}}</a></p>
+                {{ if .Site.Params.productsweb.button}}
+                <p><a href="{{ .Site.Params.productsweb.url }}" class="products-btn btn-lg btn btn-primary">{{ .Site.Params.productsweb.button}}</a></p>
                 {{ end }}
             </div>
         </div>
