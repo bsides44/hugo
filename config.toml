@@ -240,7 +240,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Communication"
       position = "Understanding your customer"
-      description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks to directly to their core experiences."
+      description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks directly to their core experiences."
       img = "MaddyKing_WebSocialMedia.jpg"
       alt = "Maddy King communications expert"
       style="object-position: -7px 0" 
