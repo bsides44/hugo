@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "http://maddyking44.com"
-title = "Maddy King - Success and Strategy for Small Businesses"
+title = "Maddy King - Digital Business Success"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Maddy King"
-  description = "Digital Strategy"
+  description = "Digital Business Success Strategy"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -145,7 +145,7 @@ theme = "hugo-elate-theme"
       icon="icon-magnifier"
       title = "Set up Social Channels"
       subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
-      cost = "$250"
+      cost = "$450"
 
   # Testimonials section
   [params.testimonials]
