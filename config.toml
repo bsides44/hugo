@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = 'Digital Success Strategy'
+    subtitle = 'Digital Business Success'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
