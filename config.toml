@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Maddy King"
-  description = "Success and Strategy for Small Businesses"
+  description = "Digital Strategy"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -47,30 +47,30 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = 'Success and Strategy for Small Businesses'
+    subtitle = 'Digital Success Strategy'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Help me with social media"
+    title = "Boost my social media"
     description = "Build your community of customers"
     url = "#fh5co-products"
-    button = "Boost my brand"
+    button = "Enhance my brand"
     icon = "icon-people"
     img = "clients/img_7.jpg"
 
   [[params.intro.item]]
-    title = "Help me with my website"
+    title = "Improve my website"
     description = "Get your brand in front of people who want to buy it"
     url = "#fh5co-productsweb"
-    button = "Amplify my website"
+    button = "Strengthen my site"
     icon = "icon-energy"
     img = "clients/img_8.jpg"
 
   [[params.intro.item]]
-    title = "Help me with everything"
+    title = "Amplify my business"
     description = "Get support to generate more sales for your business"
     url = "#fh5co-testimonials"
     button = "Learn more"
@@ -241,8 +241,9 @@ theme = "hugo-elate-theme"
       name = "Communication"
       position = "Understanding your customer"
       description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks to directly to their core experiences."
-      img = "maddyKing_3.jpg"
+      img = "MaddyKing_WebSocialMedia.jpg"
       alt = "Maddy King communications expert"
+      style="object-position: -7px 0" 
       social = [
         ["icon-cup"],
         ["icon-bubbles"],
@@ -265,19 +266,19 @@ theme = "hugo-elate-theme"
       name = "Technical skills"
       position = "Sometimes you need someone who speaks tech"
       description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced coder, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your developers."
-      img = "maddyKing_2.jpg"
+      img = "MaddyKingDigital.jpg"
       alt = "Digital project manager"
       social = [
         ["icon-link"],
         ["icon-speedometer"],
         ["icon-mouse"]
-      ]      
+      ]  
 
 # Work section
   [params.work]
     enable = true
     title = "Previous Work"
-    description = "We supercharged these projects through a range of services"
+    description = "We've supercharged these projects through a range of services"
     footertext = ''
     url = "#fh5co-contact"
     button = "Book now"
