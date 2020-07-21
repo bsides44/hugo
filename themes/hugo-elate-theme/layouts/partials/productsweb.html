@@ -1,3 +1,6 @@
+<script>
+    gtag('config', 'UA-173142204-1', { 'page_path': '/web-products' })
+</script>
 <section id="fh5co-productsweb" data-section="productsweb">
     <div class="container">
         <div class="row">
@@ -13,7 +16,7 @@
         <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.productsweb.rowOne }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
-                <a href="#fh5co-contact" class="fh5co-project-item to-animate">
+                <a href="#fh5co-contact" class="fh5co-project-item to-animate" onClick=trackProductClick({{ .trackingCode }})>
                     <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
                     <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
                     <div class="fh5co-text">
@@ -30,7 +33,7 @@
         <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.productsweb.rowTwo }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
-                <a href="#fh5co-contact" class="fh5co-project-item to-animate">
+                <a href="#fh5co-contact" class="fh5co-project-item to-animate" onClick=trackProductClick({{ .trackingCode }})>
                     <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
                     <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
                     <div class="fh5co-text">
@@ -58,3 +61,12 @@
         </div>
     </div>
 </section>
+<script>
+    function trackProductClick(label) {
+        gtag('event', 'clicked', {
+            'event_category': 'web',
+            'event_label': label,
+            'value': 1
+        })
+    }
+</script>

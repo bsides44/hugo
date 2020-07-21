@@ -1,3 +1,6 @@
+<script>
+	gtag('config', 'UA-173142204-1', { 'page_path': '/work' })
+</script>
 <section id="fh5co-work" data-section="work">
 	<div class="container">
 		<div class="row">
@@ -13,7 +16,7 @@
 		<div class="row row-bottom-padded-sm">
 			{{ range .Site.Params.work.row }}
 			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{ .url}}" target="_blank" rel="noopener noreferrer" class="fh5co-project-item to-animate">
+				<a href="{{ .url}}" target="_blank" rel="noopener noreferrer" class="fh5co-project-item to-animate" onClick=trackClientClick({{ .trackingCode }})>
 					<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
 					<div class="fh5co-text">
 						<h2>{{ .title }}</h2>
@@ -39,3 +42,12 @@
 		</div>
 	</div>
 </section>
+<script>
+	function trackClientClick(label) {
+		gtag('event', 'clicked', {
+			'event_category': 'work',
+			'event_label': label,
+			'value': 1
+		})
+	}
+</script>

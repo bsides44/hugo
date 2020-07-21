@@ -1,27 +1,30 @@
-	<section id="fh5co-contact" data-section="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</h3>
-						</div>
+<script>
+	gtag('config', 'UA-173142204-1', { 'page_path': '/contact' })
+</script>
+<section id="fh5co-contact" data-section="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="to-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+						<h3>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</h3>
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-6 to-animate">
-					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
-					<ul class="fh5co-contact-info">
+		</div>
+		<div class="row row-bottom-padded-md">
+			<div class="col-md-6 to-animate">
+				<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
+				<ul class="fh5co-contact-info">
 					{{ range .Site.Params.contact.details }}
-						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
+					<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
 					{{ end }}
-					</ul>
-				</div>
-				{{ if .Site.Params.contact.form }}
-				<div class="col-md-6 to-animate">
-					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+				</ul>
+			</div>
+			{{ if .Site.Params.contact.form }}
+			<div class="col-md-6 to-animate">
+				<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
@@ -47,14 +50,23 @@
 						{{ end }}
 					</div>
 					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
+						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit" onClick=trackFormClick()>
 					</div>
-					</form>
-				</div>
-				{{ end }}
+				</form>
 			</div>
+			{{ end }}
 		</div>
-		{{ if .Site.Params.contact.map }}
-        	<div id="map" class="to-animate"></div>
-		{{ end }}
-	</section>
+	</div>
+	{{ if .Site.Params.contact.map }}
+	<div id="map" class="to-animate"></div>
+	{{ end }}
+</section>
+<script>
+	function trackFormClick() {
+		gtag('event', 'clicked', {
+			'event_category': 'contact',
+			'event_label': 'form',
+			'value': 1
+		})
+	}
+</script>

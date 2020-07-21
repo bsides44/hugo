@@ -3,6 +3,7 @@ baseurl = "http://maddyking44.com"
 title = "Maddy King - Digital Business Success"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+googleAnalytics = "UA-173142204-1"
 
 [params]
   
@@ -60,6 +61,7 @@ theme = "hugo-elate-theme"
     button = "Enhance my brand"
     icon = "icon-people"
     img = "clients/img_7.jpg"
+    trackingCode = "social"
 
   [[params.intro.item]]
     title = "Improve my website"
@@ -68,6 +70,7 @@ theme = "hugo-elate-theme"
     button = "Strengthen my site"
     icon = "icon-energy"
     img = "clients/img_8.jpg"
+    trackingCode = "web"
 
   [[params.intro.item]]
     title = "Amplify my business"
@@ -76,6 +79,7 @@ theme = "hugo-elate-theme"
     button = "Learn more"
     icon = "icon-fire"
     img = "clients/img_10.jpg"
+    trackingCode = "business"
 
   [params.intro.quote]
     enable=true
@@ -106,6 +110,7 @@ theme = "hugo-elate-theme"
       title = "Social Media Strategy workshop"
       subtitle = "Save money in the long run by working with me to build a winning social media strategy. We'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
       cost = "$250"
+      trackingCode = "strategy-workshop"
 
     [[params.products.rowOne]]
       img = "adstraining.jpg"
@@ -114,6 +119,7 @@ theme = "hugo-elate-theme"
       title = "Digital Marketing Training"
       subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
       cost = "$750"
+      trackingCode = "full-training"
 
     [[params.products.rowOne]]
       img = "googleadwords.jpg"
@@ -122,6 +128,7 @@ theme = "hugo-elate-theme"
       title = "Digital Ads Training"
       subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. We'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
       cost = "$500"
+      trackingCode = "ads-training"
 
     [[params.products.rowTwo]]
       img = "webpage.jpg"
@@ -130,6 +137,7 @@ theme = "hugo-elate-theme"
       title = "Google Analytics Tool"
       subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
       cost = "Free"
+      trackingCode = "analytics-tool"
 
     [[params.products.rowTwo]]
       img = "facebookadvertising.jpg"
@@ -138,6 +146,7 @@ theme = "hugo-elate-theme"
       title = "Google Analytics insights"
       subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to grow your business."
       cost = "$250"
+      trackingCode = "analytics-insights-workshop"
 
     [[params.products.rowTwo]]
       img = "socialmediaworkshop.jpg"
@@ -146,6 +155,7 @@ theme = "hugo-elate-theme"
       title = "Set up Social Channels"
       subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
       cost = "$450"
+      trackingCode = "set-up-channels"
 
   # Testimonials section
   [params.testimonials]
@@ -187,6 +197,7 @@ theme = "hugo-elate-theme"
       title = "One Page Website"
       subtitle = "A stunning website that speaks directly to your customer and drives them to buy. Built with SEO to improve your chances on Google. Comes with Google Analytics installed so you can constantly improve your results. I'll also show you a simple way to update your site yourself, so you're in charge."
       cost = "$1000"
+      trackingCode = "one-page-website"
 
     [[params.productsweb.rowOne]]
       img = "analyticstool.jpg"
@@ -195,6 +206,7 @@ theme = "hugo-elate-theme"
       title = "Digital Project Manager"
       subtitle = "Got a digital project that feels difficult and complicated? I can come in, help you determine a functional, cost-effective solution, and liaise with your developers to ensure you're getting value for money. I'll help set up your systems and give you clear, straightforward explanations of technical decisions, so you end up with a project you're proud of."
       cost = "Project specific"
+      trackingCode = "project-manager"
 
     [[params.productsweb.rowOne]]
       img = "website.jpg"
@@ -203,6 +215,7 @@ theme = "hugo-elate-theme"
       title = "Product Direction"
       subtitle = "Feel like your product isn't quite living up to its potential? By understanding your customers, your value proposition and your business model, I can help you make product decisions that generate revenue and grow your user base of happy, vocal clients."
       cost = "Project specific"
+      trackingCode = "product-direction"
 
   # Services section
   [params.services]
@@ -290,6 +303,7 @@ theme = "hugo-elate-theme"
       title = "LALATAT"
       subtitle = "Marketing Training"
       style = "object-fit: fill"
+      trackingCode = "lalatat"
 
     [[params.work.row]]
       img = "clients/realness.png"
@@ -297,6 +311,7 @@ theme = "hugo-elate-theme"
       url= "https://therealness.world"
       title = "The Realness"
       subtitle = "Product Management"
+      trackingCode = "the-realness"
 
     [[params.work.row]]
       img = "clients/swayable.jpg"
@@ -304,6 +319,7 @@ theme = "hugo-elate-theme"
       url= "https://swayable.com"
       title = "Swayable"
       subtitle = "Web Development"
+      trackingCode = "swayable"
 
     [[params.work.row]]
       img = "clients/bamboocreative.svg"
@@ -312,6 +328,7 @@ theme = "hugo-elate-theme"
       title = "Bamboo Creative"
       subtitle = "Web Development"
       style = "object-fit: contain"
+      trackingCode = "bamboo"
 
     [[params.work.row]]
       img = "clients/don_eda.jpg"
@@ -319,6 +336,7 @@ theme = "hugo-elate-theme"
       url= "https://devacademy.co.nz/"
       title = "Enspiral Dev Academy"
       subtitle = "Marketing Management"
+      trackingCode = "dev-academy"
 
     [[params.work.row]]
       img = "clients/beyondviolence.jpg"
@@ -327,6 +345,7 @@ theme = "hugo-elate-theme"
       title = "Beyond Violence"
       subtitle = "Project Management"
       style = "object-fit: contain"
+      trackingCode = "beyond-violence"
 
 # Casestudy section
   [params.casestudy]

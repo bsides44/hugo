@@ -1,3 +1,6 @@
+<script>
+	gtag('config', 'UA-173142204-1', { 'page_path': '/intro' })
+</script>
 <section id="fh5co-intro">
 	<div class="container">
 		<div class="row blocks">
@@ -10,7 +13,7 @@
 					<h2>{{ .title }}</h2>
 					<p class="intro-box-description">{{ .description }}</p>
 					{{ if .button}}
-					<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+					<p><a href="{{ .url }}" class="btn btn-primary" onClick=trackSocialClick({{ .trackingCode }})>{{ .button}}</a></p>
 					{{ end }}
 				</div>
 			</div>
@@ -45,3 +48,12 @@
 	</div>
 	{{ end }}
 </section>
+<script>
+	function trackSocialClick(label) {
+		gtag('event', 'clicked', {
+			'event_category': 'intro',
+			'event_label': label,
+			'value': 1
+		})
+	}
+</script>
