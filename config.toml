@@ -11,7 +11,7 @@ googleAnalytics = "UA-173142204-1"
 
   # Meta
   author = "Maddy King"
-  description = "Digital Business Success Strategy"
+  description = "Improve your website. Boost your social media. Use data to refine your product and generate more sales. Maddy King offers support with all things digital business."
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -105,7 +105,7 @@ googleAnalytics = "UA-173142204-1"
 
     [[params.products.rowOne]]
       img = "marketingmanager.jpg"
-      alt = "Social media marketing workshop"
+      alt = "Social media marketing workshop nz"
       icon="icon-magnifier"
       title = "Social Media Strategy workshop"
       subtitle = "Save money in the long run by working with me to build a winning social media strategy. We'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
@@ -114,7 +114,7 @@ googleAnalytics = "UA-173142204-1"
 
     [[params.products.rowOne]]
       img = "adstraining.jpg"
-      alt = "Google ads training"
+      alt = "Google ads training nz"
       icon = "icon-speedometer"
       title = "Digital Marketing Training"
       subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
@@ -123,7 +123,7 @@ googleAnalytics = "UA-173142204-1"
 
     [[params.products.rowOne]]
       img = "googleadwords.jpg"
-      alt = "Digital Ads Training"
+      alt = "Digital Ads Training New Zealand"
       icon="icon-magnifier"
       title = "Digital Ads Training"
       subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. We'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
@@ -167,19 +167,19 @@ googleAnalytics = "UA-173142204-1"
       quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features.&rdquo;"
       person = 'Josh Gunn, Tech Lead - <a href="https://swayable.com" target="_blank" rel="noopener noreferrer">Swayable</a>'
       img = "clients/josh.jpg"
-      alt = "Digital marketing coach"
+      alt = "Digital marketing coach Wellington"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Maddy was the bridge between us and the developers - us and a world we did not understand. Working with her has been a dream. She exceeded my expectations, which was delightful, because many had underdelivered before. Her work ethic was unquestionable and I always felt like she went above and beyond for us. She is straight up, efficient and conscientious, and best of all she’s a problem solver not a problem moaner. I'd recommend Maddy to anyone who needs a project manager, an all-rounder, a brainstormer, a development advisor, a developer, an everything-er.&rdquo;"
       person = 'Damaris Coulter, CEO - <a href="https://therealness.world/" target="_blank" rel="noopener noreferrer">The Realness</a> <span class="subtext"></span>'
       img = "clients/damaris.jpg"
-      alt = "Small business support"
+      alt = "Small business support Wellington"
 
     [[params.testimonials.item]]
       quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees.&rdquo;"
       person = 'Rohan Jarvis, Director - <a href="https://lalatat.com/" target="_blank"  rel="noopener noreferrer">LALATAT</a> <span class="subtext"></span>'
       img = "clients/rohan.jpg"
-      alt = "Business advice"
+      alt = "Business advice Wellington"
 
 # Web Products section
   [params.productsweb]
@@ -192,7 +192,7 @@ googleAnalytics = "UA-173142204-1"
 
     [[params.productsweb.rowOne]]
       img = "instagramads.jpg"
-      alt = "one page website"
+      alt = "one page website new zealand"
       icon="icon-magnifier"
       title = "One Page Website"
       subtitle = "A stunning website that speaks directly to your customer and drives them to buy. Built with SEO to improve your chances on Google. Comes with Google Analytics installed so you can constantly improve your results. I'll also show you a simple way to update your site yourself, so you're in charge."
