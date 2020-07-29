@@ -48,7 +48,7 @@ googleAnalytics = "UA-173142204-1"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = 'Digital Business Success'
+    subtitle = 'Marketing + Development'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
@@ -131,16 +131,7 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "ads-training"
 
     [[params.products.rowTwo]]
-      img = "webpage.jpg"
-      alt = "Google Analytics free tool"
-      icon="icon-magnifier"
-      title = "Google Analytics Tool"
-      subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
-      cost = "Free"
-      trackingCode = "analytics-tool"
-
-    [[params.products.rowTwo]]
-      img = "facebookadvertising.jpg"
+      img = "smallbusiness.jpg"
       alt = "Google Analytics Insights"
       icon="icon-magnifier"
       title = "Google Analytics insights"
@@ -149,13 +140,22 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "analytics-insights-workshop"
 
     [[params.products.rowTwo]]
-      img = "socialmediaworkshop.jpg"
+      img = "webnz.jpg"
       alt = "Set up social media channels"
       icon="icon-magnifier"
       title = "Set up Social Channels"
       subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
       cost = "$450"
       trackingCode = "set-up-channels"
+
+    [[params.products.rowTwo]]
+      img = "websitewellington.jpg"
+      alt = "Google Analytics free tool"
+      icon="icon-magnifier"
+      title = "Google Analytics Tool"
+      subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
+      cost = "Free"
+      trackingCode = "analytics-tool"
 
   # Testimonials section
   [params.testimonials]
@@ -191,7 +191,7 @@ googleAnalytics = "UA-173142204-1"
     button = "Get in touch now"
 
     [[params.productsweb.rowOne]]
-      img = "instagramads.jpg"
+      img = "facebookadvertising.jpg"
       alt = "one page website new zealand"
       icon="icon-magnifier"
       title = "One Page Website"
@@ -200,7 +200,7 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "one-page-website"
 
     [[params.productsweb.rowOne]]
-      img = "analyticstool.jpg"
+      img = "webdevelopment.jpg"
       alt = "digital project manager"
       icon = "icon-speedometer"
       title = "Digital Project Manager"
@@ -209,11 +209,20 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "project-manager"
 
     [[params.productsweb.rowOne]]
-      img = "website.jpg"
+      img = "improvewebapp.jpg"
       alt = "Product support"
       icon="icon-magnifier"
       title = "Product Direction"
       subtitle = "Feel like your product isn't quite living up to its potential? By understanding your customers, your value proposition and your business model, I can help you make product decisions that generate revenue and grow your user base of happy, vocal clients."
+      cost = "Project specific"
+      trackingCode = "product-direction"
+
+    [[params.productsweb.rowTwo]]
+      img = "analyticstool.jpg"
+      alt = "Web development"
+      icon="icon-magnifier"
+      title = "Web Development"
+      subtitle = "Building or improving your web application. As a full stack web developer across a range of technologies I can craft a product or platform for you that is easy, cost-effective and intuitive for the user."
       cost = "Project specific"
       trackingCode = "product-direction"
 

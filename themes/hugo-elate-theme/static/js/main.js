@@ -132,13 +132,20 @@
 			var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
 
+			var whiteImg = $('#white');
+			var blackImg = $('#black');
+
 			if (scrlTop > 500 && scrlTop <= 2000) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+				whiteImg.removeClass('visible').addClass('hidden')
+				blackImg.removeClass('hidden').addClass('visible')
 			} else if (scrlTop <= 500) {
 				if (header.hasClass('navbar-fixed-top')) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function () {
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+						whiteImg.removeClass('hidden').addClass('visible')
+						blackImg.removeClass('visible').addClass('hidden')
 					}, 100);
 				}
 			}
