@@ -1444,6 +1444,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-btn {
   text-transform: none !important;
+  padding: 10px !important;
+  margin-top: 5px;
 }
 @media screen and (max-width: 766px) {
   .nav-btn {
