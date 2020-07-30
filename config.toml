@@ -11,7 +11,7 @@ googleAnalytics = "UA-173142204-1"
 
   # Meta
   author = "Maddy King"
-  description = "Improve your website. Boost your social media. Use data to refine your product and generate more sales. Maddy King offers support with all things digital business."
+  description = "Improve your website. Boost your social media. Use data to refine your product and generate sales. Maddy King offers support with all things digital business."
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
