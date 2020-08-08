@@ -300,7 +300,7 @@ googleAnalytics = "UA-173142204-1"
     [[params.about.item]]
       name = "Technical skills"
       position = "Sometimes you need someone who speaks tech"
-      description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced coder, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your developers."
+      description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced web developer, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your development team."
       icon= "icon-speedometer"
       img = "MaddyKingDigital.jpg"
       alt = "Digital project manager"
