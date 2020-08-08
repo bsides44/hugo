@@ -20,12 +20,12 @@
 
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
 
-                    {{ if .Site.Params.products.enable }}
-                    <li><a href="#" data-nav-section="products"><span>{{ with .Site.Params.navigation.products }}{{ . | markdownify }}{{ end }}</span></a></li>
-                    {{ end }}
-
                     {{ if .Site.Params.productsweb.enable }}
                     <li><a href="#" data-nav-section="productsweb"><span>{{ with .Site.Params.navigation.productsweb }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
+
+                    {{ if .Site.Params.products.enable }}
+                    <li><a href="#" data-nav-section="products"><span>{{ with .Site.Params.navigation.products }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
                     <!-- {{ if .Site.Params.testimonials.enable }}

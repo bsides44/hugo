@@ -16,15 +16,31 @@
         <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.products.rowOne }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
-                <a href="#fh5co-contact" class="fh5co-project-item to-animate" onClick=trackProductClick({{ .trackingCode }})>
-                    <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
+                <div class="fh5co-project-item to-animate">
+                    <a href="#fh5co-contact" onClick=trackProductClick({{ .trackingCode }})>
+                        <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}"></a>
                     <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
                     <div class="fh5co-text">
                         <h2>{{ .title }}</h2>
                         <span>{{ .subtitle }}</span><br />
-                        <span><strong>Cost: </strong>{{ .cost }}</span>
+                        <button type="button" class="inv-btn" onClick=toggleMore({{ .id }})>
+                            <span class="more">More...</span>
+                        </button><br />
+                        <div id="more-{{.id}}" class="hidden" style="padding-top: 5px">
+                            <span><strong>Outcomes: </strong></span>
+                            <span>
+                                <ul>
+                                    {{ range .outcomes }}
+                                    <li>
+                                        {{ index . }}
+                                    </li>
+                                    {{ end }}
+                                </ul>
+                            </span>
+                            <span><strong>Cost: </strong>{{ .cost }}</span>
+                        </div>
                     </div>
-                </a>
+                </div>
             </div>
 
             <div class="clearfix visible-sm-block"></div>
@@ -33,15 +49,31 @@
         <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.products.rowTwo }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
-                <a href="#fh5co-contact" class="fh5co-project-item to-animate" onClick=trackProductClick({{ .trackingCode }})>
-                    <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}">
+                <div class="fh5co-project-item to-animate">
+                    <a href="#fh5co-contact" onClick=trackProductClick({{ .trackingCode }})>
+                        <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}"></a>
                     <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
                     <div class="fh5co-text">
                         <h2>{{ .title }}</h2>
                         <span>{{ .subtitle }}</span><br />
-                        <span><strong>Cost: </strong>{{ .cost }}</span>
+                        <button type="button" class="inv-btn" onClick=toggleMore({{ .id }})>
+                            <span class="more">More...</span>
+                        </button><br />
+                        <div id="more-{{.id}}" class="hidden" style="padding-top: 5px">
+                            <span><strong>Outcomes: </strong></span>
+                            <span>
+                                <ul>
+                                    {{ range .outcomes }}
+                                    <li>
+                                        {{ index . }}
+                                    </li>
+                                    {{ end }}
+                                </ul>
+                            </span>
+                            <span><strong>Cost: </strong>{{ .cost }}</span>
+                        </div>
                     </div>
-                </a>
+                </div>
             </div>
 
             <div class="clearfix visible-sm-block"></div>
@@ -68,5 +100,9 @@
             'event_label': label,
             'value': 1
         })
+    }
+    function toggleMore(id) {
+        const more = document.getElementById(`more-${id}`)
+        more.classList.value === 'hidden' ? more.classList.remove('hidden') : more.classList.add('hidden')
     }
 </script>

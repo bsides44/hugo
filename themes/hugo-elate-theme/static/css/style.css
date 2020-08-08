@@ -199,6 +199,32 @@ h1, h2, h3, h4, h5, h6 {
   transform: skewY(1.5deg);
   transform-origin: 0 0;
 }
+.inv-btn{
+  background-color: unset;
+  border: none;
+  color: unset;
+  padding: 0;
+  outline: none
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.subtitle::after{
+  content: "  |"
+}
+@media screen and (max-width: 480px) {
+  .flex-row{
+    flex-direction: column;
+  }
+  .subtitle{
+    line-height: 10px;
+  }
+  .subtitle::after{
+    content: "•"
+  }
+}
 
 #fh5co-header {
   position: absolute;
@@ -568,6 +594,11 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .intro-box-description {
   height: 48px;
 }
+.introImg {
+  width: 22%;
+  border-radius: 50%;
+  margin-top: 50px
+}
 @media screen and (max-width: 991px) {
   #fh5co-intro .intro-box-description {
     min-height: 72px;
@@ -720,7 +751,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 85%;
   color: #52d3aa;
   position: relative;
-  top: 90px;
+  top: 60px;
   font-weight: 100;
   letter-spacing: 1.2px;
   font-size: 30px;
@@ -1078,6 +1109,13 @@ h1, h2, h3, h4, h5, h6 {
 .products-btn {
   color: rgba(255,255,255,1) !important;
 }
+.more {
+  border-bottom: 2px solid #cccbcb;
+  line-height: 1;
+}
+.more:hover {
+  border-bottom: 2px solid currentColor;
+}
 #fh5co-products .icon, #fh5co-productsweb .icon {
   display: flex;
   flex-direction: row;
@@ -1149,7 +1187,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-products .fh5co-project-item .fh5co-text, #fh5co-productsweb .fh5co-project-item .fh5co-text {
-  padding: 10px 20px;
+  padding: 10px 20px 20px;
 }
 #fh5co-products .fh5co-project-item .fh5co-text h2, #fh5co-products .fh5co-project-item .fh5co-text span, #fh5co-productsweb .fh5co-project-item .fh5co-text h2, #fh5co-productsweb .fh5co-project-item .fh5co-text span {
   text-decoration: none !important;
@@ -1326,6 +1364,24 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+.fh5co-person figure {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px solid #f2f2f2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #3f95ea;
+}
+.fh5co-person figure .icon {
+  position: relative;
+  top: 20px;
+  font-size: 70px;
+  color: white;
+
 }
 .fh5co-person h3 {
   margin-bottom: 0px;

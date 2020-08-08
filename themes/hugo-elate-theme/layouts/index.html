@@ -16,16 +16,16 @@
 
 	{{ partial "intro.html" .}}
 
-	{{ if .Site.Params.products.enable }}
-	{{ partial "products.html" .}}
+	{{ if .Site.Params.productsweb.enable }}
+	{{ partial "productsweb.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.testimonials.enable }}
 	{{ partial "testimonials.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.productsweb.enable }}
-	{{ partial "productsweb.html" .}}
+	{{ if .Site.Params.products.enable }}
+	{{ partial "products.html" .}}
 	{{ end }}
 
 

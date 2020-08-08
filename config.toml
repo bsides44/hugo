@@ -6,8 +6,6 @@ theme = "hugo-elate-theme"
 googleAnalytics = "UA-173142204-1"
 
 [params]
-  
-  custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
   author = "Maddy King"
@@ -48,7 +46,7 @@ googleAnalytics = "UA-173142204-1"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = 'Marketing + Development'
+    subtitle = ['Marketing','Development','Product']
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
@@ -85,6 +83,7 @@ googleAnalytics = "UA-173142204-1"
     enable=true
     text="&ldquo;Maddy helped our business by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
     name="Damaris Coulter, CEO"
+    img = "MaddyKingDigital.jpg"
 
   [params.intro.video]
     enable = false 
@@ -108,7 +107,9 @@ googleAnalytics = "UA-173142204-1"
       alt = "Social media marketing workshop nz"
       icon="icon-magnifier"
       title = "Social Media Strategy workshop"
-      subtitle = "Save money in the long run by working with me to build a winning social media strategy. We'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
+      subtitle = "Save money in the long run by working with me to build a winning social media strategy. Together we'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
+      id = "socialMedia"
+      outcomes = ["2.5 hours", "One-on-one workshop", "Set up the social media direction for your brand to follow", "Define your value proposition", "Target market", "Channel selection", "Engagement strategies"]
       cost = "$250"
       trackingCode = "strategy-workshop"
 
@@ -118,7 +119,9 @@ googleAnalytics = "UA-173142204-1"
       icon = "icon-speedometer"
       title = "Digital Marketing Training"
       subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
-      cost = "$750"
+      id= "googleAds"
+      outcomes = ["5 x 1 hour sessions", "Online or in-person", "Develop and iterate a marketing strategy like an expert", "Pipeline & customer definition", "Competitors & channel selection", "Brand & engagement strategies", "Design & Implementation", "Strategy & Results"]
+      cost = "$500"
       trackingCode = "full-training"
 
     [[params.products.rowOne]]
@@ -126,8 +129,10 @@ googleAnalytics = "UA-173142204-1"
       alt = "Digital Ads Training New Zealand"
       icon="icon-magnifier"
       title = "Digital Ads Training"
-      subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. We'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
-      cost = "$500"
+      subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. Together we'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
+      id= "digitalAds"
+      outcomes = ["3 x 1 hour sessions", "In person or online", "Gain confidence running your social media accounts", "Ad set up", "Audience definition", "Best practice tips", "Measuring results"]
+      cost = "$300"
       trackingCode = "ads-training"
 
     [[params.products.rowTwo]]
@@ -135,7 +140,9 @@ googleAnalytics = "UA-173142204-1"
       alt = "Google Analytics Insights"
       icon="icon-magnifier"
       title = "Google Analytics insights"
-      subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to grow your business."
+      subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to improve your web presence to grow your business."
+      id= "googleInsights"
+      outcomes = ["2 x 1 hour analyses", "Understand user behaviour", "Identify drop off pages", "Recommendations for increasing visitors", "Recommendations for improving user retention", "Analysing improvements over time"]
       cost = "$250"
       trackingCode = "analytics-insights-workshop"
 
@@ -145,7 +152,9 @@ googleAnalytics = "UA-173142204-1"
       icon="icon-magnifier"
       title = "Set up Social Channels"
       subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
-      cost = "$450"
+      id= "social"
+      outcomes = ["3.5 hours", "Audiences set up", "Ads built and deployed", "Up to 3 channels", "Facebook & Instagram ads", "Google Adwords", "Twitter"]
+      cost = "$350"
       trackingCode = "set-up-channels"
 
     [[params.products.rowTwo]]
@@ -154,6 +163,8 @@ googleAnalytics = "UA-173142204-1"
       icon="icon-magnifier"
       title = "Google Analytics Tool"
       subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
+      id= "analyticsTool"
+      outcomes = ["Online tool", "Input your analytics data", "Gain insights and advice"]
       cost = "Free"
       trackingCode = "analytics-tool"
 
@@ -239,16 +250,16 @@ googleAnalytics = "UA-173142204-1"
 
     [[params.services.item]]
       title = "Product Development"
-      description = "We can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
+      description = "Together, we can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
       icon = "icon-pencil"
     [[params.services.item]]
       title = "Digital Enablement"
-      description = "Your messaging to the world comes through your digital portals. We can identify barriers and streamline your digital presence to generate sales."
+      description = "Your messaging to the world comes through your digital portals. Together we can identify barriers and streamline your digital presence to generate sales."
       icon = "icon-share"
 
       [[params.services.item]]
       title = "Marketing Strategy"
-      description = "A deep understanding of the product and market means we can put your business in front of the people that matter, efficiently and effectively reaching your customers."      
+      description = "A deep understanding of the product and market means that together we can put your business in front of the people that matter, efficiently and effectively reaching your customers."      
       icon = "icon-bubble"
 
   # About section
@@ -263,9 +274,10 @@ googleAnalytics = "UA-173142204-1"
       name = "Communication"
       position = "Understanding your customer"
       description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks directly to their core experiences."
-      img = "MaddyKing_WebSocialMedia.jpg"
+      icon= "icon-bubbles"
+      img = "maddyKing_web.jpg"
       alt = "Maddy King communications expert"
-      style="object-position: -7px 0" 
+      style="object-position: -10px px" 
       social = [
         ["icon-cup"],
         ["icon-bubbles"],
@@ -276,6 +288,7 @@ googleAnalytics = "UA-173142204-1"
       name = "Business Insights"
       position = "How do we make this sustainable?"
       description = "Today's digital tools allow us to get under the skin of your product and see how and why people are interacting with it in the way they are. It gives us scope to improve the things that are working, and remove the barriers that aren't. I'm passionate about data-driven decisionmaking, and can use it to help you save money while generating better results."
+      icon= "icon-graph"
       img = "maddyKing_1.jpg"
       alt = "Maddy King business insights for entrepreneurs"
       social = [
@@ -288,6 +301,7 @@ googleAnalytics = "UA-173142204-1"
       name = "Technical skills"
       position = "Sometimes you need someone who speaks tech"
       description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced coder, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your developers."
+      icon= "icon-speedometer"
       img = "MaddyKingDigital.jpg"
       alt = "Digital project manager"
       social = [
@@ -300,7 +314,7 @@ googleAnalytics = "UA-173142204-1"
   [params.work]
     enable = true
     title = "Previous Work"
-    description = "We've supercharged these projects through a range of services"
+    description = "I've supercharged these projects through a range of services"
     footertext = ''
     url = "#fh5co-contact"
     button = "Book now"
