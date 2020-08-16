@@ -48,13 +48,19 @@
         </div>
         <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.products.rowTwo }}
-            <div class="col-md-4 col-sm-6 col-xxs-12">
+            <div class="col-md-4 col-sm-6 col-xxs-12" id="freeAnalyticsTool">
                 <div class="fh5co-project-item to-animate">
-                    <a href="#fh5co-contact" onClick=trackProductClick({{ .trackingCode }})>
+                    <a href="{{ .url }}" onClick=trackProductClick({{ .trackingCode }})>
                         <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}"></a>
                     <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
                     <div class="fh5co-text">
+                        {{ if eq .url "https://analytics.maddyking44.com/" }}
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" onClick=trackProductClick({{ .trackingCode }}>
+                            <h2 class="showLink">{{ .title }}</h2>
+                        </a>
+                        {{ else }}
                         <h2>{{ .title }}</h2>
+                        {{ end }}
                         <span>{{ .subtitle }}</span><br />
                         <button type="button" class="inv-btn" onClick=toggleMore({{ .id }})>
                             <span class="more">More...</span>
@@ -71,6 +77,11 @@
                                 </ul>
                             </span>
                             <span><strong>Cost: </strong>{{ .cost }}</span>
+                            {{ if eq .url "https://analytics.maddyking44.com/" }}
+                            <br /><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" onClick=trackProductClick({{ .trackingCode }}>
+                                <span class="showLink"><strong style="margin-right: 3px">Try it now</strong>
+                                    <i class="tryIcon icon icon-arrow-right-circle"></i></span></a>
+                            {{ end }}
                         </div>
                     </div>
                 </div>

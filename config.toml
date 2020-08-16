@@ -112,6 +112,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["2.5 hours", "One-on-one workshop", "Set up the social media direction for your brand to follow", "Define your value proposition", "Target market", "Channel selection", "Engagement strategies"]
       cost = "$250"
       trackingCode = "strategy-workshop"
+      url= "#fh5co-contact"
 
     [[params.products.rowOne]]
       img = "adstraining.jpg"
@@ -123,6 +124,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["5 x 1 hour sessions", "Online or in-person", "Develop and iterate a marketing strategy like an expert", "Pipeline & customer definition", "Competitors & channel selection", "Brand & engagement strategies", "Design & Implementation", "Strategy & Results"]
       cost = "$500"
       trackingCode = "full-training"
+      url= "#fh5co-contact"
 
     [[params.products.rowOne]]
       img = "googleadwords.jpg"
@@ -134,6 +136,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["3 x 1 hour sessions", "In person or online", "Gain confidence running your social media accounts", "Ad set up", "Audience definition", "Best practice tips", "Measuring results"]
       cost = "$300"
       trackingCode = "ads-training"
+      url= "#fh5co-contact"
 
     [[params.products.rowTwo]]
       img = "smallbusiness.jpg"
@@ -145,6 +148,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["2 x 1 hour analyses", "Understand user behaviour", "Identify drop off pages", "Recommendations for increasing visitors", "Recommendations for improving user retention", "Analysing improvements over time"]
       cost = "$250"
       trackingCode = "analytics-insights-workshop"
+      url= "#fh5co-contact"
 
     [[params.products.rowTwo]]
       img = "webnz.jpg"
@@ -156,6 +160,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["3.5 hours", "Audiences set up", "Ads built and deployed", "Up to 3 channels", "Facebook & Instagram ads", "Google Adwords", "Twitter"]
       cost = "$350"
       trackingCode = "set-up-channels"
+      url= "#fh5co-contact"
 
     [[params.products.rowTwo]]
       img = "websitewellington.jpg"
@@ -167,6 +172,7 @@ googleAnalytics = "UA-173142204-1"
       outcomes = ["Online tool", "Input your analytics data", "Gain insights and advice"]
       cost = "Free"
       trackingCode = "analytics-tool"
+      url= "https://analytics.maddyking44.com/"
 
   # Testimonials section
   [params.testimonials]

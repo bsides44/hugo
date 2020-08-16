@@ -1099,10 +1099,29 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
 
+.showLink {
+  text-decoration: underline !important;
+}
+
+.showLink:hover{
+  color: #3f95ea !important
+}
+
+.showLink .icon {
+  font-size: 15px !important;
+  color: #b3b3b3 !important;
+  background-color: unset !important;
+  transform: rotate(-45deg);
+  display: inline-block !important;
+  padding: 0 !important;
+  font-weight: 600
+}
+
 #fh5co-products a, #fh5co-productsweb a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
+
 #fh5co-products a:hover, #fh5co-productsweb a:hover {
   color: white;
 }
