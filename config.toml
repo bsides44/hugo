@@ -204,7 +204,7 @@ googleAnalytics = "UA-173142204-1"
     title = "Website and App Support"
     description = "Presenting your brand proudly to the world and solving your digital challenges."
     footertext = ''
-    url = "#fh5co-testimonials"
+    url = "#fh5co-contact"
     button = "Get in touch now"
 
     [[params.productsweb.rowOne]]
