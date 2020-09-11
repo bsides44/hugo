@@ -13,7 +13,7 @@
 					<h2>{{ .title }}</h2>
 					<p class="intro-box-description">{{ .description }}</p>
 					{{ if .button}}
-					<p><a href="{{ .url }}" class="btn btn-primary" onClick=trackSocialClick({{ .trackingCode }})>{{ .button}}</a></p>
+					<p><a href="{{ .url }}" class="btn btn-primary nav-btn" onClick=trackSocialClick({{ .trackingCode }})>{{ .button}}</a></p>
 					{{ end }}
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 	</div>
 	<div class="container">
 		<div class="row col-12" style="text-align:center">
-			<img class="introImg" src="images/{{ .Site.Params.intro.quote.img }}" />
+			<img class="introImg to-animate" src="images/{{ .Site.Params.intro.quote.img }}" />
 		</div>
 		<div class="row">
 			<div class="col-12 quote text-left">
@@ -31,7 +31,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 quote to-animate">
-				<h4>-{{ .Site.Params.intro.quote.name | markdownify }}</h4>
+				<h4>-{{ .Site.Params.intro.quote.name | safeHTML}}</h4>
 			</div>
 		</div>
 	</div>

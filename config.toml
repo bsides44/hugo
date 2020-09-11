@@ -82,7 +82,7 @@ googleAnalytics = "UA-173142204-1"
   [params.intro.quote]
     enable=true
     text="&ldquo;Maddy helped our business by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
-    name="Damaris Coulter, CEO"
+    name="Damaris Coulter, CEO <a href='http://www.therealness.world' target='_blank' style='text-decoration: underline'>The Realness</a>"
     img = "MaddyKingDigital.jpg"
 
   [params.intro.video]
