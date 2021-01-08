@@ -85,6 +85,19 @@
 
 	};
 
+	// button transitions
+	// var buttonTransitions = function () {
+	// 	$('body').on('click', '.nav-btn', function (event) {
+	// 		console.log('nav-btn', event)
+	// 		console.log('nav-btn', event.target.baseURI)
+	// 		console.log('nav-btn', event.target.hash)
+	// 		console.log('nav-btn', event.target.href)
+
+
+
+	// 	})
+	// }
+
 	// Reflect scrolling in navigation
 	var navActive = function (section) {
 
@@ -543,6 +556,8 @@
 		clickMenu();
 
 		windowScroll();
+
+		// buttonTransitions();
 
 		navigationSection();
 

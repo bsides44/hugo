@@ -110,7 +110,7 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "Save money in the long run by working with me to build a winning social media strategy. Together we'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
       id = "socialMedia"
       outcomes = ["2.5 hours", "One-on-one workshop", "Set up the social media direction for your brand to follow", "Define your value proposition", "Target market", "Channel selection", "Engagement strategies"]
-      cost = "$250"
+      cost = "$500"
       trackingCode = "strategy-workshop"
       url= "#fh5co-contact"
 
@@ -122,7 +122,7 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
       id= "googleAds"
       outcomes = ["5 x 1 hour sessions", "Online or in-person", "Develop and iterate a marketing strategy like an expert", "Pipeline & customer definition", "Competitors & channel selection", "Brand & engagement strategies", "Design & Implementation", "Strategy & Results"]
-      cost = "$500"
+      cost = "$1000"
       trackingCode = "full-training"
       url= "#fh5co-contact"
 
@@ -134,7 +134,7 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. Together we'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
       id= "digitalAds"
       outcomes = ["3 x 1 hour sessions", "In person or online", "Gain confidence running your social media accounts", "Ad set up", "Audience definition", "Best practice tips", "Measuring results"]
-      cost = "$300"
+      cost = "$600"
       trackingCode = "ads-training"
       url= "#fh5co-contact"
 
@@ -146,7 +146,7 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to improve your web presence to grow your business."
       id= "googleInsights"
       outcomes = ["2 x 1 hour analyses", "Understand user behaviour", "Identify drop off pages", "Recommendations for increasing visitors", "Recommendations for improving user retention", "Analysing improvements over time"]
-      cost = "$250"
+      cost = "$500"
       trackingCode = "analytics-insights-workshop"
       url= "#fh5co-contact"
 
@@ -158,7 +158,7 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
       id= "social"
       outcomes = ["3.5 hours", "Audiences set up", "Ads built and deployed", "Up to 3 channels", "Facebook & Instagram ads", "Google Adwords", "Twitter"]
-      cost = "$350"
+      cost = "$700"
       trackingCode = "set-up-channels"
       url= "#fh5co-contact"
 
