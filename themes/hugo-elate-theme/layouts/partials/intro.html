@@ -20,36 +20,41 @@
 			{{ end }}
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" data-section="intro-about">
 		<div class="row col-12" style="text-align:center">
 			<img class="introImg to-animate" src="images/{{ .Site.Params.intro.quote.img }}" />
 		</div>
 		<div class="row">
 			<div class="col-12 quote text-left">
-				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text | markdownify }}</h3>
+				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text1 | markdownify }}</h3>
+				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text2 | markdownify }}</h3>
+				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text3 | markdownify }}</h3>
+				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text4 | markdownify }}</h3>
+				<h3 class="quote left-border to-animate">{{ .Site.Params.intro.quote.text5 | markdownify }}</h3>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 quote to-animate">
-				<h4>-{{ .Site.Params.intro.quote.name | safeHTML}}</h4>
+				<h4>{{ .Site.Params.intro.quote.name | safeHTML}}</h4>
 			</div>
 		</div>
-	</div>
-	{{ if .Site.Params.intro.video.enable }}
-	<div class="container">
-		<div class="row watch-video text-center to-animate">
-			<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
+</section>
+</div>
+{{ if .Site.Params.intro.video.enable }}
+<div class="container">
+	<div class="row watch-video text-center to-animate">
+		<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
 
-			<div class="watch-video-title">
-				<p style="font-size:30px">{{.Site.Params.intro.video.title | markdownify }}</p><br />
-				{{.Site.Params.intro.video.subheading | markdownify }}
-			</div>
-
-			<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
-
+		<div class="watch-video-title">
+			<p style="font-size:30px">{{.Site.Params.intro.video.title | markdownify }}</p><br />
+			{{.Site.Params.intro.video.subheading | markdownify }}
 		</div>
+
+		<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
+
 	</div>
-	{{ end }}
+</div>
+{{ end }}
 </section>
 <script>
 	function trackSocialClick(label) {

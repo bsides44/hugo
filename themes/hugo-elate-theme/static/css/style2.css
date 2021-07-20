@@ -942,6 +942,15 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
+#fh5co-products-icon {
+  font-size: 100px;
+  color: white;
+}
+
+.fh5co-products-icon-col {
+  margin-top:40px
+}
+
 .products-btn {
   color: rgba(255,255,255,1) !important;
 }

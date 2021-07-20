@@ -228,6 +228,34 @@
 		}
 	};
 
+	var introAboutAnimate = function () {
+		if ($('#fh5co-intro-about').length > 0) {
+
+			$('#fh5co-intro-about').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-intro-about .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInRight animated');
+							}, k * 200, 'easeInOutExpo');
+
+						});
+					}, 500);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
 	var quoteAnimate = function () {
 		if ($('#fh5co-quote').length > 0) {
 
@@ -567,6 +595,7 @@
 		// Animations
 		homeAnimate();
 		introAnimate();
+		introAboutAnimate();
 		quoteAnimate();
 		productsAnimate();
 		productswebAnimate();

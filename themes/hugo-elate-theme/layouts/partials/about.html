@@ -5,10 +5,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
+				<i style="font-size:80px" class="to-animate fh5co-about-icon {{ .Site.Params.about.icon }}"></i>
 				<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 subtext to-animate">
 						<h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 to-animate">
+						<h3 style="font-size:20px">-{{ .Site.Params.about.name | safeHTML}}</h3>
 					</div>
 				</div>
 			</div>

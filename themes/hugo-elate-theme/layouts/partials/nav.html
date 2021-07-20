@@ -20,6 +20,10 @@
 
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
 
+                    {{ if .Site.Params.intro.enable }}
+                    <li><a href="#" data-nav-section="intro-about"><span>{{ with .Site.Params.navigation.introAbout }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
+
                     {{ if .Site.Params.productsweb.enable }}
                     <li><a href="#" data-nav-section="productsweb"><span>{{ with .Site.Params.navigation.productsweb }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
@@ -36,9 +40,9 @@
                     <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
 
-                    {{ if .Site.Params.about.enable }}
+                    <!-- {{ if .Site.Params.about.enable }}
                     <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li>
-                    {{ end }}
+                    {{ end }} -->
 
                     {{ if .Site.Params.work.enable }}
                     <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>

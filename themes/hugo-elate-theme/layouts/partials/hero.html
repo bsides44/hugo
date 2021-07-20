@@ -15,9 +15,9 @@
 						<div class="flex-row">
 							{{ range .Site.Params.hero.subtitle }}
 							<h2 class="to-animate">{{ index . }}</h2>
-							{{ if (eq . "Marketing") }}
+							{{ if (eq . "Hack") }}
 							<h2 class="to-animate subtitle"></h2>
-							{{ else if (eq . "Development") }}
+							{{ else if (eq . "Experiment") }}
 							<h2 class="to-animate subtitle"></h2>
 							{{ end }}
 							{{ end}}

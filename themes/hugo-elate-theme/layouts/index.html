@@ -16,6 +16,10 @@
 
 	{{ partial "intro.html" .}}
 
+	{{ if .Site.Params.work.enable }}
+	{{ partial "work.html" .}}
+	{{ end }}
+
 	{{ if .Site.Params.productsweb.enable }}
 	{{ partial "productsweb.html" .}}
 	{{ end }}
@@ -35,10 +39,6 @@
 
 	{{ if .Site.Params.about.enable }}
 	{{ partial "about.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.work.enable }}
-	{{ partial "work.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.casestudy.enable }}

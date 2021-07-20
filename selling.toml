@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "http://maddyking44.com"
-title = "Maddy King in a world"
+title = "Maddy King - Digital Business Success"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 googleAnalytics = "UA-173142204-1"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-173142204-1"
 
   # Meta
   author = "Maddy King"
-  description = "Creative digital art and experimenting with different realities through 3D interactive web experiences, games and VR / AR / XR "
+  description = "Improve your website. Boost your social media. Use data to refine your product and generate sales. Maddy King offers support with all things digital business."
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -19,14 +19,12 @@ googleAnalytics = "UA-173142204-1"
   [params.navigation]
     icon = "icon-rocket"
     home = "Home"
-    introAbout = "About"
-    about = "Quote"
-    work = "Portfolio"
-    testimonials = "Testimonies"
-    products = "Playground"
+    products = "Social Media"
+    testimonials = "Testimonials"
     productsweb = "Web"
     services = "Services"
-
+    about = "About"
+    work = "Work"
     casestudy = "Casestudy"
     contact = "Contact"
 
@@ -48,48 +46,43 @@ googleAnalytics = "UA-173142204-1"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = ['Hack','Experiment','Create']
+    subtitle = ['Marketing','Development','Product']
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
   [params.intro]
-    enable=true
 
   [[params.intro.item]]
-    title = "Portfolio"
-    description = "A smattering of past projects"
-    url = "#fh5co-work"
-    button = "Show me"
+    title = "Boost my social media"
+    description = "Build your community of customers"
+    url = "#fh5co-products"
+    button = "Enhance my brand"
     icon = "icon-people"
     img = "clients/img_7.jpg"
     trackingCode = "social"
 
   [[params.intro.item]]
-    title = "Testimonies"
-    description = "Some nice words about my work"
-    url = "#fh5co-testimonials"
-    button = "Lovely"
-    icon = "icon-fire"
-    img = "clients/img_10.jpg"
-    trackingCode = "business"
-
-  [[params.intro.item]]
-    title = "Playground"
-    description = "Experiments in progress"
-    url = "#fh5co-products"
-    button = "Sounds weird"
+    title = "Improve my website"
+    description = "Get your brand in front of people who want to buy it"
+    url = "#fh5co-productsweb"
+    button = "Strengthen my site"
     icon = "icon-energy"
     img = "clients/img_8.jpg"
     trackingCode = "web"
 
+  [[params.intro.item]]
+    title = "Amplify my business"
+    description = "Get support to generate more sales for your business"
+    url = "#fh5co-testimonials"
+    button = "Learn more"
+    icon = "icon-fire"
+    img = "clients/img_10.jpg"
+    trackingCode = "business"
+
   [params.intro.quote]
     enable=true
-    text1="lecturer in VR and AR for creative expression (and to change the world)"
-    text2="Massey University, Wellington"
-    text3="make creative digital art and experiment with different realities"
-    text4="3D interactive web experiences, games, VR / AR / XR"
-    text5="very interested in using technology education to dismantle oppressive power structures"
-    name=""
+    text="&ldquo;Maddy helped our business by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
+    name="Damaris Coulter, CEO <a href='http://www.therealness.world' target='_blank' rel='noopener noreferrer' style='text-decoration: underline'>The Realness</a>"
     img = "MaddyKingDigital.jpg"
 
   [params.intro.video]
@@ -103,18 +96,89 @@ googleAnalytics = "UA-173142204-1"
 # Products section
   [params.products]
     enable = true
-    title = "My playground"
-    description = "The place where I experiment with new ideas and break things. Usually in the realm of AR (augmented reality), VR (virtual reality), WebXR (immersive worldbuilding online), three.js and other tools for creating immersive visual experiences."
+    title = "Social Media Support"
+    description = "Using digital tools to grab your customers' attention for less."
     footertext = ''
-    icon = "icon-wrench"
-    url = "https://bsides44.github.io"
-    button = "Take me there"
+    url = "#fh5co-testimonials"
+    button = "Hear from happy clients"
+
+    [[params.products.rowOne]]
+      img = "marketingmanager.jpg"
+      alt = "Social media marketing workshop nz"
+      icon="icon-magnifier"
+      title = "Social Media Strategy workshop"
+      subtitle = "Save money in the long run by working with me to build a winning social media strategy. Together we'll dive into your potential customers, figure out where to attract them online and make a plan to engage their interest and bring in those sales."
+      id = "socialMedia"
+      outcomes = ["2.5 hours", "One-on-one workshop", "Set up the social media direction for your brand to follow", "Define your value proposition", "Target market", "Channel selection", "Engagement strategies"]
+      cost = "$500"
+      trackingCode = "strategy-workshop"
+      url= "#fh5co-contact"
+
+    [[params.products.rowOne]]
+      img = "adstraining.jpg"
+      alt = "Google ads training nz"
+      icon = "icon-speedometer"
+      title = "Digital Marketing Training"
+      subtitle = "Learn more about how to establish your strategy yourself. Understand how to target your customer, inspire their curiosity and lead them to your product. You'll learn best practice tips, and how to use data analytics to track the results of your posts, see what's working and improve what isn't. This strategy means you won't waste money on work that isn't leading to sales."
+      id= "googleAds"
+      outcomes = ["5 x 1 hour sessions", "Online or in-person", "Develop and iterate a marketing strategy like an expert", "Pipeline & customer definition", "Competitors & channel selection", "Brand & engagement strategies", "Design & Implementation", "Strategy & Results"]
+      cost = "$1000"
+      trackingCode = "full-training"
+      url= "#fh5co-contact"
+
+    [[params.products.rowOne]]
+      img = "googleadwords.jpg"
+      alt = "Digital Ads Training New Zealand"
+      icon="icon-magnifier"
+      title = "Digital Ads Training"
+      subtitle = "Learn how to get the most out of your Instagram ads, Facebook ads and Google Adwords. Together we'll run through building audiences and setting up ads to generate the best results for the lowest cost, increasing your business reach, accessing more customers and making more sales."
+      id= "digitalAds"
+      outcomes = ["3 x 1 hour sessions", "In person or online", "Gain confidence running your social media accounts", "Ad set up", "Audience definition", "Best practice tips", "Measuring results"]
+      cost = "$600"
+      trackingCode = "ads-training"
+      url= "#fh5co-contact"
+
+    [[params.products.rowTwo]]
+      img = "smallbusiness.jpg"
+      alt = "Google Analytics Insights"
+      icon="icon-magnifier"
+      title = "Google Analytics insights"
+      subtitle = "Generating growth through data as a service. I'll analyse your Google Analytics to determine how to improve your web presence to grow your business."
+      id= "googleInsights"
+      outcomes = ["2 x 1 hour analyses", "Understand user behaviour", "Identify drop off pages", "Recommendations for increasing visitors", "Recommendations for improving user retention", "Analysing improvements over time"]
+      cost = "$500"
+      trackingCode = "analytics-insights-workshop"
+      url= "#fh5co-contact"
+
+    [[params.products.rowTwo]]
+      img = "webnz.jpg"
+      alt = "Set up social media channels"
+      icon="icon-magnifier"
+      title = "Set up Social Channels"
+      subtitle = "I can set up your social media accounts for you with recurring ads to present your brand to your customers and reach the right audiences."
+      id= "social"
+      outcomes = ["3.5 hours", "Audiences set up", "Ads built and deployed", "Up to 3 channels", "Facebook & Instagram ads", "Google Adwords", "Twitter"]
+      cost = "$700"
+      trackingCode = "set-up-channels"
+      url= "#fh5co-contact"
+
+    [[params.products.rowTwo]]
+      img = "websitewellington.jpg"
+      alt = "Google Analytics free tool"
+      icon="icon-magnifier"
+      title = "Google Analytics Tool"
+      subtitle = "A free tool to help you gain insights from your Google Analytics data. Learn more about your customers, reach more people with your digital advertising for less cost, and improve sales from your website."
+      id= "analyticsTool"
+      outcomes = ["Online tool", "Input your analytics data", "Gain insights and advice"]
+      cost = "Free"
+      trackingCode = "analytics-tool"
+      url= "https://analytics.maddyking44.com/"
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonies"
-    description = "People are wonderful."
+    title = "Testimonials"
+    description = "It's fun when we work together."
 
     [[params.testimonials.item]]
       quote = "&ldquo;Communication was easy and she was a pleasure to work with. We were particularly impressed by Maddy’s ability to transform loose specifications into production ready features.&rdquo;"
@@ -136,7 +200,7 @@ googleAnalytics = "UA-173142204-1"
 
 # Web Products section
   [params.productsweb]
-    enable = false
+    enable = true
     title = "Website and App Support"
     description = "Presenting your brand proudly to the world and solving your digital challenges."
     footertext = ''
@@ -207,20 +271,59 @@ googleAnalytics = "UA-173142204-1"
   # About section
   [params.about]
     enable = true
-    title = ""
-    icon= "icon-bulb"
-    description="&ldquo;Maddy helped us by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
-    name="Damaris Coulter, CEO <a href='http://www.therealness.world' target='_blank' rel='noopener noreferrer' style='text-decoration: underline'>The Realness</a>"
-    img = "MaddyKingDigital.jpg"
+    title = "About"
+    description = "I work fanatically to boost great business ideas using digital tools."
+    url = "#fh5co-contact"
+    button = "Get in touch now"
+
+    [[params.about.item]]
+      name = "Communication"
+      position = "Understanding your customer"
+      description = "With 10 years digital marketing experience, I can help you understand your ideal customers and the fundamental motivations leading them to your product. This insight allows us to carefully target segments of the market that are likely to buy your product, and craft messaging that speaks directly to their core experiences."
+      icon= "icon-bubbles"
+      img = "maddyKing_web.jpg"
+      alt = "Maddy King communications expert"
+      style="object-position: -10px px" 
+      social = [
+        ["icon-cup"],
+        ["icon-bubbles"],
+        ["icon-share"]
+      ]
+
+    [[params.about.item]]
+      name = "Business Insights"
+      position = "How do we make this sustainable?"
+      description = "Today's digital tools allow us to get under the skin of your product and see how and why people are interacting with it in the way they are. It gives us scope to improve the things that are working, and remove the barriers that aren't. I'm passionate about data-driven decisionmaking, and can use it to help you save money while generating better results."
+      icon= "icon-graph"
+      img = "maddyKing_1.jpg"
+      alt = "Maddy King business insights for entrepreneurs"
+      social = [
+        ["icon-pin"],
+        ["icon-graph"],
+        ["icon-puzzle"]
+      ]
+
+    [[params.about.item]]
+      name = "Technical skills"
+      position = "Sometimes you need someone who speaks tech"
+      description = "All businesses need to have an online presence, and this can be frustrating, daunting and expensive. As an experienced web developer, I can take the pain out of this process, helping you make technical decisions in the best interests of your business, and getting the most out of your development team."
+      icon= "icon-speedometer"
+      img = "MaddyKingDigital.jpg"
+      alt = "Digital project manager"
+      social = [
+        ["icon-link"],
+        ["icon-speedometer"],
+        ["icon-mouse"]
+      ]  
 
 # Work section
   [params.work]
     enable = true
     title = "Previous Work"
-    description = "Some excellent organisations that I've helped in different ways"
+    description = "I've supercharged these projects through a range of services"
     footertext = ''
     url = "#fh5co-contact"
-    button = "Get in touch"
+    button = "Book now"
 
     [[params.work.row]]
       img = "clients/lalatat.svg"
@@ -332,12 +435,12 @@ googleAnalytics = "UA-173142204-1"
     map = true
     form = true
     title = "Get in touch"
-    description = "Let's get a coffee and talk about the last thing you broke"
+    description = "Let's get a coffee, discuss your challenges and see if I can help."
     
     # Available icons: https://simplelineicons.github.io/
     details = [
-        ["icon-home", "Currently based at Massey, Wellington"],
-        ["icon-globe", "I like working remotely"],
+        ["icon-home", "Level 2, 40 Taranaki Street, Wellington"],
+        ["icon-globe", "Success working with clients remotely"],
         ["icon-envelope", "me@maddyking44.com"],
       ]
 
@@ -352,7 +455,7 @@ googleAnalytics = "UA-173142204-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Maddy King 2021'
+    copyright = '&copy; Maddy King 2020'
     links = [
         ["icon-twitter", "http://www.twitter.com/maddyking44"],
         ["icon-facebook", "http://www.facebook.com/maddy.king.71"],

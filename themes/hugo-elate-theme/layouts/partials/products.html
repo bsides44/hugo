@@ -11,15 +11,20 @@
                         <h3>{{ with .Site.Params.products.description }}{{ . | markdownify }}{{ end }}</h3>
                     </div>
                 </div>
+                <div class="row">
+                    <div style="margin-top: 20px" class="col text-center to-animate">
+                        <span> <i style="font-size:80px" class="fh5co-products-icon {{ .Site.Params.products.icon }}"></i></span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row row-bottom-padded-sm">
+        <!-- <div class="row row-bottom-padded-sm">
             {{ range .Site.Params.products.rowOne }}
             <div class="col-md-4 col-sm-6 col-xxs-12">
                 <div class="fh5co-project-item to-animate">
                     <a href="#fh5co-contact" onClick=trackProductClick({{ .trackingCode }})>
                         <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}"></a>
-                    <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
+                    <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> 
                     <div class="fh5co-text">
                         <h2>{{ .title }}</h2>
                         <span>{{ .subtitle }}</span><br />
@@ -52,7 +57,7 @@
                 <div class="fh5co-project-item to-animate">
                     <a href="{{ .url }}" onClick=trackProductClick({{ .trackingCode }})>
                         <img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="{{ .style }}"></a>
-                    <!-- <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> -->
+                     <i class="icon to-animate-2 bounceIn animated {{ .icon | markdownify }}"></i> 
                     <div class="fh5co-text">
                         {{ if eq .url "https://analytics.maddyking44.com/" }}
                         <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" onClick=trackProductClick({{ .trackingCode }}>
@@ -94,11 +99,11 @@
             <div class="col-md-12 text-center to-animate">
                 <p>{{ .Site.Params.products.footertext | markdownify }}</p>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-md-12 text-center to-animate">
                 {{ if .Site.Params.products.button}}
-                <p><a href="{{ .Site.Params.products.url }}" class="products-btn btn-lg btn btn-primary">{{ .Site.Params.products.button}}</a></p>
+                <p><a href="{{ .Site.Params.products.url }}" target="_blank" rel="noopener noreferrer" class="products-btn btn-lg btn btn-primary">{{ .Site.Params.products.button}}</a></p>
                 {{ end }}
             </div>
         </div>

@@ -755,7 +755,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   letter-spacing: 1.2px;
   font-size: 30px;
-  margin-bottom: 90px;
 }
 .quote h4 {
   float: left;
@@ -1097,6 +1096,20 @@ h1, h2, h3, h4, h5, h6 {
   /* IE10+ */
   background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+}
+
+#fh5co-products-icon {
+  font-size: 100px;
+  color: white;
+}
+
+.fh5co-products-icon {
+  font-size: 100px;
+  color: white;
+}
+
+.fh5co-products-icon-col {
+  margin-top:40px
 }
 
 .showLink {

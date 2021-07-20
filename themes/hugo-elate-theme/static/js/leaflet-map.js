@@ -1,5 +1,5 @@
 function initMap() {
-  var latLong = [-41.292028, 174.778962]; // Put your address here
+  var latLong = [-41.30183333978618, 174.7753749688371]; // Put your address here
 
   var map = L.map("map").setView(latLong, 10);
 
@@ -14,6 +14,6 @@ function initMap() {
     //iconUrl: "images/clients/map-loc.png",
     //iconSize:     [57, 66],
   });
-  var marker = L.marker(latLong, {icon: icon}).addTo(map);
+  var marker = L.marker(latLong, { icon: icon }).addTo(map);
 }
 document.addEventListener("DOMContentLoaded", initMap);
