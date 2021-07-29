@@ -25,7 +25,7 @@ googleAnalytics = "UA-173142204-1"
     testimonials = "Testimonies"
     products = "Playground"
     productsweb = "Web"
-    services = "Services"
+    services = "Freebie"
 
     casestudy = "Casestudy"
     contact = "Contact"
@@ -181,28 +181,30 @@ googleAnalytics = "UA-173142204-1"
 
   # Services section
   [params.services]
-    enable = false
-    title = "Services"
-    description = "Boosting your business from end to end."
+    enable = true
+    title = "Free Google Analytics Tool"
+    description = "An easy cheatsheet to boost your search performance."
+    url = "https://analytics.maddyking44.com"
+    button = "Yes Please"
 
     [[params.services.item]]
-      title = "Customer Insights"
-      description = "Let's start by understanding your product's purpose and value proposition from your customer's perspective. What brings them to your door?"
+      title = "Learn more about your customers"
+      description = ""
       icon = "icon-fire"
 
     [[params.services.item]]
-      title = "Product Development"
-      description = "Together, we can refine your product to exclusively focus on things that are going to excite your customer, rather than extra features. This saves time and money, and builds a product you're proud of."
-      icon = "icon-pencil"
+      title = "See which parts of your product they're drawn to"
+      description = ""
+      icon = "icon-puzzle"
     [[params.services.item]]
-      title = "Digital Enablement"
-      description = "Your messaging to the world comes through your digital portals. Together we can identify barriers and streamline your digital presence to generate sales."
-      icon = "icon-share"
+      title = "Learn tricks to optimise your website for more views and sales"
+      description = ""
+      icon = "icon-trophy"
 
       [[params.services.item]]
-      title = "Marketing Strategy"
-      description = "A deep understanding of the product and market means that together we can put your business in front of the people that matter, efficiently and effectively reaching your customers."      
-      icon = "icon-bubble"
+      title = "Make your digital business more successful"
+      description = ""      
+      icon = "icon-energy"
 
   # About section
   [params.about]

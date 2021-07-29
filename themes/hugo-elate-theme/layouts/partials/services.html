@@ -23,5 +23,12 @@
 			<div class="clearfix visible-sm-block"></div>
 			{{ end }}
 		</div>
+		<div class="row">
+			<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
+				{{ if .Site.Params.services.button}}
+				<p><a href="{{ .Site.Params.services.url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .Site.Params.services.button}}</a></p>
+				{{ end }}
+			</div>
+		</div>
 	</div>
 </section>
