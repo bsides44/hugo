@@ -25,6 +25,7 @@ googleAnalytics = "UA-173142204-1"
     testimonials = "Testimonies"
     products = "Playground"
     productsweb = "Web"
+    productsTwo = "Storytelling"
     services = "Freebie"
 
     casestudy = "Casestudy"
@@ -178,6 +179,16 @@ googleAnalytics = "UA-173142204-1"
       subtitle = "Building or improving your web application. As a full stack web developer across a range of technologies I can craft a product or platform for you that is easy, cost-effective and intuitive for the user."
       cost = "Project specific"
       trackingCode = "product-direction"
+
+# ProductsTwo section
+  [params.productsTwo]
+    enable = true
+    title = "The Two Dimensional Storyteller"
+    description = "Traditional linear storylines have one dimension: they go in a line, from beginning, to middle, to end. This worked well for books and movies, because you experience the plot in a set order. But as we move into a world of mixed, multimedia, interactive and immersive storytelling, we need greater breadth to our storywriting. Introducing the Two-Dimensional Storyteller - a tool to help you write a story that can go in many directions."
+    footertext = ''
+    icon = "icon-compass"
+    url = "https://storyteller.maddyking44.com"
+    button = "Show me how"
 
   # Services section
   [params.services]

@@ -32,6 +32,9 @@
 	{{ partial "products.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.productsTwo.enable }}
+	{{ partial "productsTwo.html" .}}
+	{{ end }}
 
 	{{ if .Site.Params.services.enable }}
 	{{ partial "services.html" .}}

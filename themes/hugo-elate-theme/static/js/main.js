@@ -285,6 +285,7 @@
 	};
 
 	var productsAnimate = function () {
+		console.log('products')
 		if ($('#fh5co-products').length > 0) {
 
 			$('#fh5co-products').waypoint(function (direction) {
@@ -328,6 +329,35 @@
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
 							}, k * 200, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
+	var productsTwoAnimate = function () {
+		console.log($('#fh5co-productsTwo').length)
+		if ($('#fh5co-productsTwo').length > 0) {
+
+			$('#fh5co-productsTwo').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-productsTwo .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -599,6 +629,7 @@
 		quoteAnimate();
 		productsAnimate();
 		productswebAnimate();
+		productsTwoAnimate();
 		workAnimate();
 		testimonialAnimate();
 		servicesAnimate();

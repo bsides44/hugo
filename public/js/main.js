@@ -236,6 +236,34 @@
 		}
 	};
 
+	var productsTwoAnimate = function () {
+		if ($('#fh5co-productsTwo').length > 0) {
+
+			$('#fh5co-productsTwo').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-productsTwo .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 200, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
 	var workAnimate = function () {
 		if ($('#fh5co-work').length > 0) {
 
@@ -490,13 +518,12 @@
 		introAnimate();
 		workAnimate();
 		productsAnimate();
+		productsTwoAnimate();
 		testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
-
-
 	});
 
 
