@@ -311,7 +311,7 @@ googleAnalytics = "UA-173142204-1"
       description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 20
+      to = 40
       interval = 50
       speed = 4000
 
@@ -335,7 +335,7 @@ googleAnalytics = "UA-173142204-1"
       description = "Happy clients"
       icon = "icon-people"
       from = 0
-      to = 9
+      to = 15
       interval = 50
       speed = 4000
 
