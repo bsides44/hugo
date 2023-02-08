@@ -85,11 +85,10 @@ googleAnalytics = "UA-173142204-1"
 
   [params.intro.quote]
     enable=true
-    text1="lecturer in VR and AR for creative expression (and to change the world)"
-    text2="Massey University, Wellington"
-    text3="make creative digital art and experiment with different realities"
-    text4="3D interactive web experiences, games, VR / AR / XR"
-    text5="very interested in using technology education to dismantle oppressive power structures"
+    text1="Lecturer in VR and AR for creative expression (and to change the world)"
+    text2="Making creative digital art and experimenting with different realities"
+    text3="Developing 3D interactive web experiences, games, VR / AR / XR"
+    text4="Using tech education to dismantle oppressive power structures"
     name=""
     img = "MaddyKingDigital.jpg"
 
