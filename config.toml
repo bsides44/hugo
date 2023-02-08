@@ -103,11 +103,11 @@ googleAnalytics = "UA-173142204-1"
 # Products section
   [params.products]
     enable = true
-    title = "My playground"
-    description = "The place where I experiment with new ideas and break things. Using Augmented Reality, Virtual Reality, WebXR, three.js and other tools for creating immersive visual experiences."
+    title = "AR Playground"
+    description = "Open on mobile. Browser-based AR experience in A-Frame, using WebXR for plane detection and shadow simulation. Experimenting with making fully-capable AR available in the web browser, so users don't have to download an app."
     footertext = ''
-    icon = "icon-wrench"
-    url = "https://bsides44.github.io"
+    icon = "icon-target"
+    url = "https://aframe-web.onrender.com/"
     button = "Take me there"
 
   # Testimonials section
@@ -183,7 +183,7 @@ googleAnalytics = "UA-173142204-1"
   [params.productsTwo]
     enable = true
     title = "XR Ecosystem Map"
-    description = "A 3D systems view of AR, VR and XR workers, thinkers and creators in New Zealand."
+    description = "A 3D systems view of AR, VR and XR workers, thinkers and creators in New Zealand. Made in 3D-forcegraph, built on THREE.js in React."
     footertext = ''
     icon = "icon-compass"
     url = "https://vr-ar-ecosystem.vercel.app/"
@@ -193,7 +193,7 @@ googleAnalytics = "UA-173142204-1"
   [params.services]
     enable = true
     title = "Free Google Analytics Tool"
-    description = "An easy cheatsheet to boost your search performance."
+    description = "A simple React app to boost your search performance."
     url = "https://analytics.maddyking44.com"
     button = "Yes Please"
 
