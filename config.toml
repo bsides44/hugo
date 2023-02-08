@@ -25,7 +25,7 @@ googleAnalytics = "UA-173142204-1"
     testimonials = "Testimonies"
     products = "Playground"
     productsweb = "Web"
-    productsTwo = "Storytelling"
+    productsTwo = "XR"
     services = "Freebie"
 
     casestudy = "Casestudy"
@@ -104,7 +104,7 @@ googleAnalytics = "UA-173142204-1"
   [params.products]
     enable = true
     title = "My playground"
-    description = "The place where I experiment with new ideas and break things. Usually in the realm of AR (augmented reality), VR (virtual reality), WebXR (immersive worldbuilding online), three.js and other tools for creating immersive visual experiences."
+    description = "The place where I experiment with new ideas and break things. Using Augmented Reality, Virtual Reality, WebXR, three.js and other tools for creating immersive visual experiences."
     footertext = ''
     icon = "icon-wrench"
     url = "https://bsides44.github.io"
@@ -182,12 +182,12 @@ googleAnalytics = "UA-173142204-1"
 # ProductsTwo section
   [params.productsTwo]
     enable = true
-    title = "The Two Dimensional Storyteller"
-    description = "Traditional linear storylines have one dimension: they go in a line, from beginning, to middle, to end. This worked well for books and movies, because you experience the plot in a set order. But as we move into a world of mixed, multimedia, interactive and immersive storytelling, we need greater breadth to our storywriting. Introducing the Two-Dimensional Storyteller - a tool to help you write a story that can go in many directions."
+    title = "XR Ecosystem Map"
+    description = "A 3D systems view of AR, VR and XR workers, thinkers and creators in New Zealand."
     footertext = ''
     icon = "icon-compass"
-    url = "https://storyteller.maddyking44.com"
-    button = "Show me how"
+    url = "https://vr-ar-ecosystem.vercel.app/"
+    button = "Show me"
 
   # Services section
   [params.services]
@@ -235,11 +235,11 @@ googleAnalytics = "UA-173142204-1"
     button = "Get in touch"
 
     [[params.work.row]]
-      img = "clients/lalatat.svg"
-      alt = "digital strategy"
-      url= "https://lalatat.com"
-      title = "LALATAT"
-      subtitle = "Marketing Training"
+      img = "clients/climateClubNZ.webp"
+      alt = "instagram filter and snapchat lens"
+      url= "https://www.instagram.com/ar/1320259605383622/"
+      title = "ClimateClubNZ"
+      subtitle = "AR Instagram & Snapchat Filter"
       style = "object-fit: fill"
       trackingCode = "lalatat"
 
@@ -264,7 +264,7 @@ googleAnalytics = "UA-173142204-1"
       alt = "digital project manager"
       url= "https://bamboocreative.nz/"
       title = "Bamboo Creative"
-      subtitle = "Web Development"
+      subtitle = "Interactive Web Development"
       style = "object-fit: contain"
       trackingCode = "bamboo"
 
@@ -277,12 +277,12 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "dev-academy"
 
     [[params.work.row]]
-      img = "clients/beyondviolence.jpg"
-      alt = "campaign manager"
-      url= "https://www.youtube.com/watch?v=HIwTJVXNOH4"
-      title = "Beyond Violence"
-      subtitle = "Project Management"
-      style = "object-fit: contain"
+      img = "clients/clicksuite.png"
+      alt = "game developer"
+      url= "https://www.clicksuite.co.nz/"
+      title = "ClickSuite"
+      subtitle = "Game Development"
+      style = ""
       trackingCode = "beyond-violence"
 
 # Casestudy section
@@ -348,9 +348,11 @@ googleAnalytics = "UA-173142204-1"
     
     # Available icons: https://simplelineicons.github.io/
     details = [
-        ["icon-home", "Currently based at Massey, Wellington"],
+        ["icon-home", "Currently based at Massey University, Wellington"],
+        ["icon-clock", "I have time for extra projects"],
         ["icon-globe", "I like working remotely"],
         ["icon-envelope", "me@maddyking44.com"],
+        ["icon-social-github", "https://github.com/bsides44"],
       ]
 
     name = "Name"
@@ -366,7 +368,7 @@ googleAnalytics = "UA-173142204-1"
     enable = true
     copyright = '&copy; Maddy King 2021'
     links = [
-        ["icon-twitter", "http://www.twitter.com/maddyking44"],
-        ["icon-facebook", "http://www.facebook.com/maddy.king.71"],
-        ["icon-linkedin", "http://www.linkedin.com/in/madelineking44"]
+        ["icon-facebook", "https://www.facebook.com/maddy.king.71"],
+        ["icon-linkedin", "https://www.linkedin.com/in/madelineking44"],
+        ["icon-social-github", "https://github.com/bsides44"],
       ]

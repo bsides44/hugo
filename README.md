@@ -1,6 +1,7 @@
 # hugo
 Static site in Go
 To run locally:
+brew install hugo (mac) or choco install hugo-extended (windows)
 $ hugo server
 
 To add sections:
