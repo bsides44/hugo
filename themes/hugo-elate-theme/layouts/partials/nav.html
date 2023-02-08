@@ -27,14 +27,14 @@
                     {{ if .Site.Params.productsweb.enable }}
                     <li><a href="#" data-nav-section="productsweb"><span>{{ with .Site.Params.navigation.productsweb }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
+                    
+                    {{ if .Site.Params.testimonials.enable }}
+                    <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
 
                     {{ if .Site.Params.products.enable }}
                     <li><a href="#" data-nav-section="products"><span>{{ with .Site.Params.navigation.products }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
-
-                    <!-- {{ if .Site.Params.testimonials.enable }}
-                    <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
-                    {{ end }} -->
 
 
                     {{ if .Site.Params.productsTwo.enable }}
@@ -49,9 +49,9 @@
                     <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }} -->
 
-                    {{ if .Site.Params.work.enable }}
+                    <!-- {{ if .Site.Params.work.enable }}
                     <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
-                    {{ end }}
+                    {{ end }} -->
 
                     <!-- {{ if .Site.Params.casestudy.enable }}
                     <li><a href="#" data-nav-section="casestudy"><span>{{ with .Site.Params.navigation.casestudy }}{{ . | markdownify }}{{ end }}</span></a></li>
