@@ -86,7 +86,7 @@ googleAnalytics = "UA-173142204-1"
   [params.intro.quote]
     enable=true
     text1="Lecturer in VR and AR for creative expression (and to change the world)"
-    text2="Maker of creative digital art and experimenting with different realities"
+    text2="Making creative digital art and experimenting with different realities"
     text3="Developer of 3D interactive web experiences, games, VR / AR / webXR"
     text4="Using tech education to dismantle oppressive power structures"
     name=""
