@@ -318,7 +318,7 @@ googleAnalytics = "UA-173142204-1"
       description = "Lines of code"
       icon = "icon-code"
       from = 0
-      to = 2343409
+      to = 234340
       interval = 50
       speed = 4000
 
@@ -334,7 +334,7 @@ googleAnalytics = "UA-173142204-1"
       description = "Happy clients"
       icon = "icon-people"
       from = 0
-      to = 15
+      to = 16
       interval = 50
       speed = 4000
 
