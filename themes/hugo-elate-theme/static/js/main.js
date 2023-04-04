@@ -140,7 +140,7 @@
 	var windowScroll = function () {
 		var lastScrollTop = 0;
 
-		$(window).trigger("scroll")(function (event) {
+		$(window).scroll(function (event) {
 
 			var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
@@ -607,7 +607,7 @@
 	// Document on load.
 	$(function () {
 
-		parallax();
+		// parallax();
 
 		burgerMenu();
 
