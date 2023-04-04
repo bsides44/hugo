@@ -17,9 +17,9 @@
 	};
 
 	// Parallax
-	var parallax = function () {
-		$(window).stellar();
-	};
+	// var parallax = function () {
+	// 	$(window).stellar();
+	// };
 
 
 
@@ -140,7 +140,7 @@
 	var windowScroll = function () {
 		var lastScrollTop = 0;
 
-		$(window).scroll(function (event) {
+		$(window).trigger("scroll")(function (event) {
 
 			var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
@@ -285,7 +285,7 @@
 	};
 
 	var productsAnimate = function () {
-		console.log('products')
+
 		if ($('#fh5co-products').length > 0) {
 
 			$('#fh5co-products').waypoint(function (direction) {
@@ -343,7 +343,7 @@
 	};
 
 	var productsTwoAnimate = function () {
-		console.log($('#fh5co-productsTwo').length)
+
 		if ($('#fh5co-productsTwo').length > 0) {
 
 			$('#fh5co-productsTwo').waypoint(function (direction) {

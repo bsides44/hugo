@@ -17,9 +17,9 @@
 	};
 
 	// Parallax
-	var parallax = function () {
-		$(window).stellar();
-	};
+	// var parallax = function () {
+	// 	$(window).stellar();
+	// };
 
 
 
@@ -127,7 +127,7 @@
 	var windowScroll = function () {
 		var lastScrollTop = 0;
 
-		$(window).scroll(function (event) {
+		$(window).trigger("scroll")(function (event) {
 
 			var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
