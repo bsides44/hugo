@@ -366,7 +366,7 @@ googleAnalytics = "UA-173142204-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Maddy King 2021'
+    copyright = '&copy; Maddy King 2023'
     links = [
         ["icon-facebook", "https://www.facebook.com/maddy.king.71"],
         ["icon-linkedin", "https://www.linkedin.com/in/madelineking44"],
