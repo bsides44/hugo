@@ -85,9 +85,9 @@ googleAnalytics = "UA-173142204-1"
 
   [params.intro.quote]
     enable=true
-    text1="Lecturer in VR and AR for creative expression (and to change the world)"
-    text2="Making creative digital art and experimenting with different realities"
-    text3="Developer of 3D interactive web experiences, games, VR / AR / webXR"
+    text1="Creative 3D Web Developer & Educator"
+    text2="Lecturer in Virtual Reality and Augmented Reality to change the world"
+    text3="Marketing, Startup & Business background"
     text4="Using tech education to dismantle oppressive power structures"
     name=""
     img = "MaddyKingDigital.jpg"
@@ -104,7 +104,7 @@ googleAnalytics = "UA-173142204-1"
   [params.products]
     enable = true
     title = "AR Playground"
-    description = "Open on mobile. Browser-based AR experience in A-Frame, using WebXR for plane detection and shadow simulation. Experimenting with making fully-capable AR available in the web browser, so users don't have to download an app."
+    description = "Open on mobile. A web AR experience I built in A-Frame, using plane detection and shadow simulation. Making AR available on the web, so users don't have to download an app."
     footertext = ''
     icon = "icon-target"
     url = "https://aframe-web.onrender.com/"
@@ -183,7 +183,7 @@ googleAnalytics = "UA-173142204-1"
   [params.productsTwo]
     enable = true
     title = "XR Ecosystem Map"
-    description = "A 3D systems view of AR, VR and XR workers, thinkers and creators in New Zealand. Made in 3D-forcegraph, built on THREE.js in React."
+    description = "A 3D system I built to show AR, VR and XR creators in New Zealand. Made in 3D-forcegraph, built on THREE.js in React."
     footertext = ''
     icon = "icon-compass"
     url = "https://vr-ar-ecosystem.vercel.app/"
@@ -193,7 +193,7 @@ googleAnalytics = "UA-173142204-1"
   [params.services]
     enable = true
     title = "Free Google Analytics Tool"
-    description = "A simple React app to boost your search performance."
+    description = "A simple React app I built to boost your search performance."
     url = "https://analytics.maddyking44.com"
     button = "Yes Please"
 
@@ -348,8 +348,8 @@ googleAnalytics = "UA-173142204-1"
     
     # Available icons: https://simplelineicons.github.io/
     details = [
-        ["icon-home", "Currently based at Massey University, Wellington"],
-        ["icon-clock", "I have time for extra projects"],
+        ["icon-home", "Based in Wellington"],
+        ["icon-clock", "Currently seeking new projects"],
         ["icon-globe", "I like working remotely"],
         ["icon-envelope", "me@maddyking44.com"],
         ["icon-social-github", "https://github.com/bsides44"],
