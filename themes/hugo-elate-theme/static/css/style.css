@@ -12,6 +12,10 @@
 *	Edit this section
 *
 * ======================================================= */
+html {
+  scroll-behavior: smooth
+}
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
@@ -538,7 +542,7 @@ h6 {
 }
 
 .subtitle-link {
-  border-bottom: none
+  border-bottom: none !important;
 }
 
 #fh5co-home .text-inner a:hover,
