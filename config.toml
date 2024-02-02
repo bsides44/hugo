@@ -90,10 +90,10 @@ googleAnalytics = "UA-173142204-1"
 
   [params.intro.quote]
     enable=true
-    text1="Creative 3D Web Developer & Educator"
+    text1="Creative 3D Web Developer, Communicator & Educator"
     text2="Lecturer in Virtual Reality and Augmented Reality to Change the World"
     text3="Marketing, Startup & Business background"
-    text4="Using CreaTech Education to Dismantle Oppressive Power Structures"
+    text4="Using Technology and Storytelling to Dismantle Oppressive Power Structures"
     name=""
     img = "MaddyKingDigital.jpg"
 
@@ -245,7 +245,7 @@ googleAnalytics = "UA-173142204-1"
       url= "https://www.massey.ac.nz/about/news/massey-leads-the-way-with-immersive-media-course/"
       title = "Massey University"
       subtitle = "Immersive Lead & Senior Lecturer"
-      style = ""
+      style = "object-fit: unset"
       trackingCode = "massey"
 
     [[params.work.row]]
@@ -253,7 +253,7 @@ googleAnalytics = "UA-173142204-1"
       alt = "instagram filter and snapchat lens"
       url= "https://www.instagram.com/ar/1320259605383622/"
       title = "ClimateClubNZ"
-      subtitle = "AR Instagram & Snapchat Filter"
+      subtitle = "Built Instagram & Snapchat Filter"
       style = ""
       trackingCode = "lalatat"
 
@@ -295,7 +295,7 @@ googleAnalytics = "UA-173142204-1"
       alt = "game developer"
       url= "https://www.clicksuite.co.nz/"
       title = "ClickSuite"
-      subtitle = "Game Development"
+      subtitle = "Te Papa Game Development"
       style = ""
       trackingCode = "beyond-violence"
     
@@ -304,7 +304,7 @@ googleAnalytics = "UA-173142204-1"
       alt = "international campaigns management"
       url= "https://www.youtube.com/watch?v=0bvrsfNwve4"
       title = "Beyond Violence"
-      subtitle = "International Campaigns"
+      subtitle = "International Campaigns Director"
       style = "object-position: bottom"
       trackingCode = "beyond-violence"
 
@@ -400,9 +400,9 @@ googleAnalytics = "UA-173142204-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Maddy King 2023'
+    copyright = '&copy; Maddy King 2024'
     links = [
         ["icon-facebook", "https://www.facebook.com/maddy.king.71"],
-        ["icon-linkedin", "https://www.linkedin.com/in/madelineking44"],
+        ["icon-linkedin", "https://www.linkedin.com/in/maddyking44"],
         ["icon-social-github", "https://github.com/bsides44"],
       ]
