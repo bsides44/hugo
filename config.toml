@@ -49,7 +49,12 @@ googleAnalytics = "UA-173142204-1"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitle = ['Hack','Experiment','Create']
+    subtitleone = 'Hack'
+    urlone = '#about-descript'
+    subtitletwo = 'Experiment'
+    urltwo = '#fh5co-products'
+    subtitlethree = 'Create'
+    urlthree = '#fh5co-contact'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/

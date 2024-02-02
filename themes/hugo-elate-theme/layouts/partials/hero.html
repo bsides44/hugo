@@ -13,14 +13,15 @@
 					<div class="col-md-8 col-md-offset-2">
 						<h1 class="to-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
 						<div class="flex-row">
-							{{ range .Site.Params.hero.subtitle }}
-							<h2 class="to-animate">{{ index . }}</h2>
-							{{ if (eq . "Hack") }}
-							<h2 class="to-animate subtitle"></h2>
-							{{ else if (eq . "Experiment") }}
-							<h2 class="to-animate subtitle"></h2>
-							{{ end }}
-							{{ end}}
+							<a class="subtitle-link" href="{{ .Site.Params.hero.urlone }}">
+								<h2 class="to-animate subtitle">{{ with .Site.Params.hero.subtitleone }}{{ . | markdownify }}{{ end }}</h2>
+							</a>
+							<a class="subtitle-link" href="{{ .Site.Params.hero.urltwo }}">
+								<h2 class="to-animate subtitle">{{ with .Site.Params.hero.subtitletwo }}{{ . | markdownify }}{{ end }}</h2>
+							</a>
+							<a class="subtitle-link" href="{{ .Site.Params.hero.urlthree }}">
+								<h2 class="to-animate ">{{ with .Site.Params.hero.subtitlethree }}{{ . | markdownify }}{{ end }}</h2>
+							</a>
 						</div>
 					</div>
 				</div>
