@@ -91,9 +91,9 @@ googleAnalytics = "UA-173142204-1"
   [params.intro.quote]
     enable=true
     text1="Creative 3D Web Developer & Educator"
-    text2="Lecturer in Virtual Reality and Augmented Reality to change the world"
+    text2="Lecturer in Virtual Reality and Augmented Reality to Change the World"
     text3="Marketing, Startup & Business background"
-    text4="Using tech education to dismantle oppressive power structures"
+    text4="Using CreaTech Education to Dismantle Oppressive Power Structures"
     name=""
     img = "MaddyKingDigital.jpg"
 
@@ -240,12 +240,21 @@ googleAnalytics = "UA-173142204-1"
     button = "Get in touch"
 
     [[params.work.row]]
-      img = "clients/climateClubNZ.webp"
+      img = "clients/massey.JPG"
+      alt = "university lecturer xr emerging tech virtual reality new zealand"
+      url= "https://www.massey.ac.nz/about/news/massey-leads-the-way-with-immersive-media-course/"
+      title = "Massey University"
+      subtitle = "Immersive Lead & Senior Lecturer"
+      style = ""
+      trackingCode = "massey"
+
+    [[params.work.row]]
+      img = "clients/filtersq.png"
       alt = "instagram filter and snapchat lens"
       url= "https://www.instagram.com/ar/1320259605383622/"
       title = "ClimateClubNZ"
       subtitle = "AR Instagram & Snapchat Filter"
-      style = "object-fit: fill"
+      style = ""
       trackingCode = "lalatat"
 
     [[params.work.row]]
@@ -257,38 +266,58 @@ googleAnalytics = "UA-173142204-1"
       trackingCode = "the-realness"
 
     [[params.work.row]]
-      img = "clients/swayable.jpg"
+      img = "clients/sway.png"
       alt = "marketing consultant"
       url= "https://swayable.com"
       title = "Swayable"
-      subtitle = "Web Development"
+      subtitle = "Full Stack Web Development"
       trackingCode = "swayable"
 
     [[params.work.row]]
-      img = "clients/bamboocreative.svg"
+      img = "clients/webteam.png"
       alt = "digital project manager"
       url= "https://bamboocreative.nz/"
       title = "Bamboo Creative"
       subtitle = "Interactive Web Development"
-      style = "object-fit: contain"
+      style = ""
       trackingCode = "bamboo"
 
     [[params.work.row]]
       img = "clients/don_eda.jpg"
       alt = "low cost social media marketing"
-      url= "https://devacademy.co.nz/"
-      title = "Enspiral Dev Academy"
+      url= "https://medium.com/enspiral-dev-academy"
+      title = "Dev Academy"
       subtitle = "Marketing Management"
       trackingCode = "dev-academy"
 
     [[params.work.row]]
-      img = "clients/clicksuite.png"
+      img = "clients/gofish.jpeg"
       alt = "game developer"
       url= "https://www.clicksuite.co.nz/"
       title = "ClickSuite"
       subtitle = "Game Development"
       style = ""
       trackingCode = "beyond-violence"
+    
+    [[params.work.row]]
+      img = "clients/beyondviolence.png"
+      alt = "international campaigns management"
+      url= "https://www.youtube.com/watch?v=0bvrsfNwve4"
+      title = "Beyond Violence"
+      subtitle = "International Campaigns"
+      style = "object-position: bottom"
+      trackingCode = "beyond-violence"
+
+    [[params.work.row]]
+      img = "clients/maorivoices.jpg"
+      alt = "non profit"
+      url= "https://www.justspeak.co.nz/"
+      title = "JustSpeak"
+      subtitle = "National Operations Management"
+      style = ""
+      trackingCode = "just-speak"
+
+
 
 # Casestudy section
   [params.casestudy]

@@ -255,10 +255,13 @@ h6 {
 
   .subtitle {
     line-height: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .subtitle::after {
-    content: "•"
+    content: "•";
+    margin-left: unset
   }
 }
 
