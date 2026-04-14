@@ -13,7 +13,7 @@ googleAnalytics = "G-89Y435GD3S"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = "AIzaSyD8LUGgQL_3fELUvXyeZPK90xO9hY6ppLs"
+  googleMapsApiKey = ""
 
   # Navigation
   [params.navigation]
