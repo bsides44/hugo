@@ -68,7 +68,8 @@
 	// Page Nav
 	var clickMenu = function () {
 
-		$('#navbar a:not([class="external"])').click(function (event) {	
+		$('#navbar a:not([class="external"])').click(function (event) {
+			
 			var section = $(this).data('nav-section'),
 				navbar = $('#navbar'),
 				element = $(`*[data-section="${section}"]`),
@@ -93,6 +94,19 @@
 			return false;
 		});
 	};
+
+	// button transitions
+	// var buttonTransitions = function () {
+	// 	$('body').on('click', '.nav-btn', function (event) {
+	// 		console.log('nav-btn', event)
+	// 		console.log('nav-btn', event.target.baseURI)
+	// 		console.log('nav-btn', event.target.hash)
+	// 		console.log('nav-btn', event.target.href)
+
+
+
+	// 	})
+	// }
 
 	// Reflect scrolling in navigation
 	var navActive = function (section) {
@@ -141,13 +155,20 @@
 			var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
 
+			var whiteImg = $('#white');
+			var blackImg = $('#black');
+
 			if (scrlTop > 500 && scrlTop <= 2000) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+				whiteImg.removeClass('visible').addClass('hidden')
+				blackImg.removeClass('hidden').addClass('visible')
 			} else if (scrlTop <= 500) {
 				if (header.hasClass('navbar-fixed-top')) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function () {
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+						whiteImg.removeClass('hidden').addClass('visible')
+						blackImg.removeClass('visible').addClass('hidden')
 					}, 100);
 				}
 			}
@@ -174,7 +195,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -203,6 +224,34 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInRight animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 1000);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
+	var introAboutAnimate = function () {
+		if ($('#fh5co-intro-about').length > 0) {
+
+			$('#fh5co-intro-about').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-intro-about .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInRight animated');
 							}, k * 200, 'easeInOutExpo');
 
 						});
@@ -217,7 +266,36 @@
 		}
 	};
 
+	var quoteAnimate = function () {
+		if ($('#fh5co-quote').length > 0) {
+
+			$('#fh5co-quote').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-quote .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
 	var productsAnimate = function () {
+
 		if ($('#fh5co-products').length > 0) {
 
 			$('#fh5co-products').waypoint(function (direction) {
@@ -227,6 +305,35 @@
 
 					setTimeout(function () {
 						$('#fh5co-products .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
+	var productswebAnimate = function () {
+		var productsweb = $('#fh5co-productsweb');
+		if (productsweb.length > 0) {
+
+			productsweb.waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-productsweb .to-animate').each(function (k) {
 							var el = $(this);
 
 							setTimeout(function () {
@@ -246,6 +353,7 @@
 	};
 
 	var productsTwoAnimate = function () {
+
 		if ($('#fh5co-productsTwo').length > 0) {
 
 			$('#fh5co-productsTwo').waypoint(function (direction) {
@@ -259,7 +367,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -287,7 +395,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -311,7 +419,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = testimonial.find('.to-animate').length,
-						sec = parseInt((sec * 200) - 400);
+						sec = parseInt((sec * 100) - 200);
 
 					setTimeout(function () {
 						testimonial.find('.to-animate').each(function (k) {
@@ -319,7 +427,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -330,7 +438,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInDown animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -353,7 +461,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = services.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function () {
 						services.find('.to-animate').each(function (k) {
@@ -361,7 +469,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -372,7 +480,7 @@
 
 							setTimeout(function () {
 								el.addClass('bounceIn animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -402,7 +510,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -426,7 +534,7 @@
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
 					var sec = counters.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function () {
 						counters.find('.to-animate').each(function (k) {
@@ -434,7 +542,7 @@
 
 							setTimeout(function () {
 								el.addClass('fadeInUp animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, 100);
@@ -453,7 +561,7 @@
 
 							setTimeout(function () {
 								el.addClass('bounceIn animated');
-							}, k * 200, 'easeInOutExpo');
+							}, k * 100, 'easeInOutExpo');
 
 						});
 					}, sec);
@@ -517,6 +625,8 @@
 
 		windowScroll();
 
+		// buttonTransitions();
+
 		navigationSection();
 
 		goToTop();
@@ -525,14 +635,19 @@
 		// Animations
 		homeAnimate();
 		introAnimate();
-		workAnimate();
+		introAboutAnimate();
+		quoteAnimate();
 		productsAnimate();
+		productswebAnimate();
 		productsTwoAnimate();
+		workAnimate();
 		testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
+
+
 	});
 
 

@@ -92,6 +92,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--bottom:after {
@@ -115,6 +116,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--bottom--reverse:after {
@@ -138,6 +140,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--top:before {
@@ -161,6 +164,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--top--reverse:before {
@@ -185,6 +189,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--both:before {
@@ -215,6 +220,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .edge--both--reverse:before {
@@ -485,6 +491,7 @@ h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   background-color: #3f95ea;
   background-image: url("../images/IMG_4397.png");
   background-position: center;
@@ -635,7 +642,7 @@ h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 768px) {
@@ -978,12 +985,14 @@ h6 {
 }
 
 #fh5co-services .fh5co-service {
-  padding-right: 30px;
+  padding-right: 15px;
+  padding-left:15px
 }
 
 #fh5co-services h3 {
   font-size: 24px;
   color: #fff;
+  font-weight: 300
 }
 
 #fh5co-services .icon {
@@ -992,7 +1001,7 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+
 }
 
 #fh5co-services .icon:before {
@@ -1007,10 +1016,52 @@ h6 {
   background: rgba(255, 255, 255, 0.3);
 }
 
+#fh5co-services .icon {
+  margin-bottom: 50px
+}
+
+#fh5co-services .four-items {
+  margin-bottom: 50px;
+}
+
+#fh5co-services .four-items div {
+  width: 40%;
+  margin-right: 10%
+}
+
 .services-btn {
   background: #337ab7 !important;
   color: #fff !important;
 }
+
+@media screen and (max-width: 990px) {
+  #fh5co-services .icon {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #fh5co-services .four-items, #fh5co-services .section-heading {
+    width: 60%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    text-align: center;
+  }
+
+  #fh5co-services .four-items div {
+    margin-bottom: 50px;
+    width: 100%;
+    margin-right: 0
+  }
+
+  #fh5co-services .section-heading h2.left-border:after {
+    left: 50%;
+    margin-left: -40px;
+  }
+}
+
 
 #fh5co-about .about-btn {
   margin-top: 40px !important;
@@ -1070,7 +1121,6 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
 }
 
 #fh5co-casestudy .icon:before {
@@ -1898,7 +1948,6 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   width: 25px;
   height: 3px;
   color: #52d3aa;
@@ -2139,6 +2188,7 @@ h6 {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;

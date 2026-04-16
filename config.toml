@@ -23,11 +23,10 @@ googleAnalytics = "G-H79CLVEY76"
     about = "Quote"
     work = "Portfolio"
     testimonials = "Testimonies"
-    products = "Playground"
+    products = "Dev"
     productsweb = "Web"
-    productsTwo = "XR"
-    services = "Insights"
-
+    productsTwo = "Insights"
+    services = ""
     casestudy = "Casestudy"
     contact = "Contact"
 
@@ -90,12 +89,12 @@ googleAnalytics = "G-H79CLVEY76"
 
   [params.intro.quote]
     enable=true
-    text1="Creative Product Growth for a Better World"
-    text2="Building Tech to Create Radical Hope"
-    text3="Teaching Optimists How to Actively Solve Global Problems"
-    text4="Growing Movements of Systemic Change With Scalable Results"
+    text1="Creative product growth for a better world"
+    text2="Building tech to create hope & roll our sleeves up"
+    text3="Teaching optimism & how to actively solve global problems"
+    text4="Growing movements of systemic change with scalable results"
     name=""
-    img = "mk-smile.JPEG"
+    img = "mk-sq.png"
 
   [params.intro.video]
     enable = false 
@@ -186,40 +185,41 @@ googleAnalytics = "G-H79CLVEY76"
 
 # ProductsTwo section
   [params.productsTwo]
-    enable = false
-    title = "XR Ecosystem Map"
-    description = "A 3D system I built to show AR, VR and XR creators in New Zealand. Made in 3D-forcegraph, built on THREE.js in React."
+    enable = true
+    title = "Hope Mechanic"
+    description = "Insights at the intersection of climate change, rebellion, AI and social impact."
     footertext = ''
-    icon = "icon-compass"
-    url = "https://vr-ar-ecosystem.vercel.app/"
-    button = "Show me"
+    icon = "icon-fire"
+    url = "https://hopemechanic.ghost.io/"
+    button = "Take me there"
 
   # Services section
   [params.services]
-    enable = false
-    title = "Free Google Analytics Tool"
-    description = "A simple React app I built to boost your search performance."
-    url = "https://analytics.maddyking44.com"
+    enable = true
+    title = "Gather"
+    description = "A not-for-profit tool to organise communities of action."
+    url = "https:/gatherthevillage.org/blog/welcome-to-gather"
     button = "Yes Please"
 
     [[params.services.item]]
-      title = "Learn more about your customers"
+      title = "Get more support by making volunteer actions *social*"
       description = ""
-      icon = "icon-fire"
+      icon = "icon-support"
 
     [[params.services.item]]
-      title = "See which parts of your product they're drawn to"
+      title = "Task management in the chat so everyone knows what they're doing"
       description = ""
-      icon = "icon-puzzle"
-    [[params.services.item]]
-      title = "Learn tricks to optimise your website for more views and sales"
-      description = ""
-      icon = "icon-trophy"
-
-      [[params.services.item]]
-      title = "Make your digital business more successful"
-      description = ""      
       icon = "icon-energy"
+
+    [[params.services.item]]
+      title = "Get your team off Meta and onto values-aligned tools"
+      description = ""
+      icon = "icon-badge"
+
+    [[params.services.item]]
+      title = "Create more community with the real people around you"
+      description = ""      
+      icon = "icon-globe-alt"
 
   # About section
   [params.about]
@@ -254,7 +254,7 @@ googleAnalytics = "G-H79CLVEY76"
       url= "https://www.launchbot.app/"
       title = "Launchbot"
       subtitle = "Founder & CEO"
-      style = "object-fit: unset"
+      style = "object-position: 50% 10%"
       trackingCode = "launchbot"
 
 
@@ -263,7 +263,7 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "growth marketing political campaigns"
       url= "https://www.facebook.com/voteforclimatenz"
       title = "Vote for Climate"
-      subtitle = "Campaigner"
+      subtitle = "Organiser & Campaigner"
       style = "object-fit: unset"
       trackingCode = "voteforclimate"
 
@@ -272,7 +272,7 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "university lecturer xr emerging tech virtual reality new zealand"
       url= "https://www.massey.ac.nz/about/news/massey-leads-the-way-with-immersive-media-course/"
       title = "Massey University"
-      subtitle = "Immersive Lead & Senior Lecturer"
+      subtitle = "Immersive Curriculum Lead & Senior Lecturer"
       style = "object-fit: unset"
       trackingCode = "massey"
 
@@ -281,7 +281,7 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "instagram filter and snapchat lens"
       url= "https://climateclub.nz/"
       title = "Climate Club"
-      subtitle = "Growth Support, Instagram & Snapchat XR Filters"
+      subtitle = "Growth Support & XR Social Media Filters"
       style = ""
       trackingCode = "lalatat"
 
