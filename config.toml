@@ -228,7 +228,7 @@ googleAnalytics = "G-H79CLVEY76"
     icon= "icon-bulb"
     description="&ldquo;Maddy helped us by identifying problems that we couldn’t quite put our finger on, or know how to articulate - and then working to solve those problems. Since Maddy came on board I feel confident in and proud of my platform.&rdquo;"
     name="Damaris Coulter, CEO <a href='http://www.therealness.world' target='_blank' rel='noopener noreferrer' style='text-decoration: underline'>The Realness</a>"
-    img = "MaddyKingDigital.jpg"
+    img = "images/clients/damaris.jpg"
 
 # Work section
   [params.work]
@@ -362,6 +362,134 @@ googleAnalytics = "G-H79CLVEY76"
       subheading = "Working with The Realness" 
 
 
+# Media section
+  [params.media]
+    enable = true
+    title = "Media"
+    titleTwo = "By Maddy"
+    
+    background = "clients/full_image_1.jpg"
+
+   [[params.media.item]]
+  title = "How to be a badass: A guide to thriving in male-dominated workplaces - The Spinoff"
+  link = "https://thespinoff.co.nz/business/28-07-2021/how-to-be-a-badass-a-guide-to-thriving-in-male-dominated-workplaces"
+  date = "2021"
+  writer = true
+
+[[params.media.item]]
+  title = "The Spinoff Climate - Interactive Web Development"
+  link = "https://thespinoff.co.nz/climate"
+  date = "2020"
+  writer = true
+
+[[params.media.item]]
+  title = "Making history: the evolution of breast cancer treatment - Pink Magazine"
+  link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7114003940002837"
+  date = "2010"
+  writer = true
+
+[[params.media.item]]
+  title = "We are responsible for sex offenders - HvngryMag"
+  link = "https://medium.com/hvngry-magazine/we-are-responsible-for-sex-offenders-e73be6c8939e"
+  date = "2014"
+  writer = true
+
+[[params.media.item]]
+  title = "Kiss your brain: What I learned when I lost my mind - Idealog"
+  link = "https://idealog.co.nz/etc/2017/05/kiss-your-brain-what-i-learned-when-i-lost-my-mind"
+  date = "2017"
+  writer = true
+
+[[params.media.item]]
+  title = "Changing the world one empowered student at a time - EdGazette"
+  link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7116204240002837"
+  date = "2021"
+  writer = false
+
+[[params.media.item]]
+  title = "How We Can Use Tech to Build a Better World with Maddy King - Hot Girls Code Podcast"
+  link = "https://podcasts.apple.com/az/podcast/57-how-we-can-use-tech-to-build-a-better-world-with-maddy-king/id1652417643?i=1000675789544"
+  date = "2024"
+  writer = false
+
+[[params.media.item]]
+  title = "The realities of trying to make a difference with Maddy King - CheerPod Podcast"
+  link = "https://www.ivoox.com/en/the-realities-of-trying-to-make-a-difference-audios-mp3_rf_135260935_1.html"
+  date = "2024"
+  writer = false
+
+[[params.media.item]]
+  title = "Optimistic activism: on rebellion, AI and social impact, and staying hopeful in a rapidly changing world"
+  link = "https://hopemechanic.ghost.io/optimistic-activism-on-rebellion-ai-and-social-impact-and-staying-hopeful-in-a-rapidly-changing-world"
+  date = "2025"
+  writer = true
+
+  [[params.media.item]]
+  title = "Young NZers recognised for their innovative thinking"
+  link = "https://www.scoop.co.nz/stories/SC1807/S00004/young-nzers-recognised-for-their-innovative-thinking.htm"
+  date = "2018"
+  writer = false
+
+[[params.media.item]]
+  title = "How to turn Cyborg: Enspiral Dev Academy"
+  link = "https://medium.com/enspiral-dev-academy/how-to-turn-cyborg-week-1-b54b26c4b0e0"
+  date = "2017"
+  writer = true
+
+[[params.media.item]]
+  title = "Next stop: Moon: Enspiral Dev Academy"
+  link = "https://medium.com/enspiral-dev-academy/next-stop-moon-c04c3d8cb710"
+  date = "2018"
+  writer = true
+
+[[params.media.item]]
+  title = "'Just realising you can do it'"
+  link = "https://medium.com/enspiral-dev-academy/just-realising-you-can-do-it-f12993738c01"
+  date = "2018"
+  writer = true
+
+[[params.media.item]]
+  title = "20 Māori Web Development Scholarships available"
+  link = "https://medium.com/enspiral-dev-academy/20-m%C4%81ori-web-development-scholarships-available-b36b2e479d5b"
+  date = "2018"
+  writer = true
+
+[[params.media.item]]
+  title = "'Tech is right for you and for me'"
+  link = "https://medium.com/enspiral-dev-academy/tech-is-right-for-you-and-for-me-8460c5a9adeb"
+  date = "2018"
+  writer = true
+
+[[params.media.item]]
+  title = "How Tech Skills Can Help People"
+  link = "https://medium.com/enspiral-dev-academy/how-tech-skills-can-help-people-6bed548f8a3c"
+  date = "2018"
+  writer = true
+
+[[params.media.item]]
+  title = "Marketing Made Easy - LaunchBot Webinar"
+  link = "https://www.youtube.com/watch?v=F-UX_kDrA0Q&t=820s"
+  date = "2025"
+  writer = true
+
+[[params.media.item]]
+  title = "Launchbot Demo - YouTube"
+  link = "https://www.youtube.com/watch?v=L-U7ZdJ8Uzo&t=7s"
+  date = "2025"
+  writer = true
+
+[[params.media.item]]
+  title = "Happiness Is Something We Work At - Stitch Blog"
+  link = "https://www.stitch.net/blog/2025/03/happiness-is-something-we-work-at/"
+  date = "2025"
+  writer = true
+
+[[params.media.item]]
+  title = "Sick of Online Dating? How to Meet People Over 50 - Stitch Blog"
+  link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
+  date = "2025"
+  writer = true
+
   # Counters section
   [params.counters]
     enable = true
@@ -414,8 +542,8 @@ googleAnalytics = "G-H79CLVEY76"
         ["icon-clock", "Always keen to hear about new projects"],
         ["icon-globe", "I like working hybrid-remotely"],
         ["icon-envelope", "me@maddyking44.com"],
-        ["icon-linkedin", "https://www.linkedin.com/in/maddyking44/"],
-        ["icon-social-github", "https://github.com/bsides44"],
+        ["icon-linkedin", "Maddy King", "https://www.linkedin.com/in/maddyking44/"],
+        ["icon-social-github", "bsides44", "https://github.com/bsides44"],
       ]
 
     name = "Name"

@@ -323,6 +323,65 @@
 		}
 	};
 
+	var mediaAnimate = function () {
+
+		if ($('#fh5co-media').length > 0) {
+
+			$('#fh5co-media').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-media .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
+	var mediaTwoAnimate = function () {
+
+		if ($('#fh5co-mediaTwo').length > 0) {
+
+			$('#fh5co-mediaTwo').waypoint(function (direction) {
+
+				if (direction === 'down' && !$(this.element).hasClass('animated')) {
+
+
+					setTimeout(function () {
+						$('#fh5co-mediaTwo .to-animate').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('fadeInUp animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 100);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			}, { offset: '80%' });
+
+		}
+	};
+
+
 	var productswebAnimate = function () {
 		var productsweb = $('#fh5co-productsweb');
 		if (productsweb.length > 0) {
@@ -638,6 +697,8 @@
 		introAboutAnimate();
 		quoteAnimate();
 		productsAnimate();
+		mediaAnimate();
+		mediaTwoAnimate();
 		productswebAnimate();
 		productsTwoAnimate();
 		workAnimate();

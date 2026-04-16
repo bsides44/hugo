@@ -1,0 +1,51 @@
+<script>
+	gtag('config', 'G-H79CLVEY76', { 'page_path': '/media' })
+</script>
+<section id="fh5co-media">
+	<div class="fh5co-media-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center to-animate">
+				<h2>{{ .Site.Params.media.title | markdownify }}</h2>
+			</div>
+		</div>
+
+		{{ $written := slice }}
+		{{ $devacademy := slice }}
+        {{ $stitch := slice }}
+		{{ $featuring := slice }}
+		{{ range .Site.Params.media.item }}
+			{{ if strings.Contains .link "dev-academy" }}
+				{{ $devacademy = $devacademy | append . }}
+            {{ else if strings.Contains .link "stitch" }}
+				{{ $stitch = $stitch | append . }}
+			{{ else if .writer }}
+				{{ $written = $written | append . }}
+			{{ else }}
+				{{ $featuring = $featuring | append . }}
+			{{ end }}
+		{{ end }}
+		{{ $written = sort $written "date" "desc" }}
+		{{ $devacademy = sort $devacademy "date" "desc" }}
+		{{ $featuring = sort $featuring "date" "desc" }}
+        
+        <div class="row" style="margin-top: 2em;">
+			<div class="col-md-12">
+				<h3 class="media-section-heading">Featuring Maddy</h3>
+			</div>
+		</div>
+		<div class="row media-grid">
+			{{ range $featuring }}
+			<div class="col-md-6 col-xs-12 media-item">
+				<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+					<span class="media-title">{{ .title }}</span>
+					<span class="media-date">{{ .date }}</span>
+				</a>
+			</div>
+			{{ end }}
+		</div>
+
+		
+
+	</div>
+</section>

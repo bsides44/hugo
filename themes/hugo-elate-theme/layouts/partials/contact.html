@@ -18,7 +18,7 @@
 				<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
 				<ul class="fh5co-contact-info">
 					{{ range .Site.Params.contact.details }}
-					<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
+					{{ $item := . }}<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index $item 2}}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ index $item 1 | markdownify }}</a>{{ else }}{{ with index $item 1}}{{ . | markdownify }}{{ end }}{{ end }}</li>
 					{{ end }}
 				</ul>
 			</div>
