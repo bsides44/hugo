@@ -9,7 +9,7 @@ googleAnalytics = "G-H79CLVEY76"
 
   # Meta
   author = "Maddy King"
-  description = "Creative digital art and experimenting with different realities through 3D interactive web experiences, games and VR / AR / XR "
+  description = "Creative product & campaign growth for a better world"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -49,7 +49,7 @@ googleAnalytics = "G-H79CLVEY76"
   # Hero section
   [params.hero]
     title = "Maddy King"
-    subtitleone = 'Hack'
+    subtitleone = 'Grow'
     urlone = '#about-descript'
     subtitletwo = 'Experiment'
     urltwo = '#fh5co-products'
@@ -90,30 +90,30 @@ googleAnalytics = "G-H79CLVEY76"
 
   [params.intro.quote]
     enable=true
-    text1="Creative 3D Web Developer, Communicator & Educator"
-    text2="Lecturer in Virtual Reality and Augmented Reality to Change the World"
-    text3="Marketing, Startup & Business background"
-    text4="Using Technology and Storytelling to Dismantle Oppressive Power Structures"
+    text1="Creative Product Growth for a Better World"
+    text2="Building Tech to Create Radical Hope"
+    text3="Teaching Optimists How to Actively Solve Global Problems"
+    text4="Growing Movements of Systemic Change With Scalable Results"
     name=""
-    img = "MaddyKingDigital.jpg"
+    img = "mk-smile.JPEG"
 
   [params.intro.video]
     enable = false 
-    title = "Time to level up your business?"
+    title = "Time to level up your project?"
     subheading = ""
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=OKKbtq1JlTY"
+    url = ""
 
 
 # Products section
   [params.products]
     enable = true
-    title = "AR Playground"
-    description = "Open on mobile. A web AR experience I built in A-Frame, using plane detection and shadow simulation. Making AR available on the web, so users don't have to download an app."
+    title = "Want to see me breakdance?"
+    description = "Open on your phone. A web AR experience I built in A-Frame, using plane detection and shadow simulation."
     footertext = ''
     icon = "icon-target"
     url = "https://aframe-web.onrender.com/"
-    button = "Take me there"
+    button = "Show me the moves"
 
   # Testimonials section
   [params.testimonials]
@@ -186,7 +186,7 @@ googleAnalytics = "G-H79CLVEY76"
 
 # ProductsTwo section
   [params.productsTwo]
-    enable = true
+    enable = false
     title = "XR Ecosystem Map"
     description = "A 3D system I built to show AR, VR and XR creators in New Zealand. Made in 3D-forcegraph, built on THREE.js in React."
     footertext = ''
@@ -196,7 +196,7 @@ googleAnalytics = "G-H79CLVEY76"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Free Google Analytics Tool"
     description = "A simple React app I built to boost your search performance."
     url = "https://analytics.maddyking44.com"
@@ -240,6 +240,34 @@ googleAnalytics = "G-H79CLVEY76"
     button = "Get in touch"
 
     [[params.work.row]]
+      img = "launch-large.jpg"
+      alt = "growth marketing expert in social movements and community"
+      url= "https://www.stitch.net/"
+      title = "Stitch"
+      subtitle = "Head of Growth"
+      style = "object-fit: unset"
+      trackingCode = "stitch"
+
+    [[params.work.row]]
+      img = "mk.jpg"
+      alt = "AI product development for social good"
+      url= "https://www.launchbot.app/"
+      title = "Launchbot"
+      subtitle = "Founder & CEO"
+      style = "object-fit: unset"
+      trackingCode = "launchbot"
+
+
+    [[params.work.row]]
+      img = "v4c3.jpg"
+      alt = "growth marketing political campaigns"
+      url= "https://www.facebook.com/voteforclimatenz"
+      title = "Vote for Climate"
+      subtitle = "Campaigner"
+      style = "object-fit: unset"
+      trackingCode = "voteforclimate"
+
+    [[params.work.row]]
       img = "clients/massey.JPG"
       alt = "university lecturer xr emerging tech virtual reality new zealand"
       url= "https://www.massey.ac.nz/about/news/massey-leads-the-way-with-immersive-media-course/"
@@ -251,9 +279,9 @@ googleAnalytics = "G-H79CLVEY76"
     [[params.work.row]]
       img = "clients/filtersq.png"
       alt = "instagram filter and snapchat lens"
-      url= "https://www.instagram.com/ar/1320259605383622/"
-      title = "ClimateClubNZ"
-      subtitle = "Built Instagram & Snapchat Filter"
+      url= "https://climateclub.nz/"
+      title = "Climate Club"
+      subtitle = "Growth Support, Instagram & Snapchat XR Filters"
       style = ""
       trackingCode = "lalatat"
 
@@ -344,7 +372,7 @@ googleAnalytics = "G-H79CLVEY76"
       description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 40
+      to = 48
       interval = 50
       speed = 4000
 
@@ -352,7 +380,7 @@ googleAnalytics = "G-H79CLVEY76"
       description = "Lines of code"
       icon = "icon-code"
       from = 0
-      to = 234340
+      to = 834340
       interval = 50
       speed = 4000
 
@@ -360,7 +388,7 @@ googleAnalytics = "G-H79CLVEY76"
       description = "Cups of tea"
       icon = "icon-cup"
       from = 0
-      to = 1302
+      to = 4302
       interval = 50
       speed = 4000
 
@@ -368,7 +396,7 @@ googleAnalytics = "G-H79CLVEY76"
       description = "Happy clients"
       icon = "icon-people"
       from = 0
-      to = 16
+      to = 26
       interval = 50
       speed = 4000
 
@@ -383,9 +411,10 @@ googleAnalytics = "G-H79CLVEY76"
     # Available icons: https://simplelineicons.github.io/
     details = [
         ["icon-home", "Based in Wellington"],
-        ["icon-clock", "Currently seeking new projects"],
-        ["icon-globe", "I like working remotely"],
+        ["icon-clock", "Always keen to hear about new projects"],
+        ["icon-globe", "I like working hybrid-remotely"],
         ["icon-envelope", "me@maddyking44.com"],
+        ["icon-linkedin", "https://www.linkedin.com/in/maddyking44/"],
         ["icon-social-github", "https://github.com/bsides44"],
       ]
 
@@ -400,9 +429,8 @@ googleAnalytics = "G-H79CLVEY76"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Maddy King 2024'
+    copyright = '&copy; Maddy King 2026'
     links = [
-        ["icon-facebook", "https://www.facebook.com/maddy.king.71"],
         ["icon-linkedin", "https://www.linkedin.com/in/maddyking44"],
         ["icon-social-github", "https://github.com/bsides44"],
       ]
