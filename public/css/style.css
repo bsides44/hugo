@@ -426,7 +426,7 @@ h6 {
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #52d3aa;
+  color: #52d3aa !important
 }
 
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
@@ -2243,7 +2243,7 @@ h6 {
 
 .btn.btn-primary {
   background: #52d3aa;
-  color: #fff;
+  color: #fff !important;
   border: none !important;
   border: 2px solid transparent !important;
 }
