@@ -90,7 +90,7 @@ googleAnalytics = "G-H79CLVEY76"
   [params.intro.quote]
     enable=true
     text1="Creative product growth for a better world"
-    text2="Building tech to create hope & roll our sleeves up"
+    text2="Building tech to create hope & roll up our sleeves"
     text3="Teaching optimism & how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
     name=""
@@ -199,7 +199,7 @@ googleAnalytics = "G-H79CLVEY76"
     title = "Gather"
     description = "A not-for-profit tool to organise communities of action."
     url = "https:/gatherthevillage.org/blog/welcome-to-gather"
-    button = "Yes Please"
+    button = "Explore"
 
     [[params.services.item]]
       title = "Get more support by making volunteer actions *social*"
@@ -367,7 +367,7 @@ googleAnalytics = "G-H79CLVEY76"
     enable = true
     title = "Media"
     titleTwo = "By Maddy"
-    
+
     background = "clients/full_image_1.jpg"
 
    [[params.media.item]]
@@ -421,6 +421,12 @@ googleAnalytics = "G-H79CLVEY76"
 [[params.media.item]]
   title = "Optimistic activism: on rebellion, AI and social impact, and staying hopeful in a rapidly changing world"
   link = "https://hopemechanic.ghost.io/optimistic-activism-on-rebellion-ai-and-social-impact-and-staying-hopeful-in-a-rapidly-changing-world"
+  date = "2025"
+  writer = true
+
+[[params.media.item]]
+  title = "What is Ethical Growth?"
+  link = "https://www.launchbot.app/blog/what-is-ethical-growth-for-business-and-impact"
   date = "2025"
   writer = true
 
