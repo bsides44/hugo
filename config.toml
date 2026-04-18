@@ -199,7 +199,7 @@ googleAnalytics = "G-H79CLVEY76"
     title = "Gather"
     description = "A not-for-profit tool to organise communities of action."
     url = "https:/gatherthevillage.org/blog/welcome-to-gather"
-    button = "Explore"
+    button = "Show Me"
 
     [[params.services.item]]
       title = "Get more support by making volunteer actions *social*"
@@ -245,7 +245,7 @@ googleAnalytics = "G-H79CLVEY76"
       url= "https://www.stitch.net/"
       title = "Stitch"
       subtitle = "Head of Growth"
-      style = "object-fit: unset"
+      style = ""
       trackingCode = "stitch"
 
     [[params.work.row]]
@@ -264,7 +264,7 @@ googleAnalytics = "G-H79CLVEY76"
       url= "https://www.facebook.com/voteforclimatenz"
       title = "Vote for Climate"
       subtitle = "Organiser & Campaigner"
-      style = "object-fit: unset"
+      style = ""
       trackingCode = "voteforclimate"
 
     [[params.work.row]]
@@ -273,7 +273,7 @@ googleAnalytics = "G-H79CLVEY76"
       url= "https://www.massey.ac.nz/about/news/massey-leads-the-way-with-immersive-media-course/"
       title = "Massey University"
       subtitle = "Immersive Curriculum Lead & Senior Lecturer"
-      style = "object-fit: unset"
+      style = ""
       trackingCode = "massey"
 
     [[params.work.row]]
@@ -290,7 +290,7 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "small business consultant"
       url= "https://therealness.world"
       title = "The Realness"
-      subtitle = "Product Management"
+      subtitle = "Product Management & Web Development"
       trackingCode = "the-realness"
 
     [[params.work.row]]
@@ -377,7 +377,7 @@ googleAnalytics = "G-H79CLVEY76"
   writer = true
 
 [[params.media.item]]
-  title = "The Spinoff Climate - Interactive Web Development"
+  title = "The Spinoff Climate: Interactive Web Development"
   link = "https://thespinoff.co.nz/climate"
   date = "2020"
   writer = true
@@ -389,7 +389,7 @@ googleAnalytics = "G-H79CLVEY76"
   writer = true
 
 [[params.media.item]]
-  title = "We are responsible for sex offenders - HvngryMag"
+  title = "We are responsible for sex offenders: HvngryMag"
   link = "https://medium.com/hvngry-magazine/we-are-responsible-for-sex-offenders-e73be6c8939e"
   date = "2014"
   writer = true
@@ -403,7 +403,7 @@ googleAnalytics = "G-H79CLVEY76"
 [[params.media.item]]
   title = "Changing the world one empowered student at a time - EdGazette"
   link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7116204240002837"
-  date = "2021"
+  date = "2015"
   writer = false
 
 [[params.media.item]]
@@ -437,13 +437,13 @@ googleAnalytics = "G-H79CLVEY76"
   writer = false
 
 [[params.media.item]]
-  title = "How to turn Cyborg: Enspiral Dev Academy"
+  title = "How to turn Cyborg Series"
   link = "https://medium.com/enspiral-dev-academy/how-to-turn-cyborg-week-1-b54b26c4b0e0"
   date = "2017"
   writer = true
 
 [[params.media.item]]
-  title = "Next stop: Moon: Enspiral Dev Academy"
+  title = "Next stop: Moon Series"
   link = "https://medium.com/enspiral-dev-academy/next-stop-moon-c04c3d8cb710"
   date = "2018"
   writer = true
@@ -473,25 +473,19 @@ googleAnalytics = "G-H79CLVEY76"
   writer = true
 
 [[params.media.item]]
-  title = "Marketing Made Easy - LaunchBot Webinar"
+  title = "Marketing Made Easy: LaunchBot Webinar"
   link = "https://www.youtube.com/watch?v=F-UX_kDrA0Q&t=820s"
   date = "2025"
   writer = true
 
 [[params.media.item]]
-  title = "Launchbot Demo - YouTube"
-  link = "https://www.youtube.com/watch?v=L-U7ZdJ8Uzo&t=7s"
-  date = "2025"
-  writer = true
-
-[[params.media.item]]
-  title = "Happiness Is Something We Work At - Stitch Blog"
+  title = "Happiness Is Something We Work At"
   link = "https://www.stitch.net/blog/2025/03/happiness-is-something-we-work-at/"
   date = "2025"
   writer = true
 
 [[params.media.item]]
-  title = "Sick of Online Dating? How to Meet People Over 50 - Stitch Blog"
+  title = "Sick of Online Dating? How to Meet People Over 50"
   link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
   date = "2025"
   writer = true
