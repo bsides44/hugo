@@ -923,6 +923,10 @@ h6 {
   font-size: 30px;
 }
 
+.quote .text-dark {
+  color: #10284e !important
+}
+
 .quote h4 {
   float: left;
   width: 100%;

@@ -93,6 +93,7 @@ googleAnalytics = "G-H79CLVEY76"
     text2="Building tech to create hope and roll up our sleeves"
     text3="Teaching optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
+    text5="Impact marketing, Campaign creation, Web development, Product growth, Project execution, Fundraising, Communication, Team leadership, AI transformation, Teaching, Public speaking"
     name=""
     img = "mk-sq.png"
 
@@ -387,6 +388,7 @@ googleAnalytics = "G-H79CLVEY76"
   link = "https://thespinoff.co.nz/climate"
   date = "2020"
   writer = true
+  other = true
 
 [[params.media.item]]
   title = "Making history: the evolution of breast cancer treatment - Pink Magazine"
@@ -485,6 +487,7 @@ googleAnalytics = "G-H79CLVEY76"
   link = "https://www.youtube.com/watch?v=F-UX_kDrA0Q&t=820s"
   date = "2025"
   writer = true
+  other = true
 
 [[params.media.item]]
   title = "Happiness Is Something We Work At"
