@@ -16,8 +16,8 @@
 
 	{{ partial "intro.html" .}}
 
-	{{ if .Site.Params.work.enable }}
-	{{ partial "work.html" .}}
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.productsweb.enable }}
@@ -28,33 +28,37 @@
 	{{ partial "testimonials.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.products.enable }}
-	{{ partial "products.html" .}}
+	{{ if .Site.Params.work.enable }}
+	{{ partial "work.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.productsTwo.enable }}
 	{{ partial "productsTwo.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.products.enable }}
+	{{ partial "products.html" .}}
+	{{ end }}
+
+	{{ if .Site.Params.media.enable }}
+	{{ partial "mediaBy.html" .}}
+	{{ end }}
+
+
 	{{ if .Site.Params.media.enable }}
 	{{ partial "media.html" .}}
 	{{ end }}
 
+
+
 	{{ if .Site.Params.about.enable }}
 	{{ partial "about.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.casestudy.enable }}
 	{{ partial "casestudy.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.media.enable }}
-	{{ partial "mediaBy.html" .}}
-	{{ end }}
 
 	{{ if .Site.Params.counters.enable }}
 	{{ partial "counters.html" .}}

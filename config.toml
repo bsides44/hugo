@@ -23,10 +23,10 @@ googleAnalytics = "G-H79CLVEY76"
     about = "Quote"
     work = "Portfolio"
     testimonials = "Testimonies"
-    products = "Dev"
+    products = ""
+    services = "Projects"
     productsweb = "Web"
     productsTwo = "Insights"
-    services = ""
     casestudy = "Casestudy"
     contact = "Contact"
 
@@ -81,7 +81,7 @@ googleAnalytics = "G-H79CLVEY76"
   [[params.intro.item]]
     title = "Playground"
     description = "Experiments in progress"
-    url = "#fh5co-products"
+    url = "#fh5co-services"
     button = "Sounds weird"
     icon = "icon-energy"
     img = "clients/img_8.jpg"
@@ -89,9 +89,9 @@ googleAnalytics = "G-H79CLVEY76"
 
   [params.intro.quote]
     enable=true
-    text1="Creative product & campaign growth for a better world"
-    text2="Building tech to create hope & roll up our sleeves"
-    text3="Teaching optimism & how to actively solve global problems"
+    text1="Creative product and campaign growth for a better world"
+    text2="Building tech to create hope and roll up our sleeves"
+    text3="Teaching optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
     name=""
     img = "mk-sq.png"
@@ -239,7 +239,7 @@ googleAnalytics = "G-H79CLVEY76"
 # Work section
   [params.work]
     enable = true
-    title = "Previous Work"
+    title = "Work"
     description = "Some excellent organisations that I've helped in different ways"
     footertext = ''
     url = "#fh5co-contact"
@@ -372,7 +372,7 @@ googleAnalytics = "G-H79CLVEY76"
   [params.media]
     enable = true
     title = "Media"
-    titleTwo = "By Maddy"
+    titleTwo = "Writing"
 
     background = "clients/full_image_1.jpg"
 
@@ -393,12 +393,14 @@ googleAnalytics = "G-H79CLVEY76"
   link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7114003940002837"
   date = "2010"
   writer = true
+  enable = false
 
 [[params.media.item]]
   title = "We are responsible for sex offenders: HvngryMag"
   link = "https://medium.com/hvngry-magazine/we-are-responsible-for-sex-offenders-e73be6c8939e"
   date = "2014"
   writer = true
+  enable = false
 
 [[params.media.item]]
   title = "Kiss your brain: What I learned when I lost my mind - Idealog"
@@ -495,6 +497,25 @@ googleAnalytics = "G-H79CLVEY76"
   link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
   date = "2025"
   writer = true
+
+[[params.media.item]]
+  title = "How to Meet People Over 50"
+  link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
+  date = "2025"
+  writer = true
+
+[[params.media.item]]
+  title = "Finalist: New Zealand Women of Influence"
+  link = "https://www.stuff.co.nz/national/women-of-influence/80605149/women-of-influence-2016-meet-our-alumni"
+  date = "2015"
+  accolade = true
+
+[[params.media.item]]
+  title = "Winner - Act in Space"
+  link = "https://medium.com/enspiral-dev-academy/dev-academy-graduates-win-act-in-space-national-finals-c56c3ab5ad44"
+  date = "2018"
+  accolade = true
+
 
   # Counters section
   [params.counters]
