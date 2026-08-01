@@ -196,30 +196,36 @@ googleAnalytics = "G-H79CLVEY76"
   # Services section
   [params.services]
     enable = true
-    title = "Gather"
-    description = "A not-for-profit tool to organise communities of action."
-    url = "https:/gatherthevillage.org/blog/welcome-to-gather"
-    button = "Show Me"
+    title = "Current Projects"
+    description = "Constantly building tools to help communities of action."
 
     [[params.services.item]]
-      title = "Get more support by making volunteer actions *social*"
-      description = ""
-      icon = "icon-support"
+      title = "Alot"
+      description = "Turns every lawn into a commmunity garden, by matching people who love to grow things with busy folks who have a yard that needs more care."
+      icon = "icon-home"
+      url = "https://alot.vercel.app"
+      button = "Let's grow"
 
     [[params.services.item]]
-      title = "Task management in the chat so everyone knows what they're doing"
-      description = ""
+      title = "Gather"
+      description = "Easy, private social network-style messaging and posts to keep community groups and campaigns connected, engaged and motivated."
       icon = "icon-energy"
+      url = "https://gatherthevillage.org/"
+      button = "Connect Me"
 
     [[params.services.item]]
-      title = "Get your team off Meta and onto values-aligned tools"
-      description = ""
+      title = "Campaignify"
+      description = "Smart tool so your movement can grow but your campaigner doesn't need to learn how to be a marketer too. Still in development, public access not available. Join the waitlist."
       icon = "icon-badge"
+      url = "https://campaignify.org"
+      button = "In Beta"
 
     [[params.services.item]]
-      title = "Create more community with the real people around you"
-      description = ""      
-      icon = "icon-globe-alt"
+      title = "What's next?"
+      description = "Get in touch with an idea we can work on together. I'm particularly interested in using tech to improve the climate, social justice and the lives of young people."      
+      icon = "icon-bubbles"
+      url = "#fh5co-contact"
+      button = "Let's Chat"
 
   # About section
   [params.about]

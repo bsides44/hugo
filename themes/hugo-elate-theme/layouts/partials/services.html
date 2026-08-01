@@ -19,6 +19,11 @@
 				<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 				<h3>{{ .title | markdownify }}</h3>
 				<p>{{ .description | markdownify }}</p>
+				<div class="row">
+					<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
+						<p><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .button}}</a></p>
+					</div>
+				</div>
 			</div>
 			{{ end }}
 		</div>
@@ -28,15 +33,14 @@
 				<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 				<h3>{{ .title | markdownify }}</h3>
 				<p>{{ .description | markdownify }}</p>
+				<div class="row">
+					<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
+						<p><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .button}}</a></p>
+					</div>
+				</div>
 			</div>
 			{{ end }}
 		</div>
-		<div class="row">
-			<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
-				{{ if .Site.Params.services.button}}
-				<p><a href="{{ .Site.Params.services.url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .Site.Params.services.button}}</a></p>
-				{{ end }}
-			</div>
-		</div>
+
 	</div>
 </section>
