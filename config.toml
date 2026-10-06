@@ -555,12 +555,6 @@ googleAnalytics = "G-H79CLVEY76"
   date = "2018"
   accolade = true
 
-[[params.media.item]]
-  title = "Writer - Idealog’s most popular stories of 2017"
-  link = "https://idealog.co.nz/etc/2017/12/instant-classics-idealogs-most-popular-stories-2017"
-  date = "2017"
-  accolade = true
-
 
   # Counters section
   [params.counters]
