@@ -624,6 +624,12 @@ h6 {
   z-index: 999
 }
 
+#fh5co-intro .intro-prizes {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
 #fh5co-intro .fh5co-block {
   width: 33.33%;
   float: left;
@@ -1313,8 +1319,9 @@ h6 {
   font-weight: 300;
 }
 
-#fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
-  font-size: 70px;
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-number,
+#fh5co-intro .fh5co-counter .fh5co-counter-number {
+  font-size: 32px;
   color: black;
   font-weight: 300;
 }
@@ -1325,7 +1332,8 @@ h6 {
   font-weight: 400;
 }
 
-#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label,
+#fh5co-intro .fh5co-counter .fh5co-counter-label {
   color: black;
   font-size: 18px;
   font-weight: 200;
@@ -1436,14 +1444,14 @@ h6 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-#fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter {
+#fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter, #fh5co-intro .fh5co-counter {
   position: relative;
   z-index: 3;
   text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-  #fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter {
+  #fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter, #fh5co-intro .fh5co-counter {
     margin-bottom: 50px;
     float: left;
     width: 100%;
@@ -1455,22 +1463,25 @@ h6 {
 #fh5co-counters .fh5co-counter .fh5co-counter-label,
 #fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon,
 #fh5co-mediaTwo .fh5co-counter .fh5co-counter-number,
-#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label,
+#fh5co-intro .fh5co-counter .fh5co-counter-icon,
+#fh5co-intro .fh5co-counter .fh5co-counter-number,
+#fh5co-intro .fh5co-counter .fh5co-counter-label {
   display: block;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-icon, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon {
+#fh5co-counters .fh5co-counter .fh5co-counter-icon, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon, #fh5co-intro .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
   color: #52d3aa;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-number, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
+#fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
   color: #fff;
   font-weight: 300;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-label, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
+#fh5co-counters .fh5co-counter .fh5co-counter-label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;

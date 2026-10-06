@@ -14,7 +14,7 @@
         {{ $stitch := slice }}
 		{{ $featuring := slice }}
 		{{ $other := slice }}
-		{{ range .Site.Params.media.item }}
+		{{ range .Site.Params.media.writing }}
 			{{ if and (ne .enable false) (ne .enabled false) }}
 				{{ if .other }}
 					{{ $other = $other | append . }}
@@ -34,9 +34,9 @@
 		{{ $featuring = sort $featuring "date" "desc" }}
 		{{ $other = sort $other "date" "desc" }}
 		
-		<!-- <div class="row">
+		<div class="row" style="margin-bottom:40px">
 			{{ range .Site.Params.media.prize }}
-			<div class="col-md-3 col-sm-6 col-xs-12 pb-10">
+			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="fh5co-counter to-animate">
 					<i class="fh5co-counter-icon {{ .icon }} to-animate-2"></i>
 					<span class="fh5co-counter-number">{{ .description }}</span>
@@ -44,8 +44,13 @@
 				</div>
 			</div>
 			{{ end }}
-		</div> -->
+		</div>
 
+		<div class="row" style="margin-top: 3em;">
+			<div class="col-md-12">
+				<h3 class="media-section-heading">Published</h3>
+			</div>
+		</div>
 		<div class="row media-grid">
 			{{ range $written }}
 			<div class="col-md-6 col-xs-12 media-item">
@@ -53,8 +58,8 @@
 					<li>
 						<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
 							<span class="media-title">{{ .title }}</span>
-							<span class="media-date">{{ .date }}</span>
 						</a>
+						<p class="media-date">{{ .date }}</p>
 					</li>
 				</ul>
 			</div>
@@ -73,8 +78,8 @@
 					<li>
 						<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
 							<span class="media-title">{{ .title }}</span>
-							<span class="media-date">{{ .date }}</span>
 						</a>
+						<p class="media-date">{{ .date }}</p>
 					</li>
 				</ul>
 			</div>
@@ -93,14 +98,15 @@
 					<li>
 						<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
 							<span class="media-title">{{ .title }}</span>
-							<span class="media-date">{{ .date }}</span>
 						</a>
+						<p class="media-date">{{ .date }}</p>
 					</li>
 				</ul>
 			</div>
 			{{ end }}
 		</div>
 
+		{{ if $other }}
 		<div class="row" style="margin-top: 2em;">
 			<div class="col-md-12">
 				<h3 class="media-section-heading">Other things by Maddy</h3>
@@ -113,13 +119,14 @@
 					<li>
 						<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
 							<span class="media-title">{{ .title }}</span>
-							<span class="media-date">{{ .date }}</span>
 						</a>
+						<p class="media-date">{{ .date }}</p>
 					</li>
 				</ul>
 			</div>
 			{{ end }}
 		</div>
+		{{ end }}
 
 	</div>
 </section>

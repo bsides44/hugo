@@ -23,10 +23,10 @@ googleAnalytics = "G-H79CLVEY76"
     about = "Quote"
     work = "Portfolio"
     testimonials = "Testimonies"
-    products = ""
+    products = "Writing"
     services = "Projects"
     productsweb = "Web"
-    productsTwo = "Writing"
+    productsTwo = ""
     casestudy = "Casestudy"
     contact = "Contact"
 
@@ -51,7 +51,7 @@ googleAnalytics = "G-H79CLVEY76"
     subtitleone = 'Grow'
     urlone = '#about-descript'
     subtitletwo = 'Experiment'
-    urltwo = '#fh5co-products'
+    urltwo = '#fh5co-productsTwo'
     subtitlethree = 'Create'
     urlthree = '#fh5co-mediaTwo'
  
@@ -93,20 +93,33 @@ googleAnalytics = "G-H79CLVEY76"
     text2="Building tech to create hope and roll up our sleeves"
     text3="Teaching optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
-    text5="Impact marketing, Campaign creation, Web development, Product growth, Project execution, Fundraising, Communication, Team leadership, AI transformation, Teaching, Public speaking"
+    text5="Impact marketing, AI transformation, Campaigns, Web development, Product growth, Project execution, Team leadership, Teaching, Public speaking"
     name=""
     img = "mk-sq.png"
+  
+  [[params.intro.prize]]
+    description = "Winner"
+    subheading= "Act in Space NZ"
+    icon = "icon-rocket"
+    link = "https://medium.com/enspiral-dev-academy/dev-academy-graduates-win-act-in-space-national-finals-c56c3ab5ad44"
+    date = "2018"
 
-  [params.intro.video]
-    enable = false 
-    title = "Time to level up your project?"
-    subheading = ""
-    icon = "icon-play2"
-    url = ""
+  [[params.intro.prize]]
+    description = "Finalist"
+    subheading = "New Zealand Women of Influence"
+    icon = "icon-badge"
+    link = "https://www.stuff.co.nz/national/women-of-influence/80605149/women-of-influence-2016-meet-our-alumni"
+    date = "2015"
+    
+
+  [[params.intro.prize]]
+    description = "Winner"
+    subheading = "Startmate Pitch Competition"
+    icon = "icon-microphone"
 
 
-# Products section
-  [params.products]
+# ProductsTwo section
+  [params.productsTwo]
     enable = true
     title = "Want to see me breakdance?"
     description = "Open on your phone. A web AR experience I built in A-Frame, using plane detection and shadow simulation."
@@ -184,8 +197,8 @@ googleAnalytics = "G-H79CLVEY76"
       cost = "Project specific"
       trackingCode = "product-direction"
 
-# ProductsTwo section
-  [params.productsTwo]
+# Products section
+  [params.products]
     enable = true
     title = "Hope Mechanic"
     description = "Insights at the intersection of climate change, rebellion, AI and social impact."
@@ -380,180 +393,150 @@ googleAnalytics = "G-H79CLVEY76"
     [[params.media.prize]]
       description = "Finalist"
       subheading= "Going West poetry slam"
-      icon = "icon-code"
-      from = 0
-      to = 834340
-      interval = 50
-      speed = 4000
+      icon = "icon-microphone"
 
     [[params.media.prize]]
       description = "Finalist"
       subheading = "Auckland Writer’s and Reader’s festival poetry slam"
-      icon = "icon-cup"
-      from = 0
-      to = 4302
-      interval = 50
-      speed = 4000
+      icon = "icon-speech"
 
     [[params.media.prize]]
       description = "Shortlisted"
       subheading = "AUT Creative Writing award"
-      icon = "icon-people"
-      from = 0
-      to = 26
-      interval = 50
-      speed = 4000
+      icon = "icon-pencil"
 
     [[params.media.prize]]
       description = "Most read stories of 2017"
       subheading = "Idealog"
-      icon = "icon-briefcase"
-      from = 0
-      to = 3
-      interval = 50
-      speed = 4000
+      icon = "icon-book-open"
       
-  [[params.media.item]]
+  [[params.media.writing]]
   title = "How to be a badass: A guide to thriving in male-dominated workplaces - The Spinoff"
   link = "https://thespinoff.co.nz/business/28-07-2021/how-to-be-a-badass-a-guide-to-thriving-in-male-dominated-workplaces"
   date = "2021"
   writer = true
 
-[[params.media.item]]
+[[params.media.project]]
   title = "The Spinoff Climate: Interactive Web Development"
   link = "https://thespinoff.co.nz/climate"
   date = "2020"
   writer = true
-  other = true
+  other = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "Making history: the evolution of breast cancer treatment - Pink Magazine"
   link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7114003940002837"
   date = "2010"
   writer = true
-  enable = false
+  enable = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "We are responsible for sex offenders: HvngryMag"
   link = "https://medium.com/hvngry-magazine/we-are-responsible-for-sex-offenders-e73be6c8939e"
   date = "2014"
   writer = true
   enable = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "Kiss your brain: What I learned when I lost my mind - Idealog"
   link = "https://idealog.co.nz/etc/2017/05/kiss-your-brain-what-i-learned-when-i-lost-my-mind"
   date = "2017"
   writer = true
 
-[[params.media.item]]
+[[params.media.project]]
   title = "Changing the world one empowered student at a time - EdGazette"
   link = "https://natlib-primo.hosted.exlibrisgroup.com/permalink/f/1fro764/INNZ7116204240002837"
   date = "2015"
   writer = false
 
-[[params.media.item]]
+[[params.media.project]]
   title = "How We Can Use Tech to Build a Better World with Maddy King - Hot Girls Code Podcast"
   link = "https://podcasts.apple.com/az/podcast/57-how-we-can-use-tech-to-build-a-better-world-with-maddy-king/id1652417643?i=1000675789544"
   date = "2024"
   writer = false
 
-[[params.media.item]]
+[[params.media.project]]
   title = "The realities of trying to make a difference with Maddy King - CheerPod Podcast"
   link = "https://www.ivoox.com/en/the-realities-of-trying-to-make-a-difference-audios-mp3_rf_135260935_1.html"
   date = "2024"
   writer = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "Optimistic activism: on rebellion, AI and social impact, and staying hopeful in a rapidly changing world"
   link = "https://hopemechanic.ghost.io/optimistic-activism-on-rebellion-ai-and-social-impact-and-staying-hopeful-in-a-rapidly-changing-world"
   date = "2025"
   writer = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "What is Ethical Growth?"
   link = "https://www.launchbot.app/blog/what-is-ethical-growth-for-business-and-impact"
   date = "2025"
   writer = true
 
-  [[params.media.item]]
+  [[params.media.project]]
   title = "Young NZers recognised for their innovative thinking"
   link = "https://www.scoop.co.nz/stories/SC1807/S00004/young-nzers-recognised-for-their-innovative-thinking.htm"
   date = "2018"
   writer = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "How to turn Cyborg Series"
   link = "https://medium.com/enspiral-dev-academy/how-to-turn-cyborg-week-1-b54b26c4b0e0"
   date = "2017"
   writer = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "Next stop: Moon Series"
   link = "https://medium.com/enspiral-dev-academy/next-stop-moon-c04c3d8cb710"
   date = "2018"
   writer = true
+  enabled = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "'Just realising you can do it'"
   link = "https://medium.com/enspiral-dev-academy/just-realising-you-can-do-it-f12993738c01"
   date = "2018"
   writer = true
+  enabled = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "20 Māori Web Development Scholarships available"
   link = "https://medium.com/enspiral-dev-academy/20-m%C4%81ori-web-development-scholarships-available-b36b2e479d5b"
   date = "2018"
   writer = true
+  enabled = false
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "'Tech is right for you and for me'"
   link = "https://medium.com/enspiral-dev-academy/tech-is-right-for-you-and-for-me-8460c5a9adeb"
   date = "2018"
   writer = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "How Tech Skills Can Help People"
   link = "https://medium.com/enspiral-dev-academy/how-tech-skills-can-help-people-6bed548f8a3c"
   date = "2018"
   writer = true
+  enabled = false
 
-[[params.media.item]]
+[[params.media.project]]
   title = "Marketing Made Easy: LaunchBot Webinar"
   link = "https://www.youtube.com/watch?v=F-UX_kDrA0Q&t=820s"
   date = "2025"
   writer = true
   other = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "Happiness Is Something We Work At"
   link = "https://www.stitch.net/blog/2025/03/happiness-is-something-we-work-at/"
   date = "2025"
   writer = true
 
-[[params.media.item]]
+[[params.media.writing]]
   title = "How to Meet People Over 50"
   link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
   date = "2025"
   writer = true
-
-[[params.media.item]]
-  title = "How to Meet People Over 50"
-  link = "https://www.stitch.net/blog/2025/02/sick-of-online-dating-better-ways-to-meet-people-over-50/"
-  date = "2025"
-  writer = true
-
-[[params.media.item]]
-  title = "Finalist: New Zealand Women of Influence"
-  link = "https://www.stuff.co.nz/national/women-of-influence/80605149/women-of-influence-2016-meet-our-alumni"
-  date = "2015"
-  accolade = true
-
-[[params.media.item]]
-  title = "Winner - Act in Space"
-  link = "https://medium.com/enspiral-dev-academy/dev-academy-graduates-win-act-in-space-national-finals-c56c3ab5ad44"
-  date = "2018"
-  accolade = true
 
 
   # Counters section

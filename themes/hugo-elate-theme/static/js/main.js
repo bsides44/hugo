@@ -229,6 +229,17 @@
 						});
 					}, 1000);
 
+					setTimeout(function () {
+						$('#fh5co-intro .to-animate-2').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('bounceIn animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, 1000 + ($('#fh5co-intro .to-animate').length * 100) + 200);
+
 
 					$(this.element).addClass('animated');
 
