@@ -353,16 +353,18 @@
 	};
 
 	var mediaTwoAnimate = function () {
+		var mediaTwo = $('#fh5co-mediaTwo');
+		if (mediaTwo.length > 0) {
 
-		if ($('#fh5co-mediaTwo').length > 0) {
-
-			$('#fh5co-mediaTwo').waypoint(function (direction) {
+			mediaTwo.waypoint(function (direction) {
 
 				if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
+					var sec = mediaTwo.find('.to-animate').length,
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function () {
-						$('#fh5co-mediaTwo .to-animate').each(function (k) {
+						mediaTwo.find('.to-animate').each(function (k) {
 							var el = $(this);
 
 							setTimeout(function () {
@@ -371,6 +373,25 @@
 
 						});
 					}, 100);
+
+					setTimeout(function () {
+						mediaTwo.find('.js-counter').countTo({
+							formatter: function (value, options) {
+								return value.toFixed(options.decimals);
+							},
+						});
+					}, 400);
+
+					setTimeout(function () {
+						mediaTwo.find('.to-animate-2').each(function (k) {
+							var el = $(this);
+
+							setTimeout(function () {
+								el.addClass('bounceIn animated');
+							}, k * 100, 'easeInOutExpo');
+
+						});
+					}, sec);
 
 
 					$(this.element).addClass('animated');

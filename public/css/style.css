@@ -1302,18 +1302,18 @@ h6 {
   margin-top: auto;
 }
 
-#fh5co-media .fh5co-counter .fh5co-counter-icon {
+#fh5co-media .fh5co-counter .fh5co-counter-icon, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
   color: #52d3aa;
 }
 
-#fh5co-media .fh5co-counter .fh5co-counter-number {
+#fh5co-media .fh5co-counter .fh5co-counter-number, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
   color: #fff;
   font-weight: 300;
 }
 
-#fh5co-media .fh5co-counter .fh5co-counter-label {
+#fh5co-media .fh5co-counter .fh5co-counter-label, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;
@@ -1424,14 +1424,14 @@ h6 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-#fh5co-counters .fh5co-counter {
+#fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter {
   position: relative;
   z-index: 3;
   text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-  #fh5co-counters .fh5co-counter {
+  #fh5co-counters .fh5co-counter, #fh5co-mediaTwo .fh5co-counter {
     margin-bottom: 50px;
     float: left;
     width: 100%;
@@ -1440,22 +1440,25 @@ h6 {
 
 #fh5co-counters .fh5co-counter .fh5co-counter-icon,
 #fh5co-counters .fh5co-counter .fh5co-counter-number,
-#fh5co-counters .fh5co-counter .fh5co-counter-label {
+#fh5co-counters .fh5co-counter .fh5co-counter-label,
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon,
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-number,
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
   display: block;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-icon {
+#fh5co-counters .fh5co-counter .fh5co-counter-icon, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
   color: #52d3aa;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-number {
+#fh5co-counters .fh5co-counter .fh5co-counter-number, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
   color: #fff;
   font-weight: 300;
 }
 
-#fh5co-counters .fh5co-counter .fh5co-counter-label {
+#fh5co-counters .fh5co-counter .fh5co-counter-label, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;

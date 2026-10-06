@@ -26,7 +26,7 @@ googleAnalytics = "G-H79CLVEY76"
     products = ""
     services = "Projects"
     productsweb = "Web"
-    productsTwo = "Insights"
+    productsTwo = "Writing"
     casestudy = "Casestudy"
     contact = "Contact"
 
@@ -53,7 +53,7 @@ googleAnalytics = "G-H79CLVEY76"
     subtitletwo = 'Experiment'
     urltwo = '#fh5co-products'
     subtitlethree = 'Create'
-    urlthree = '#fh5co-contact'
+    urlthree = '#fh5co-mediaTwo'
  
   # Intro section
   # Available icons: https://simplelineicons.github.io/
@@ -377,7 +377,43 @@ googleAnalytics = "G-H79CLVEY76"
 
     background = "clients/full_image_1.jpg"
 
-   [[params.media.item]]
+    [[params.media.prize]]
+      description = "Finalist"
+      subheading= "Going West poetry slam"
+      icon = "icon-code"
+      from = 0
+      to = 834340
+      interval = 50
+      speed = 4000
+
+    [[params.media.prize]]
+      description = "Finalist"
+      subheading = "Auckland Writer’s and Reader’s festival poetry slam"
+      icon = "icon-cup"
+      from = 0
+      to = 4302
+      interval = 50
+      speed = 4000
+
+    [[params.media.prize]]
+      description = "Shortlisted"
+      subheading = "AUT Creative Writing award"
+      icon = "icon-people"
+      from = 0
+      to = 26
+      interval = 50
+      speed = 4000
+
+    [[params.media.prize]]
+      description = "Most read stories of 2017"
+      subheading = "Idealog"
+      icon = "icon-briefcase"
+      from = 0
+      to = 3
+      interval = 50
+      speed = 4000
+      
+  [[params.media.item]]
   title = "How to be a badass: A guide to thriving in male-dominated workplaces - The Spinoff"
   link = "https://thespinoff.co.nz/business/28-07-2021/how-to-be-a-badass-a-guide-to-thriving-in-male-dominated-workplaces"
   date = "2021"
