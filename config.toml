@@ -147,6 +147,12 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "Small business support Wellington"
 
     [[params.testimonials.item]]
+      quote = "&ldquo;Maddy filled a gap in the market I didn't know existed until we needed it. Having someone experienced who can act as a fractional growth / performance marketer to understand your business... really lowers the barrier to experimentation.&rdquo;"
+      person = '<a href="https://forteglobal.com/" target="_blank" rel="noopener noreferrer">Forte Global</a>'
+      img = "clients/forte-logo.png"
+      alt = "Impact project management"
+
+    [[params.testimonials.item]]
       quote = "&ldquo;The Digital Marketing course that Maddy delivers is an excellent way to develop and implement a Social Media Marketing strategy. It was a great balance between instructional content and making you think outside of the box! Easy to follow, knowledgeable and challenged the thinking of the attendees.&rdquo;"
       person = 'Rohan Jarvis, Director - <a href="https://lalatat.com/" target="_blank"  rel="noopener noreferrer">LALATAT</a> <span class="subtext"></span>'
       img = "clients/rohan.jpg"
