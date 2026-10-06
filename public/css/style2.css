@@ -846,15 +846,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   color: #329998;
 }
-#fh5co-counters .fh5co-counter .fh5co-counter-number, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
+#fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
   color: #fff;
   font-weight: 300;
 }
-#fh5co-counters .fh5co-counter .fh5co-counter-label, #fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-number {
+  font-size: 70px;
+  color: black;
+  font-weight: 300;
+}
+#fh5co-counters .fh5co-counter .fh5co-counter-label {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;
+}
+#fh5co-mediaTwo .fh5co-counter .fh5co-counter-label {
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 #fh5co-testimonials .box-testimony {
