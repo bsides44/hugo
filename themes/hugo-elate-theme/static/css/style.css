@@ -1056,7 +1056,6 @@ h6 {
   }
 
   #fh5co-services .four-items, #fh5co-services .section-heading {
-    width: 60%;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -1064,7 +1063,8 @@ h6 {
     text-align: center;
   }
 
-  #fh5co-services .four-items div {
+  #fh5co-services .four-items div,
+  #fh5co-services .four-items div:not(.fh5co-service):not(.service-description) {
     margin-bottom: 50px;
     width: 100%;
     margin-right: 0
