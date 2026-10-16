@@ -93,7 +93,7 @@ googleAnalytics = "G-H79CLVEY76"
     text2="Building tech to create hope and roll up our sleeves"
     text3="Teaching optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
-    text5="Impact marketing, AI transformation, Campaigns, Web development, Product growth, Project execution, Team leadership, Teaching, Public speaking"
+    text5="Product management, AI transformation, Campaigns, Web development, Business growth, Project execution, Team leadership, Teaching, Impact marketing"
     name=""
     img = "mk-sq.png"
   
@@ -221,29 +221,63 @@ googleAnalytics = "G-H79CLVEY76"
 
     [[params.services.item]]
       title = "Alot"
-      description = "Turns every lawn into a commmunity garden, by matching people who love to grow things with busy folks who have a yard that needs more care."
-      icon = "icon-home"
+      description = """Turn every lawn into a commmunity garden. Alot matches people who love to garden with people who have land but are too busy to garden it.
+
+*The question:* Would gardeners be as interested as land owners?
+
+*The test:* Sign up 10 gardeners in month 1. Use community Facebook groups and targeted local Meta ads to drive traffic. 
+
+*The results:* 10 landowners and 2 gardeners signed up
+
+*The outcome:* Compost the site, interview gardeners. 
+
+*The learning:* Feedback showed gardeners were more interested in a group working bee model where everyone helps out on one person’s garden in a rotation. """
+      icon = "icon-cup"
+      showButton = "false"
       url = "https://alot.vercel.app"
       button = "Let's grow"
 
     [[params.services.item]]
       title = "Gather"
-      description = "Easy, private social network-style messaging and posts to keep community groups and campaigns connected, engaged and motivated."
-      icon = "icon-energy"
+      description = """A non-profit social network for driving communities of action. Member comms, projects and task management all in one place. 
+
+*The question:* Could the ethics of the platform overcome the cold start problem? Would nonprofits and community groups use a platform that their members had to sign up to?
+
+*The test:* 1 group gets 2 people to join in month 1. Use word of mouth, build an automated Tik Tok and Instagram content engine and create targeted high-level SEO to drive traffic. 
+
+*The results:* Thousands of likes and visits. 5 groups and 8 individuals joined worldwide. No groups got their members to sign up.
+
+*The outcome:* We were set to interview group coordinators and iterate functionality to make Gather indispensable. Then age verification laws came into place in the US, EU, UK and Australia. They had requirements that our nonprofit didn’t have the resources to meet. We had to block access from those countries, decimating our traffic. Now New Zealand is going the same way we have sadly shut down the site. 
+
+*The learning:* There is some need for this, but a nonprofit social network can not exist in places where under-16s are banned from all communication networks. The age verification requirements are simply too expensive for ethical platforms to meet. 
+
+The law should be that it’s illegal for communication networks to *advertise* to under-16. This solves the actual problems (addiction algorithms, extreme content, the promotion of suicidality, eating disorders and deteriorating self esteem), which are all driven by ads, and it targets for-profit social media giants without destroying positive nonprofits in the process. """
+      icon = "icon-people"
+      showButton = "false"
       url = "https://gatherthevillage.org/"
       button = "Connect Me"
 
     [[params.services.item]]
       title = "Campaignify"
-      description = "Smart tool so your movement can grow but your campaigner doesn't need to learn how to be a marketer too. Still in development, public access not available. Join the waitlist."
-      icon = "icon-badge"
+      description = "Smart tool so your movement can grow but your campaigner doesn't need to learn how to be a marketer too. Still in development, join the waitlist."
+      icon = "icon-rocket"
+      showButton = "true"
       url = "https://campaignify.org"
       button = "In Beta"
+
+    [[params.services.item]]
+      title = "Property Hazards Map"
+      description = "Home search tool that flags risks from climate change. The aim is to make it clear how inaction on climate change is impacting the wallets of New Zealand's biggest industry - property ownership."
+      icon = "icon-home"
+      showButton = "true"
+      url = "https://bsides44.github.io/property-shortlist/"
+      button = "Proof Of Concept"
 
     [[params.services.item]]
       title = "What's next?"
       description = "Get in touch with an idea we can work on together. I'm particularly interested in using tech to improve the climate, social justice and the lives of young people."      
       icon = "icon-bubbles"
+      showButton = "true"
       url = "#fh5co-contact"
       button = "Let's Chat"
 
@@ -270,7 +304,7 @@ googleAnalytics = "G-H79CLVEY76"
       alt = "growth marketing expert in social movements and community"
       url= "https://www.stitch.net/"
       title = "Stitch"
-      description = "The world's largest over 50s social network"
+      description = "The world's largest over-50s social network"
       subtitle = "Head of Growth"
       style = ""
       trackingCode = "stitch"

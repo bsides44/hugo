@@ -13,34 +13,25 @@
 				</div>
 			</div>
 		</div>
+		{{ $items := .Site.Params.services.item }}
+		{{ range $start := seq 0 2 (sub (len $items) 1) }}
 		<div class="row four-items">
-			{{ range first 2 .Site.Params.services.item }}
+			{{ range first 2 (after $start $items) }}
 			<div class="col-md-6 col-xs-12 fh5co-service to-animate">
 				<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
 				<h3>{{ .title | markdownify }}</h3>
-				<p>{{ .description | markdownify }}</p>
+				<div class="service-description">{{ .description | replaceRE `(^|[^*])\*([^*\s][^*\n]*?)\*` "${1}**${2}**" | replaceRE `([^\n])\n` "${1}  \n" | markdownify }}</div>
+				{{ if ne (printf "%v" .showButton) "false" }}
 				<div class="row">
 					<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
 						<p><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .button}}</a></p>
 					</div>
 				</div>
+				{{ end }}
 			</div>
 			{{ end }}
 		</div>
-		<div class="row four-items">
-			{{ range after 2 .Site.Params.services.item }}
-			<div class="col-md-6 col-xs-12 fh5co-service to-animate">
-				<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
-				<h3>{{ .title | markdownify }}</h3>
-				<p>{{ .description | markdownify }}</p>
-				<div class="row">
-					<div class="col-md-12 text-center to-animate" style="margin-top: 60px">
-						<p><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="services-btn btn-lg btn btn-primary">{{ .button}}</a></p>
-					</div>
-				</div>
-			</div>
-			{{ end }}
-		</div>
+		{{ end }}
 
 	</div>
 </section>
