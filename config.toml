@@ -93,7 +93,7 @@ googleAnalytics = "G-H79CLVEY76"
     text2="Building tech to create hope and roll up our sleeves"
     text3="Teaching creative optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
-    text5="Growing businesses across People, Product, Finance and Growth"
+    text5="Writing the future into being"
     name=""
     img = "mk-sq.png"
   
@@ -294,7 +294,7 @@ The law should be that it’s illegal for communication networks to *advertise* 
   [params.work]
     enable = true
     title = "Work"
-    description = "Some excellent organisations that I've helped in different ways"
+    description = "Some excellent organisations that I've helped grow across People, Product, Finance and Growth"
     footertext = ''
     url = "#fh5co-contact"
     button = "Get in touch"

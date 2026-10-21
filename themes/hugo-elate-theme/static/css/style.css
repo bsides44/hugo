@@ -933,6 +933,15 @@ h6 {
   color: #10284e !important
 }
 
+.quote a h3 {
+  transition: color 0.3s ease;
+}
+
+.quote a:hover h3,
+.quote a:focus h3 {
+  color: #10284e;
+}
+
 .quote h4 {
   float: left;
   width: 100%;
