@@ -9,7 +9,7 @@ googleAnalytics = "G-H79CLVEY76"
 
   # Meta
   author = "Maddy King"
-  description = "Creative product & campaign growth for a better world"
+  description = "Leading business & organisation growth for a better world"
   email = "me@maddyking44.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -89,11 +89,11 @@ googleAnalytics = "G-H79CLVEY76"
 
   [params.intro.quote]
     enable=true
-    text1="Creative product and campaign growth for a better world"
+    text1="Leading business & organisation growth for a better world"
     text2="Building tech to create hope and roll up our sleeves"
     text3="Teaching optimism and how to actively solve global problems"
     text4="Growing movements of systemic change with scalable results"
-    text5="Product management, AI transformation, Campaigns, Web development, Business growth, Project execution, Team leadership, Teaching, Impact marketing"
+    text5="Growing businesses across People, Product, Finance and Growth"
     name=""
     img = "mk-sq.png"
   
