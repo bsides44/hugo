@@ -20,16 +20,16 @@ googleAnalytics = "G-H79CLVEY76"
     icon = "icon-rocket"
     home = "Home"
     introAbout = "About"
-    about = "Quote"
-    work = "Portfolio"
-    testimonials = "Testimonies"
+    services = "Dev"
+    testimonials = "Clients"
+    work = "Work"
     products = "Writing"
-    services = "Projects"
-    productsweb = "Web"
+    contact = "Contact"
+    about = "Hero"
     productsTwo = ""
     casestudy = "Casestudy"
-    contact = "Contact"
-
+    productsweb = "Web"
+    
     # You can add custom links before or after the default links
     # Assign a weight to define the order
     
